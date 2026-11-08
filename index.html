@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#071629">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="English 800">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>English 800｜職場有聲英文</title>
+<style>
+:root{--bg:#071629;--panel:#10243d;--panel2:#132d4b;--text:#f4f7fb;--muted:#a9bdd3;--orange:#ff9d42;--blue:#38a5ff;--green:#43d6a0}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(180deg,#071629,#091d32 55%,#071629);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding-bottom:88px}
+header{padding:22px 18px 12px;display:flex;align-items:center;justify-content:space-between;gap:12px}h1{font-size:24px;margin:0}h1 span{color:var(--orange)}.sub{color:var(--muted);font-size:12px;margin-top:5px}.pill{font-size:12px;color:#ffd4a4;border:1px solid #8b5d35;padding:7px 10px;border-radius:20px}
+main{max-width:680px;margin:auto;padding:0 14px}.hero{background:linear-gradient(135deg,#163c62,#10243d 65%,#2b3049);border:1px solid #244768;border-radius:22px;padding:18px;margin:8px 0 16px}.eyebrow{font-size:12px;color:#9fd6ff;letter-spacing:1px}.hero h2{font-size:23px;line-height:1.3;margin:9px 0}.hero p{color:#c2d4e7;line-height:1.6;margin:7px 0 15px}.btn{border:0;border-radius:13px;padding:12px 15px;font-size:15px;font-weight:700;background:var(--orange);color:#211405;cursor:pointer}.btn.secondary{background:#183958;color:#eaf5ff;border:1px solid #315879}.btn.small{padding:9px 11px;font-size:13px}.row{display:flex;gap:9px;flex-wrap:wrap;align-items:center}.section-title{display:flex;justify-content:space-between;align-items:center;margin:20px 3px 10px}.section-title h3{font-size:17px;margin:0}.muted{color:var(--muted);font-size:12px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.stat,.card{background:var(--panel);border:1px solid #1b3a59;border-radius:16px;padding:14px}.stat strong{display:block;font-size:22px;margin:6px 0}.stat span{font-size:12px;color:var(--muted)}.cards{display:grid;gap:10px}.lesson{display:flex;gap:12px;align-items:center}.tile{width:45px;height:45px;flex-shrink:0;border-radius:13px;background:#183d60;display:grid;place-items:center;font-size:21px}.lesson h4{margin:0 0 5px;font-size:15px}.lesson p{margin:0;color:var(--muted);font-size:12px;line-height:1.5}.lesson .btn{margin-left:auto;white-space:nowrap}.tabs{position:fixed;bottom:0;left:0;right:0;display:grid;grid-template-columns:repeat(4,1fr);background:rgba(6,19,34,.96);border-top:1px solid #23405e;padding:8px 5px calc(8px + env(safe-area-inset-bottom));z-index:5;backdrop-filter:blur(16px)}.tab{border:0;background:transparent;color:#91a9c1;padding:6px 2px;font-size:11px;cursor:pointer}.tab b{display:block;font-size:20px;margin-bottom:3px}.tab.active{color:var(--orange)}.screen{display:none}.screen.active{display:block}.progress{height:8px;background:#243c55;border-radius:99px;overflow:hidden;margin:10px 0}.progress div{height:100%;background:linear-gradient(90deg,var(--blue),var(--green));width:0%}.word{display:flex;align-items:center;gap:10px}.word-main{flex:1}.word-main strong{font-size:17px}.word-main p{margin:4px 0;color:var(--muted);font-size:13px}.tag{font-size:10px;border-radius:8px;background:#6d441f;color:#ffd4a4;padding:5px 7px}.box{background:#0b1b2e;border:1px solid #1b3a59;border-radius:14px;padding:14px;margin:12px 0}.en{font-size:19px;line-height:1.5;font-weight:650}.zh{color:#c1d3e5;line-height:1.6;font-size:14px;margin-top:9px}.label{color:#83c9ff;font-size:11px;letter-spacing:.8px;margin-bottom:8px}.choice{display:block;width:100%;text-align:left;border:1px solid #294965;border-radius:12px;background:#10243d;color:#edf5ff;padding:13px;margin:8px 0;font-size:14px}.choice.correct{border-color:var(--green);background:#123c38}.choice.wrong{border-color:#ff7777}.notice{font-size:12px;color:var(--muted);line-height:1.6}.hidden{display:none!important}input[type=search]{width:100%;background:#0b1b2e;border:1px solid #294965;border-radius:12px;padding:12px;color:white;font-size:15px;margin-bottom:10px}.empty{color:var(--muted);padding:20px;text-align:center}.footer-note{color:#6f8aa5;font-size:11px;text-align:center;margin:22px 0}
+</style>
+</head>
+<body>
+<header><div><h1>English <span>800</span></h1><div class="sub">有聲書 × 多益 × 科技業職場英文</div></div><div class="pill">每日 30 分鐘</div></header>
+<main>
+<section id="home" class="screen active">
+<div class="hero"><div class="eyebrow">TODAY'S LEARNING</div><h2>讓英文從看得懂，<br>變成聽得懂、說得出。</h2><p>每天完成一篇有聲課程、複習單字，再用一題多益練習檢查理解。</p><button class="btn" onclick="openLesson(0)">▶ 開始今日課程</button></div>
+<div class="section-title"><h3>學習總覽</h3><span class="muted">資料儲存在此裝置</span></div>
+<div class="stats"><div class="stat"><span>已完成課程</span><strong id="doneCount">0</strong><span>篇</span></div><div class="stat"><span>已學單字</span><strong id="wordCount">0</strong><span>個</span></div><div class="stat"><span>測驗答對</span><strong id="accuracy">—</strong><span>正確率</span></div></div>
+<div class="section-title"><h3>推薦課程</h3><span class="muted">TOEIC + 職場</span></div><div class="cards" id="homeLessons"></div>
+<div class="footer-note">第一版示範內容｜可離線使用已載入的課程；語音由 iPhone 系統提供。</div>
+</section>
+<section id="course" class="screen">
+<div class="section-title"><h3>課程清單</h3><span class="muted">從短句開始累積</span></div>
+<div class="cards" id="allLessons"></div>
+</section>
+<section id="lesson" class="screen">
+<button class="btn secondary small" onclick="showScreen('course')">← 返回課程</button>
+<div class="section-title"><h3 id="lessonTitle">課程播放</h3><span class="muted" id="lessonMeta"></span></div>
+<div class="box"><div class="label">LISTEN · ENGLISH</div><div class="en" id="lessonEn"></div><div class="row" style="margin-top:14px"><button class="btn" onclick="speakCurrent('en')">▶ 英文朗讀</button><button class="btn secondary" onclick="speakCurrent('slow')">🐢 慢速重播</button></div></div>
+<div class="box"><div class="label">UNDERSTAND · 繁體中文</div><div class="zh" id="lessonZh"></div><div class="row" style="margin-top:12px"><button class="btn secondary small" onclick="speakCurrent('zh')">🔊 中文解說</button><button class="btn secondary small" onclick="toggleTranscript()">顯示／隱藏學習筆記</button></div><div id="lessonNotes" class="zh hidden"></div></div>
+<div class="box"><div class="label">KEY PHRASES · 關鍵片語</div><div id="lessonPhrases"></div></div>
+<div class="row"><button class="btn" onclick="markComplete()">✓ 標記完成</button><button class="btn secondary" onclick="nextLesson()">下一課 →</button></div>
+<p class="notice">播放按鈕使用 iPhone Safari 的系統語音。不同裝置的聲音、語速與可用語言可能不同；首次使用請確認手機未靜音。</p>
+</section>
+<section id="words" class="screen">
+<div class="section-title"><h3>單字複習</h3><span class="muted">點喇叭聽發音</span></div>
+<input id="wordSearch" type="search" placeholder="搜尋英文或中文…" oninput="renderWords()">
+<div class="row" style="margin-bottom:12px"><button class="btn secondary small" onclick="setWordFilter('all')">全部</button><button class="btn secondary small" onclick="setWordFilter('new')">未熟悉</button><button class="btn secondary small" onclick="setWordFilter('known')">已熟悉</button></div>
+<div class="cards" id="wordList"></div>
+</section>
+<section id="quiz" class="screen">
+<div class="section-title"><h3>多益小測驗</h3><span class="muted" id="quizProgress">每次 5 題</span></div>
+<div class="box"><div class="label">LISTENING & BUSINESS ENGLISH</div><div id="quizQuestion" class="en">準備好就開始測驗。</div><button class="btn secondary small" style="margin-top:12px" onclick="speakQuestion()">🔊 播放題目</button><div id="quizChoices" style="margin-top:10px"></div><div id="quizFeedback" class="zh"></div><button id="nextQuestionBtn" class="btn hidden" style="margin-top:12px" onclick="nextQuestion()">下一題 →</button><button id="startQuizBtn" class="btn" style="margin-top:12px" onclick="startQuiz()">開始測驗</button></div>
+<div class="stats"><div class="stat"><span>累積答題</span><strong id="totalAnswered">0</strong></div><div class="stat"><span>答對題數</span><strong id="totalCorrect">0</strong></div><div class="stat"><span>正確率</span><strong id="totalAccuracy">—</strong></div></div>
+</section>
+</main>
+<nav class="tabs"><button class="tab active" data-screen="home" onclick="showScreen('home')"><b>⌂</b>首頁</button><button class="tab" data-screen="course" onclick="showScreen('course')"><b>▤</b>課程</button><button class="tab" data-screen="words" onclick="showScreen('words')"><b>文</b>單字</button><button class="tab" data-screen="quiz" onclick="showScreen('quiz')"><b>✓</b>測驗</button></nav>
+<script>
+const lessons=[
+{id:0,title:"Requesting a Revised Gerber File",category:"科技業職場",level:"TOEIC 600–800",en:"Please send us the revised Gerber files by tomorrow so that we can proceed with the PCB review.",zh:"請於明天之前提供修訂後的 Gerber 檔案，以便我們繼續進行 PCB 審查。",notes:"職場應用：清楚說明需要對方提供什麼、截止時間，以及原因。正式郵件可在前面加上 Could you please…，語氣會更客氣。",phrases:[["revised","修訂後的"],["by tomorrow","最晚明天之前"],["proceed with","繼續進行"],["PCB review","PCB 審查"]]},
+{id:1,title:"Confirming the Project Timeline",category:"會議英文",level:"TOEIC 600+",en:"Good morning, everyone. Today we will discuss the project timeline and the next steps.",zh:"大家早安。今天我們要討論專案時程以及接下來的步驟。",notes:"會議開場常用 discuss the timeline（討論時程）與 next steps（下一步行動）。也可以說: Let's review the schedule.",phrases:[["project timeline","專案時程"],["next steps","下一步行動"],["discuss","討論"],["schedule","時程／排程"]]},
+{id:2,title:"Reporting a Quality Issue",category:"品質溝通",level:"TOEIC 700+",en:"We found a potential issue during testing, and our team is investigating the root cause.",zh:"我們在測試期間發現一個潛在問題，目前團隊正在調查根本原因。",notes:"品質問題常用 potential issue（潛在問題）、investigate（調查）與 root cause（根本原因）。",phrases:[["potential issue","潛在問題"],["during testing","測試期間"],["investigate","調查"],["root cause","根本原因"]]},
+{id:3,title:"Following Up with a Supplier",category:"供應商英文",level:"TOEIC 600+",en:"Could you please confirm the delivery date and let us know if there are any changes?",zh:"請問您能否確認交貨日期，並告知我們是否有任何變更？",notes:"Could you please… 是禮貌提出請求的句型。let us know 可用於請對方告知最新狀況。",phrases:[["confirm","確認"],["delivery date","交貨日期"],["any changes","任何變更"],["let us know","請告知我們"]]},
+{id:4,title:"Understanding a Meeting Update",category:"多益聽力",level:"TOEIC Part 3",en:"The meeting has been moved to Thursday afternoon because the client needs more time to review the proposal.",zh:"因為客戶需要更多時間審查提案，會議已改到星期四下午。",notes:"聽力要抓住時間變更、原因與人物需求。has been moved to 表示已改到某個時間。",phrases:[["has been moved to","已改至"],["client","客戶"],["review the proposal","審查提案"],["more time","更多時間"]]},
+{id:5,title:"Confirming PCB Specifications",category:"科技業職場",level:"TOEIC 700+",en:"Please confirm the PCB specifications before we release the final Gerber package.",zh:"在我們釋出最終 Gerber 檔案之前，請先確認 PCB 規格。",notes:"before + 子句表示「在……之前」。release 在工程情境常指正式釋出檔案或版本。",phrases:[["specifications","規格"],["before","在……之前"],["release","釋出／發布"],["final package","最終檔案包"]]}
+];
+const vocab=[
+["timeline","/ˈtaɪmlaɪn/","時程；時間表",0],["negotiate","/nɪˈɡoʊʃieɪt/","協商；談判",0],["implement","/ˈɪmplɪment/","執行；實施",0],["require","/rɪˈkwaɪər/","需要；要求",0],["revised","/rɪˈvaɪzd/","修訂後的",0],["proceed","/prəˈsiːd/","繼續進行",0],["potential","/pəˈtenʃəl/","潛在的",0],["investigate","/ɪnˈvestɪɡeɪt/","調查",0],["delivery","/dɪˈlɪvəri/","交貨；交付",0],["specification","/ˌspesɪfɪˈkeɪʃən/","規格；規範",0],["confirm","/kənˈfɜːrm/","確認",0],["proposal","/prəˈpoʊzəl/","提案",0],["root cause","/ruːt kɔːz/","根本原因",0],["client","/ˈklaɪənt/","客戶",0],["schedule","/ˈskedʒuːl/","時程；排程",0],["issue","/ˈɪʃuː/","問題；議題",0],["release","/rɪˈliːs/","釋出；發布",0],["requirement","/rɪˈkwaɪərmənt/","需求；要求",0],["deadline","/ˈdedlaɪn/","截止期限",0],["clarify","/ˈklærəfaɪ/","釐清；說明",0]
+];
+const questions=[
+{q:"Please send the revised files ___ tomorrow.",opts:["by","at","during","since"],a:0,why:"by tomorrow 表示「最晚明天之前」，by 用來表示截止時間。"},
+{q:"What is the team investigating?",opts:["The delivery address","The root cause","The lunch menu","The meeting room"],a:1,why:"root cause 是「根本原因」，常用於品質異常與問題分析。",audio:"Our team is investigating the root cause."},
+{q:"Could you please ___ the delivery date?",opts:["confirm","confirmation","confirmed","confirming"],a:0,why:"Could you please 後面接原形動詞，因此使用 confirm。"},
+{q:"The meeting has been moved ___ Thursday afternoon.",opts:["on","to","for","at"],a:1,why:"move to + 時間／日期，表示改到某個時間。"},
+{q:"What does “proceed with” mean?",opts:["Cancel something","Continue with something","Pay for something","Wait for someone"],a:1,why:"proceed with 表示「繼續進行」。"},
+{q:"Before we release the final package, please ___ the specifications.",opts:["confirm","confirmation","confirmed","confirms"],a:0,why:"please 後面使用原形動詞 confirm。"},
+{q:"We found a potential issue ___ testing.",opts:["between","during","until","among"],a:1,why:"during testing 表示「在測試期間」。"}
+];
+let state=JSON.parse(localStorage.getItem("e800_state")||'{"completed":[],"known":[],"answered":0,"correct":0}');
+let currentLesson=0,wordFilter="all",quizSet=[],quizIndex=0,quizRight=0,answeredCurrent=false;
+function save(){localStorage.setItem("e800_state",JSON.stringify(state));updateStats()}
+function updateStats(){document.getElementById("doneCount").textContent=state.completed.length;document.getElementById("wordCount").textContent=state.known.length;document.getElementById("accuracy").textContent=state.answered?Math.round(state.correct/state.answered*100)+"%":"—";document.getElementById("totalAnswered").textContent=state.answered;document.getElementById("totalCorrect").textContent=state.correct;document.getElementById("totalAccuracy").textContent=state.answered?Math.round(state.correct/state.answered*100)+"%":"—"}
+function showScreen(id){document.querySelectorAll(".screen").forEach(s=>s.classList.toggle("active",s.id===id));document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("active",t.dataset.screen===id || (id==="lesson"&&t.dataset.screen==="course")));if(id==="words")renderWords();if(id==="course")renderLessons();window.scrollTo(0,0)}
+function lessonCard(l){return `<div class="card lesson"><div class="tile">🎧</div><div style="flex:1"><h4>${l.title}</h4><p>${l.category} · ${l.level}${state.completed.includes(l.id)?" · ✓ 已完成":""}</p></div><button class="btn small" onclick="openLesson(${l.id})">開始</button></div>`}
+function renderLessons(){document.getElementById("homeLessons").innerHTML=lessons.slice(0,3).map(lessonCard).join("");document.getElementById("allLessons").innerHTML=lessons.map(lessonCard).join("")}
+function openLesson(id){currentLesson=id;const l=lessons[id];document.getElementById("lessonTitle").textContent=l.title;document.getElementById("lessonMeta").textContent=l.level;document.getElementById("lessonEn").textContent=l.en;document.getElementById("lessonZh").textContent=l.zh;document.getElementById("lessonNotes").textContent=l.notes;document.getElementById("lessonNotes").classList.add("hidden");document.getElementById("lessonPhrases").innerHTML=l.phrases.map(p=>`<div style="padding:8px 0;border-bottom:1px solid #203a54"><strong>${p[0]}</strong><span class="muted">　${p[1]}</span><button class="btn secondary small" style="float:right" onclick="speak('${p[0].replace(/'/g,"\\'")}','en')">🔊</button></div>`).join("");showScreen("lesson")}
+function speak(text,lang="en",rate=0.9){if(!("speechSynthesis" in window)){alert("此瀏覽器不支援系統語音，請改用 iPhone Safari。");return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang=lang==="zh"?"zh-TW":"en-US";u.rate=rate;const voices=speechSynthesis.getVoices();const voice=voices.find(v=>v.lang.toLowerCase().startsWith(u.lang.toLowerCase()));if(voice)u.voice=voice;speechSynthesis.speak(u)}
+function speakCurrent(mode){const l=lessons[currentLesson];if(mode==="zh")speak(l.zh,"zh",0.92);else speak(l.en,"en",mode==="slow"?0.68:0.9)}
+function toggleTranscript(){document.getElementById("lessonNotes").classList.toggle("hidden")}
+function markComplete(){if(!state.completed.includes(currentLesson))state.completed.push(currentLesson);save();renderLessons();alert("已記錄完成！")}
+function nextLesson(){openLesson((currentLesson+1)%lessons.length)}
+function setWordFilter(f){wordFilter=f;renderWords()}
+function renderWords(){const q=(document.getElementById("wordSearch")?.value||"").toLowerCase();let arr=vocab.filter(v=>(v[0]+" "+v[2]).toLowerCase().includes(q));if(wordFilter==="known")arr=arr.filter(v=>state.known.includes(v[0]));if(wordFilter==="new")arr=arr.filter(v=>!state.known.includes(v[0]));document.getElementById("wordList").innerHTML=arr.map(v=>`<div class="card word"><div class="tile">文</div><div class="word-main"><strong>${v[0]}</strong><p>${v[1]} · ${v[2]}</p></div><button class="btn secondary small" onclick="speak('${v[0].replace(/'/g,"\\'")}','en')">🔊</button><button class="btn small" onclick="toggleKnown('${v[0]}')">${state.known.includes(v[0])?"已熟悉":"記熟了"}</button></div>`).join("")||'<div class="empty">沒有符合的單字</div>'}
+function toggleKnown(w){if(state.known.includes(w))state.known=state.known.filter(x=>x!==w);else state.known.push(w);save();renderWords()}
+function startQuiz(){quizSet=[...questions].sort(()=>Math.random()-.5).slice(0,5);quizIndex=0;quizRight=0;document.getElementById("startQuizBtn").classList.add("hidden");renderQuestion()}
+function renderQuestion(){answeredCurrent=false;const q=quizSet[quizIndex];document.getElementById("quizProgress").textContent=`第 ${quizIndex+1} / ${quizSet.length} 題`;document.getElementById("quizQuestion").textContent=q.q;document.getElementById("quizChoices").innerHTML=q.opts.map((o,i)=>`<button class="choice" onclick="answer(${i})">${String.fromCharCode(65+i)}. ${o}</button>`).join("");document.getElementById("quizFeedback").textContent="";document.getElementById("nextQuestionBtn").classList.add("hidden");document.getElementById("startQuizBtn").classList.add("hidden")}
+function answer(i){if(answeredCurrent)return;answeredCurrent=true;const q=quizSet[quizIndex];state.answered++;const btns=[...document.querySelectorAll("#quizChoices .choice")];btns.forEach((b,j)=>{b.disabled=true;if(j===q.a)b.classList.add("correct");if(j===i&&i!==q.a)b.classList.add("wrong")});if(i===q.a){state.correct++;quizRight++;document.getElementById("quizFeedback").textContent="答對了！ "+q.why}else document.getElementById("quizFeedback").textContent="正確答案："+q.opts[q.a]+"。"+q.why;save();document.getElementById("nextQuestionBtn").classList.remove("hidden");document.getElementById("nextQuestionBtn").textContent=quizIndex===quizSet.length-1?"查看結果":"下一題 →"}
+function nextQuestion(){if(quizIndex<quizSet.length-1){quizIndex++;renderQuestion()}else{document.getElementById("quizQuestion").textContent=`本次完成！答對 ${quizRight} / ${quizSet.length} 題`;document.getElementById("quizChoices").innerHTML="";document.getElementById("quizFeedback").textContent="繼續練習，熟悉句型與關鍵字。這是練習分數，並非正式多益成績預測。";document.getElementById("nextQuestionBtn").classList.add("hidden");document.getElementById("startQuizBtn").classList.remove("hidden");document.getElementById("startQuizBtn").textContent="再測一次"}}
+function speakQuestion(){const q=quizSet[quizIndex];if(q)speak(q.audio||q.q,"en",0.85)}
+renderLessons();renderWords();updateStats();
+if("serviceWorker" in navigator && location.protocol.startsWith("http"))window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));
+</script>
+</body></html>

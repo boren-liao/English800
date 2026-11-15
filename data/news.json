@@ -1,6 +1,158 @@
 {
- "updated": "2026-11-15T04:59:09+00:00",
+ "updated": "2026-11-15T05:12:52+00:00",
  "items": [
+  {
+   "id": "N20261115-376e51",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "The trillion-dollar mistake corporate America is making about retirement",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
+   "en": "The trillion-dollar mistake corporate America is making about retirement. The market is dramatically underpricing the economic impact of Americans age 50 and older.",
+   "zh": "美國企業在退休議題上犯下的數兆美元錯誤。市場嚴重低估了 50 歲及以上美國人的經濟影響力。",
+   "zh_v": 2,
+   "ph_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "retirement",
+     "退休"
+    ],
+    [
+     "trillion-dollar",
+     "兆美元"
+    ],
+    [
+     "dramatically",
+     "大幅"
+    ],
+    [
+     "underpricing",
+     "定價過低"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-384226",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/retirees-should-be-big-beneficiaries-of-the-midterms-democrats-will-hold-every-gavel-that-matters-for-aging-and-public-policy-71e966f0?mod=mw_rss_topstories",
+   "en": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’. Here’s what might be coming for Social Security, Medicare and long-term care.",
+   "zh": "退休人士應是期中選舉的主要受益者：「民主黨將掌握所有與高齡化和公共政策相關的權力。」以下是社會安全福利、聯邦醫療保險與長期照護的可能發展。",
+   "zh_v": 2,
+   "ph_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "beneficiaries",
+     "受益者"
+    ],
+    [
+     "long-term",
+     "長期"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-91b9f7",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "This Man Stole $9 Million in Gold Bars on the Upper West Side, Police Say",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/14/nyregion/gold-bars-scam-new-york-city.html",
+   "en": "This Man Stole $9 Million in Gold Bars on the Upper West Side, Police Say. The victim, who believed his financial assets had been compromised, was the target of an online fraud scheme and believed he had to buy the precious metal, the authorities said.",
+   "zh": "警方表示，這名男子在曼哈頓上西城竊取了價值 900 萬美元的金條。當局表示，受害者認為自己的財務資產遭到侵害，成為網路詐騙計畫的目標，並相信自己必須購買貴金屬。",
+   "zh_v": 2,
+   "ph_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "fraud",
+     "詐欺"
+    ],
+    [
+     "compromised",
+     "遭入侵"
+    ],
+    [
+     "authorities",
+     "當局"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-23e9b1",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Microsoft’s Global Outage and Fixes: What We Know",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html",
+   "en": "Microsoft’s Global Outage and Fixes: What We Know. Disruptions to the company’s email, messaging and other products lasted about 36 hours, hampering companies and services around the world.",
+   "zh": "Microsoft 的全球服務中斷與修復：我們所知道的資訊。該公司電子郵件、訊息和其他產品的中斷情況持續了大約 36 小時，影響了全球的公司和服務。",
+   "zh_v": 2,
+   "ph_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "outage",
+     "服務中斷"
+    ],
+    [
+     "messaging",
+     "傳訊, 訊息中心"
+    ],
+    [
+     "hampering",
+     "阻礙"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-7bf99d",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "SpaceX launches Starship in key test flight of massive rocket",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html",
+   "en": "SpaceX launches Starship in key test flight of massive rocket. The test flight is SpaceX's first attempt to ​catch both the Super Heavy booster and upper stage spacecraft of the rocket at its launch site in Starbase, Texas.",
+   "zh": "SpaceX 進行大型火箭的關鍵測試飛行，發射星艦。這次試飛是 SpaceX 首次嘗試在德州星際基地 (Starbase) 的發射場捕捉火箭的超重型助推器 (Super Heavy booster) 和上級太空船 (upper stage spacecraft)。",
+   "zh_v": 2,
+   "ph_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "spacecraft",
+     "航天器"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-d684b8",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+   "en": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning. The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.",
+   "zh": "Nvidia 與黃仁勳的合作已告一段落。華盛頓的後續效應才正要開始。共和黨主導的國會希望在民主黨於 1 月掌權之前，讓黃仁勳到華盛頓一趟。",
+   "zh_v": 2,
+   "ph_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "beginning",
+     "開始"
+    ]
+   ]
+  },
   {
    "id": "N20261115-d003ed",
    "unit": "每日美國新聞",
@@ -13,7 +165,21 @@
    "zh": "「世代衝突」正在加劇歐洲的抗議活動。隨著退休人員壽命的延長，政府需要增加退休金支出。這使得為其他服務提供資金變得更加困難，從而引發了像法國那樣的抗議活動。",
    "zh_v": 2,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": []
+   "phrases": [
+    [
+     "generational",
+     "世代的"
+    ],
+    [
+     "pension",
+     "退休金"
+    ],
+    [
+     "protest",
+     "抗議"
+    ]
+   ],
+   "ph_v": 2
   },
   {
    "id": "N20261115-31e4e0",
@@ -29,10 +195,15 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
    "phrases": [
     [
-     "million",
-     "百萬"
+     "retirement",
+     "退休"
+    ],
+    [
+     "afford",
+     "負擔得起"
     ]
-   ]
+   ],
+   "ph_v": 2
   },
   {
    "id": "N20261115-9f825f",
@@ -48,10 +219,19 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
    "phrases": [
     [
-     "taxes",
-     "稅"
+     "solvent",
+     "有償付能力的"
+    ],
+    [
+     "generations",
+     "世代"
+    ],
+    [
+     "eliminate",
+     "刪除"
     ]
-   ]
+   ],
+   "ph_v": 2
   },
   {
    "id": "N20261115-f17af9",
@@ -75,18 +255,15 @@
      "不確定性"
     ],
     [
-     "investment",
-     "投資"
-    ],
-    [
      "investors",
      "投資人"
     ],
     [
-     "market",
-     "市場"
+     "pitch",
+     "推銷；提案"
     ]
-   ]
+   ],
+   "ph_v": 2
   },
   {
    "id": "N20261115-ecebc4",
@@ -102,10 +279,15 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
    "phrases": [
     [
-     "outlook",
-     "展望"
+     "outage",
+     "服務中斷"
+    ],
+    [
+     "apologizes",
+     "道歉"
     ]
-   ]
+   ],
+   "ph_v": 2
   },
   {
    "id": "N20261115-5a25fd",
@@ -121,10 +303,15 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
    "phrases": [
     [
-     "ceo",
-     "執行長"
+     "succession",
+     "接班"
+    ],
+    [
+     "governance",
+     "治理"
     ]
-   ]
+   ],
+   "ph_v": 2
   },
   {
    "id": "N20261115-7d7120",
@@ -140,10 +327,31 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
    "phrases": [
     [
-     "administration",
-     "政府"
+     "air traffic control",
+     "航空交通管制"
+    ],
+    [
+     "ground stop",
+     "全面停飛"
+    ],
+    [
+     "infrastructure",
+     "基礎設施"
+    ],
+    [
+     "vulnerability",
+     "弱點；漏洞"
+    ],
+    [
+     "disruptive",
+     "具破壞性的"
+    ],
+    [
+     "chronic",
+     "長期的"
     ]
-   ]
+   ],
+   "ph_v": 2
   },
   {
    "id": "N20261115-5a7614",
@@ -157,7 +365,17 @@
    "zh": "當很少有女性擔任哥倫比亞廣播公司新聞製片人時，她是哥倫比亞廣播公司新聞製片人。琳達·梅森 (Linda Mason) 於 1966 年開始在哥倫比亞廣播公司 (CBS) 電台擔任初級職位，後來在新聞部門晉升為高級副總裁。她84歲了。",
    "zh_v": 2,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": []
+   "phrases": [
+    [
+     "entry-level",
+     "入門級"
+    ],
+    [
+     "president",
+     "總統"
+    ]
+   ],
+   "ph_v": 2
   },
   {
    "id": "N20261115-d7f352",
@@ -173,10 +391,15 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
    "phrases": [
     [
-     "board",
-     "董事會"
+     "priority boarding",
+     "優先登機"
+    ],
+    [
+     "overhead bin",
+     "頭頂行李櫃"
     ]
-   ]
+   ],
+   "ph_v": 2
   },
   {
    "id": "N20261115-c6d219",
@@ -192,10 +415,11 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
    "phrases": [
     [
-     "cut",
-     "削減"
+     "splitting",
+     "分割"
     ]
-   ]
+   ],
+   "ph_v": 2
   },
   {
    "id": "N20261115-dcb39f",
@@ -209,7 +433,21 @@
    "zh": "Rockstar 的《GTA VI》版本將如何重塑遊戲、串流媒體甚至帶薪休假。《俠盜獵車手 VI》於 11 月 19 日推出，備受期待。它的影響可能會影響創作者、串流媒體、音樂、工作休假、食品配送和旅遊業。",
    "zh_v": 2,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": []
+   "phrases": [
+    [
+     "paid time off",
+     "帶薪休假"
+    ],
+    [
+     "streaming",
+     "串流"
+    ],
+    [
+     "reshape",
+     "重塑"
+    ]
+   ],
+   "ph_v": 2
   },
   {
    "id": "N20261115-01b228",
@@ -223,7 +461,25 @@
    "zh": "認識 Anthropic 的七位共同創辦人。四名研究人員、一名前記者、一名公共政策制定者和一名工程師於 2021 年創立了 Anthropic。他們現在準備成為億萬富翁。",
    "zh_v": 2,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": []
+   "phrases": [
+    [
+     "multi-billionaires",
+     "億萬富豪"
+    ],
+    [
+     "co-founders",
+     "共同創辦人"
+    ],
+    [
+     "researchers",
+     "研究人員"
+    ],
+    [
+     "policymaker",
+     "決策者"
+    ]
+   ],
+   "ph_v": 2
   },
   {
    "id": "N20261115-65afdf",
@@ -243,10 +499,19 @@
      "半導體"
     ],
     [
-     "ai",
-     "人工智慧"
+     "competitor",
+     "競爭對手"
+    ],
+    [
+     "competitors",
+     "競爭對手"
+    ],
+    [
+     "departure",
+     "離開"
     ]
-   ]
+   ],
+   "ph_v": 2
   },
   {
    "id": "N20261115-861720",
@@ -259,8 +524,22 @@
    "en": "Geopolitics Looms Over Eurovision, but Not Its Asian Edition. So far, the contest’s organizers have kept politics offstage. The European edition shows how difficult that can be.",
    "zh": "地緣政治籠罩著歐洲電視網，但亞洲版並非如此。到目前為止，比賽的組織者一直將政治置於幕後。歐洲版顯示這有多麼困難。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [],
-   "zh_v": 2
+   "phrases": [
+    [
+     "geopolitics",
+     "地緣政治"
+    ],
+    [
+     "organizers",
+     "主辦單位"
+    ],
+    [
+     "difficult",
+     "困难"
+    ]
+   ],
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-d764b1",
@@ -273,8 +552,26 @@
    "en": "How Some Flights Were Exempt From the Ground Stop. Dozens of international flights departed from the United States during Friday’s nationwide ground stop. Some planes also left for Hawaii from the West Coast.",
    "zh": "某些航班如何免除全面停飛。在週五的全美停飛期間，有數十架國際航班從美國起飛。有些飛機也從西海岸飛往夏威夷。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [],
-   "zh_v": 2
+   "phrases": [
+    [
+     "ground stop",
+     "全面停飛"
+    ],
+    [
+     "exempt from",
+     "豁免於"
+    ],
+    [
+     "international",
+     "國際的"
+    ],
+    [
+     "nationwide",
+     "全國各地"
+    ]
+   ],
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-f856bb",
@@ -289,11 +586,20 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
    "phrases": [
     [
-     "million",
-     "百萬"
+     "postnuptial agreement",
+     "婚後協議"
+    ],
+    [
+     "inherit",
+     "繼承"
+    ],
+    [
+     "estate",
+     "遺產；房地產"
     ]
    ],
-   "zh_v": 2
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-4ddf5c",
@@ -306,8 +612,14 @@
    "en": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?. “I know older people can easily feel patronized, and I don’t want that to happen.”",
    "zh": "「這讓我感到酸澀」：我年邁的母親給了我們表弟 800 美元作為汽車修理費。我該擔心嗎？“我知道老年人很容易感到被欺負，我不希望這種情況發生。”",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [],
-   "zh_v": 2
+   "phrases": [
+    [
+     "patronized",
+     "受到照顧"
+    ]
+   ],
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-3b88a2",
@@ -322,15 +634,20 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
    "phrases": [
     [
-     "trade",
-     "貿易"
+     "leadership crisis",
+     "領導危機"
     ],
     [
-     "ai",
-     "人工智慧"
+     "portfolio",
+     "投資組合"
+    ],
+    [
+     "rattle",
+     "使不安"
     ]
    ],
-   "zh_v": 2
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-43e172",
@@ -349,19 +666,20 @@
      "投資人"
     ],
     [
-     "billion",
-     "十億"
+     "resignation",
+     "屈從"
     ],
     [
-     "stock",
-     "股票"
+     "deliberate",
+     "故意的"
     ],
     [
-     "board",
-     "董事會"
+     "leadership",
+     "領導統御"
     ]
    ],
-   "zh_v": 2
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-12d61f",
@@ -376,15 +694,24 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
    "phrases": [
     [
+     "in-person work",
+     "實體上班"
+    ],
+    [
+     "office mandate",
+     "進辦公室規定"
+    ],
+    [
      "economists",
      "經濟學家"
     ],
     [
-     "workers",
-     "員工"
+     "creativity",
+     "創造力"
     ]
    ],
-   "zh_v": 2
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-0970cd",
@@ -399,23 +726,28 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
    "phrases": [
     [
+     "pay staff",
+     "支付員工薪水"
+    ],
+    [
      "startup",
      "新創公司"
     ],
     [
-     "million",
-     "百萬"
+     "payroll",
+     "薪資"
+    ],
+    [
+     "borrow",
+     "借款"
     ],
     [
      "loan",
      "貸款"
-    ],
-    [
-     "ceo",
-     "執行長"
     ]
    ],
-   "zh_v": 2
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-d9fffd",
@@ -428,8 +760,22 @@
    "en": "SpaceX Makes History With Successful Rocket Catch in Texas. The Starship spacecraft returned from orbit to the same spot where it lifted off, marking a key milestone in SpaceX’s vision of building fully reusable rockets.",
    "zh": "SpaceX 在德州成功捕獲火箭，創造了歷史。星艦從軌道返回到其升空的同一地點，標誌著 SpaceX 建造完全可重複使用火箭願景的一個重要里程碑。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [],
-   "zh_v": 2
+   "phrases": [
+    [
+     "milestone",
+     "里程碑"
+    ],
+    [
+     "reusable",
+     "可重複使用的"
+    ],
+    [
+     "spacecraft",
+     "航天器"
+    ]
+   ],
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-823417",
@@ -442,8 +788,22 @@
    "en": "SpaceX successfully catches Starship rocket in huge milestone for the space industry. The historic first gets SpaceX closer to “rapid reusability” of rockets.",
    "zh": "SpaceX 成功捕獲了 Starship 火箭，這是航太產業的一個巨大里程碑。這段歷史性的首次讓 SpaceX 更接近火箭的「快速重複使用」。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [],
-   "zh_v": 2
+   "phrases": [
+    [
+     "milestone",
+     "里程碑"
+    ],
+    [
+     "successfully",
+     "成功"
+    ],
+    [
+     "reusability",
+     "可重複使用性"
+    ]
+   ],
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-923f2e",
@@ -462,15 +822,28 @@
      "監管機關"
     ],
     [
-     "customers",
-     "顧客"
+     "settlement",
+     "和解（金）"
     ],
     [
-     "million",
-     "百萬"
+     "overcharge",
+     "超收費用"
+    ],
+    [
+     "complaint",
+     "投訴；申訴"
+    ],
+    [
+     "discount",
+     "折扣"
+    ],
+    [
+     "retailer",
+     "零售商"
     ]
    ],
-   "zh_v": 2
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-d10856",
@@ -484,7 +857,8 @@
    "zh": "SpaceX 歷史性地首次捕獲了 Starship 火箭的上節。星艦第 15 次試飛標誌著埃隆馬斯克的公司首次嘗試同時捕獲火箭的助推器和上部級。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
    "phrases": [],
-   "zh_v": 2
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-9efb1b",
@@ -497,8 +871,26 @@
    "en": "'Root cause’ of nationwide ground stop is unknown, FAA says. Routers and networking equipment may be involved in the problems that led to the ground stop, but a definitive cause has not been established, officials said.",
    "zh": "美國聯邦航空總署（FAA）表示，全美停飛的「根本原因」尚不清楚。官員表示，路由器和網路設備可能與導致全面停飛的問題有關，但具體原因尚未確定。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [],
-   "zh_v": 2
+   "phrases": [
+    [
+     "ground stop",
+     "全面停飛"
+    ],
+    [
+     "established",
+     "著名"
+    ],
+    [
+     "nationwide",
+     "全國各地"
+    ],
+    [
+     "networking",
+     "網路"
+    ]
+   ],
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-e2145c",
@@ -513,11 +905,32 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
    "phrases": [
     [
-     "chips",
-     "晶片"
+     "commerce department",
+     "美國商務部"
+    ],
+    [
+     "intelligence agency",
+     "情報機構"
+    ],
+    [
+     "national security",
+     "國家安全"
+    ],
+    [
+     "cabinet official",
+     "內閣官員"
+    ],
+    [
+     "export controls",
+     "出口管制"
+    ],
+    [
+     "under pressure",
+     "承受壓力"
     ]
    ],
-   "zh_v": 2
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-6f3acb",
@@ -532,27 +945,20 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
    "phrases": [
     [
-     "investment",
-     "投資"
-    ],
-    [
-     "spending",
-     "支出"
+     "net worth",
+     "淨資產"
     ],
     [
      "mortgage",
      "房貸"
     ],
     [
-     "million",
-     "百萬"
-    ],
-    [
      "debt",
      "債務"
     ]
    ],
-   "zh_v": 2
+   "zh_v": 2,
+   "ph_v": 2
   },
   {
    "id": "N20261115-ef0dc1",
@@ -567,11 +973,20 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
    "phrases": [
     [
+     "turn to",
+     "轉向（求助）"
+    ],
+    [
      "retailers",
      "零售商"
+    ],
+    [
+     "shopper",
+     "購物者"
     ]
    ],
-   "zh_v": 2
+   "zh_v": 2,
+   "ph_v": 2
   }
  ]
 }

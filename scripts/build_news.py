@@ -151,18 +151,85 @@ def _mymemory(text):
     return html.unescape(out)
 
 
-def translate(text):
-    """依序嘗試多個免費翻譯來源，全部失敗就回傳空字串。"""
-    if not TRANSLATE or not text:
-        return ""
+# 機器翻譯常見的中國用語／錯譯 → 台灣商業新聞用語
+TW_FIX = [
+    ("英偉達", "輝達"), ("管製", "管制"), ("製裁", "制裁"), ("控製", "控制"), ("限製", "限制"),
+    ("地面停車", "全面停飛"), ("地面停留", "全面停飛"), ("地面停止", "全面停飛"),
+    ("首席執行官", "執行長"), ("首席財務官", "財務長"), ("首席技術官", "技術長"), ("首席運營官", "營運長"),
+    ("美聯儲", "聯準會"), ("美聯準", "聯準會"), ("聯邦儲備委員會", "聯準會"), ("聯邦儲備", "聯準會"),
+    ("人工智能", "人工智慧"), ("芯片", "晶片"), ("半導體芯片", "半導體晶片"), ("服務器", "伺服器"),
+    ("軟件", "軟體"), ("硬件", "硬體"), ("互聯網", "網際網路"), ("網絡", "網路"), ("信息", "資訊"),
+    ("數據中心", "資料中心"), ("視頻", "影片"), ("質量", "品質"), ("項目", "專案"),
+    ("用戶", "使用者"), ("程序", "程式"), ("在線", "線上"), ("默認", "預設"), ("支持", "支援"),
+    ("德克薩斯州", "德州"), ("加利福尼亞州", "加州"), ("佛羅里達州", "佛州"), ("華盛頓特區", "華府"),
+    ("納斯達克", "那斯達克"), ("標準普爾", "標普"), ("道瓊斯", "道瓊"), ("特朗普", "川普"),
+    ("蘋果公司", "蘋果"), ("谷歌", "Google"), ("臉書", "Facebook"), ("亞馬遜公司", "亞馬遜"),
+    ("星際飛船", "星艦"), ("星艦飛船", "星艦"), ("火箭的上級", "火箭的上節"), ("全國全面停飛", "全美停飛"), ("美國聯邦航空局", "美國聯邦航空總署（FAA）"),
+    ("關稅壁壘", "關稅障礙"), ("出租車", "計程車"), ("公交", "公車"), ("短信", "簡訊"),
+    ("黃仁勳的潛在回報", "黃仁勳可能回歸"), ("的潛在回報", "可能回歸"),
+]
+
+
+def tw_fix(text):
+    for a, b in TW_FIX:
+        text = text.replace(a, b)
+    return text
+
+
+def _claude(text):
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if not key:
+        raise RuntimeError("no ANTHROPIC_API_KEY")
+    body = json.dumps({
+        "model": os.environ.get("CLAUDE_MODEL", "claude-haiku-5-5"),
+        "max_tokens": 1024,
+        "system": ("你是台灣財經新聞編譯。把使用者給的英文新聞翻成自然、通順的台灣繁體中文，"
+                   "使用台灣慣用譯名與用語（例：Nvidia→輝達、the Fed→聯準會、CEO→執行長、ground stop→全面停飛、Trump→川普）。"
+                   "公司名、產品名若台灣慣用英文就保留英文。數字與金額照原文換算成中文習慣寫法。只輸出譯文，不要任何說明。"),
+        "messages": [{"role": "user", "content": text}],
+    }).encode()
+    req = urllib.request.Request("https://api.anthropic.com/v1/messages", data=body, headers={
+        "x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        data = json.loads(r.read())
+    return "".join(c.get("text", "") for c in data.get("content", []) if c.get("type") == "text")
+
+
+def _translate_one(text):
     for fn in (_gtx, _mymemory):
         try:
             out = fn(text).strip()
             if out and re.search(r"[\u4e00-\u9fff]", out):
                 return out
-        except Exception as e:  # 翻譯失敗不影響主流程
+        except Exception as e:
             print(f"  translate via {fn.__name__} failed: {e}", file=sys.stderr)
     return ""
+
+
+def translate(text, title=None):
+    """優先用 Claude（有設定金鑰時），否則用免費翻譯＋台灣用語校正。標題與內文分開翻譯。"""
+    if not TRANSLATE or not text:
+        return ""
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        try:
+            out = _claude(text).strip()
+            if out:
+                return tw_fix(out)
+        except Exception as e:
+            print(f"  translate via claude failed: {e}", file=sys.stderr)
+    parts = [title.rstrip(".") + ".", text[len(title.rstrip(".")) + 1:].strip()] if title and text.startswith(title.rstrip(".")) else [text]
+    out = []
+    for p in parts:
+        if not p:
+            continue
+        z = _translate_one(p)
+        if not z:
+            return ""
+        out.append(z)
+    return tw_fix("".join(out))
+
+
+ZH_VERSION = 2 + (1 if os.environ.get("ANTHROPIC_API_KEY") else 0)
 
 
 STOP = set("the a an of to in on for and with as at by is are was be from that this its it after over new says said will has have".split())
@@ -239,16 +306,19 @@ def main():
             "source": p["source"],
             "link": p["link"],
             "en": en,
-            "zh": translate(en),
+            "zh": translate(en, p["title"]),
+            "zh_v": ZH_VERSION,
             "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 " + p["source"] + " RSS，完整報導請點原文連結。",
             "phrases": phrases,
         })
 
     cutoff = (now + dt.timedelta(hours=8) - dt.timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%d")
     kept = [x for x in old.get("items", []) if x.get("date", "") >= cutoff]
-    for x in kept:  # 先前翻譯失敗的舊新聞補翻譯
-        if not x.get("zh"):
-            x["zh"] = translate(x["en"])
+    for x in kept:  # 舊新聞用新版翻譯重新翻（失敗或版本較舊者）
+        if not x.get("zh") or x.get("zh_v", 1) < ZH_VERSION:
+            z = translate(x["en"], x.get("title"))
+            if z:
+                x["zh"], x["zh_v"] = z, ZH_VERSION
     items = new_items + kept
     out = {"updated": now.isoformat(timespec="seconds"), "items": items}
     with open(OUT, "w", encoding="utf-8") as f:

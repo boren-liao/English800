@@ -31,6 +31,8 @@ jobs:
           which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
 
       - name: Fetch US business news
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # 選用：設定後改用 Claude 翻譯
         run: python scripts/build_news.py
 
       - name: Build MP3 audio (lessons + news)

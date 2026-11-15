@@ -1,0 +1,49 @@
+name: Daily news & audio update
+
+on:
+  schedule:
+    - cron: "10 22 * * *"   # 每天台灣時間 06:10 更新，通勤前就有新聞課程
+  workflow_dispatch:         # 可在 GitHub Actions 頁面手動按 Run workflow
+  push:
+    branches: [main]
+    paths: ["data/lessons.json"]   # 修改課程後自動重新產生音檔
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install tools
+        run: |
+          pip install edge-tts
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+
+      - name: Fetch US business news
+        run: python scripts/build_news.py
+
+      - name: Build MP3 audio (lessons + news)
+        run: python scripts/build_audio.py
+
+      - name: Commit & push
+        run: |
+          git config user.name "english800-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data audio
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Daily update $(date -u +%Y-%m-%d)"
+            git push
+          fi

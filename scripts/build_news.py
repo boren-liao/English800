@@ -245,16 +245,81 @@ def similar(a, b):
     return bool(x and y) and len(x & y) / min(len(x), len(y)) >= 0.4
 
 
-def keywords(text, limit=5):
-    low = " " + re.sub(r"[^a-z0-9 ]", " ", text.lower()) + " "
-    found, seen = [], set()
-    for k in sorted(GLOSSARY, key=len, reverse=True):
-        if f" {k} " in low and GLOSSARY[k] not in seen:
-            found.append([k, GLOSSARY[k]])
-            seen.add(GLOSSARY[k])
-            low = low.replace(f" {k} ", " ")
-        if len(found) >= limit:
+def _load_glossary():
+    g = dict(GLOSSARY)
+    try:
+        with open(os.path.join(ROOT, "data", "glossary.json"), encoding="utf-8") as f:
+            g.update({k.lower(): v for k, v in json.load(f).items() if not k.startswith("_")})
+    except Exception as e:
+        print("glossary.json not loaded:", e, file=sys.stderr)
+    for k in BASIC:
+        g.pop(k, None)
+    return g
+
+
+# 太基本、不值得當「關鍵片語」的字
+BASIC = set("""million billion trillion price prices market markets stock stocks shares sales jobs deal cut cuts growth ai
+customers workers spending trade board bank banks tax taxes economy policy oil consumer consumers demand supply executive
+executives investment invest credit loans launch boost rival rivals annual quarter quarterly decline competition""".split())
+
+
+def word_pattern(w):
+    w = re.escape(w)
+    if w.endswith("y") and len(w) > 3:
+        return w[:-1] + "(?:y|ies|ied|ying)"
+    if w.endswith("e") and len(w) > 3:
+        return w[:-1] + "(?:e|es|ed|ing)"
+    return w + "(?:" + w[-1] + ")?(?:s|es|ed|ing)?"
+
+
+def phrase_regex(key):
+    words = re.split(r"[\s]+", key)
+    if len(words) == 1 and "-" in key:
+        return re.compile(r"\b" + re.escape(key) + r"\b", re.I)
+    parts = [word_pattern(x) for x in words]
+    return re.compile(r"\b" + r"[\s-]+".join(parts) + r"\b", re.I)
+
+
+def _is_title_case(t):
+    ws = [w for w in re.findall(r"[A-Za-z][A-Za-z']+", t) if len(w) > 3]
+    return bool(ws) and sum(w[0].isupper() for w in ws) / len(ws) > 0.7
+
+
+def keywords(en, title="", limit=6):
+    """從新聞抽出關鍵片語：片語優先、排除專有名詞誤判，不足時補進階單字並翻譯。"""
+    g = _GLOSS
+    title_part = title.rstrip(".")
+    title_tc = _is_title_case(title_part)
+    taken = []  # 已使用的字元範圍
+    found = []
+    keys = sorted(g, key=lambda k: (-len(k.split()), -len(k)))
+    for k in keys:
+        for m in phrase_regex(k).finditer(en):
+            a, b = m.span()
+            if any(a < y and x < b for x, y in taken):
+                continue
+            surface = m.group(0)
+            in_title = a < len(title_part)
+            sent_start = a == 0 or re.search(r"[.!?]\s+$", en[:a]) is not None
+            if surface[0].isupper() and not k.isupper() and not sent_start and not (in_title and title_tc):
+                continue  # 句中大寫多半是專有名詞（例如 Outlook 軟體）
+            taken.append((a, b))
+            if g[k] not in {p[1] for p in found}:  # 同義（如 investor/investors）只留一個
+                found.append([k, g[k]])
             break
+    found.sort(key=lambda p: (-len(p[0].split()), -len(p[0])))
+    found = found[:limit]
+    if len(found) < 3 and TRANSLATE:  # 補充：較長、較進階的單字
+        have = {p[0] for p in found}
+        cands = []
+        for m in re.finditer(r"\b[a-z][a-z-]{8,}\b", en):
+            w = m.group(0)
+            if w not in have and w not in cands and not any(m.start() < y and x < m.end() for x, y in taken):
+                cands.append(w)
+        for w in sorted(cands, key=len, reverse=True)[: 4 - len(found)]:
+            z = _translate_one(w)
+            if z and len(z) <= 12:
+                found.append([w, tw_fix(z.rstrip("。."))])
     return found
 
 
@@ -263,7 +328,13 @@ def news_id(date, title):
     return f"N{date.replace('-', '')}-{hashlib.sha1(title.strip().lower().encode()).hexdigest()[:6]}"
 
 
+PH_VERSION = 2
+_GLOSS = {}
+
+
 def main():
+    global _GLOSS
+    _GLOSS = _load_glossary()
     now = dt.datetime.now(dt.timezone.utc)
     today = (now + dt.timedelta(hours=8)).strftime("%Y-%m-%d")  # 以台灣日期歸檔
     pool = []
@@ -302,7 +373,7 @@ def main():
     for i, p in enumerate(picked):
         body = first_sentences(p["desc"]) if p["desc"] and p["desc"].lower() != p["title"].lower() else ""
         en = p["title"].rstrip(".") + "." + (" " + body if body else "")
-        phrases = keywords(en)
+        phrases = keywords(en, p["title"])
         new_items.append({
             "id": news_id(today, p["title"]),
             "unit": "每日美國新聞",
@@ -314,6 +385,7 @@ def main():
             "en": en,
             "zh": translate(en, p["title"]),
             "zh_v": ZH_VERSION,
+            "ph_v": PH_VERSION,
             "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 " + p["source"] + " RSS，完整報導請點原文連結。",
             "phrases": phrases,
         })
@@ -324,6 +396,8 @@ def main():
         if x.get("date", "") < cutoff:
             continue
         x["id"] = news_id(x["date"], x["title"])  # 修正舊版重複編號
+        if x.get("ph_v", 1) < PH_VERSION:  # 用新版規則重新抽關鍵片語
+            x["phrases"], x["ph_v"] = keywords(x["en"], x.get("title", "")), PH_VERSION
         if x["id"] in seen_ids:
             continue
         seen_ids.add(x["id"])

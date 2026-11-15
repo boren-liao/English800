@@ -61,6 +61,7 @@ select{background:#183958;color:#eaf5ff;border:1px solid #315879;border-radius:1
 .switch span{position:absolute;inset:0;background:#2a4562;border-radius:30px;transition:.2s}.switch span:before{content:"";position:absolute;width:22px;height:22px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.2s}
 .switch input:checked+span{background:var(--green)}.switch input:checked+span:before{transform:translateX(20px)}
 a{color:#8fd0ff}
+mark{background:rgba(255,157,66,.22);color:#ffd4a4;border-radius:5px;padding:0 3px}.ctx{font-size:13px;color:#a9bdd3;line-height:1.5;margin-top:4px}.ctx mark{background:none;color:#ffb36b;font-weight:700;padding:0}
 /* mini player */
 #mini{position:fixed;left:8px;right:8px;bottom:calc(64px + env(safe-area-inset-bottom));z-index:5;background:#14304f;border:1px solid #2d5378;border-radius:16px;padding:8px 10px;display:flex;align-items:center;gap:8px;box-shadow:0 8px 24px rgba(0,0,0,.4);max-width:660px;margin:auto}
 #mini .info{flex:1;min-width:0;cursor:pointer}#mini .t{font-size:13px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#mini .s{font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -231,12 +232,17 @@ function renderLists(){
 function units(){const u=["全部"];if(D.news.length)u.push("每日新聞");D.lessons.forEach(l=>{if(!u.includes(l.unit))u.push(l.unit)});u.push("未完成");return u}
 function filtered(){if(unitFilter==="全部")return D.lessons;if(unitFilter==="每日新聞")return D.news;if(unitFilter==="未完成")return D.lessons.filter(l=>!state.completed.includes(l.id));return D.lessons.filter(l=>l.unit===unitFilter)}
 function renderCourse(){$("unitChips").innerHTML=units().map(u=>`<button class="chip ${u===unitFilter?"active":""}" data-unit="${esc(u)}">${esc(u)}</button>`).join("");const f=filtered();$("courseCount").textContent=f.length+" 篇";$("allLessons").innerHTML=f.map(card).join("")||'<div class="empty">此分類沒有課程</div>'}
+function wordPat(w){w=w.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");if(/y$/.test(w)&&w.length>3)return w.slice(0,-1)+"(?:y|ies|ied|ying)";if(/e$/.test(w)&&w.length>3)return w.slice(0,-1)+"(?:e|es|ed|ing)";return w+"(?:"+w.slice(-1)+")?(?:s|es|ed|ing)?"}
+function phraseRe(k,flags="i"){const ws=k.trim().split(/\s+/);if(ws.length===1&&k.includes("-"))return new RegExp("\\b"+k.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"\\b",flags);return new RegExp("\\b"+ws.map(wordPat).join("[\\s-]+")+"\\b",flags)}
+function markText(text,phrases){const spans=[];(phrases||[]).forEach(p=>{const m=phraseRe(p[0]).exec(text);if(m&&!spans.some(s=>m.index<s[1]&&s[0]<m.index+m[0].length))spans.push([m.index,m.index+m[0].length])});spans.sort((a,b)=>a[0]-b[0]);let out="",i=0;spans.forEach(([a,b])=>{out+=esc(text.slice(i,a))+"<mark>"+esc(text.slice(a,b))+"</mark>";i=b});return out+esc(text.slice(i))}
+function sentences(text){const raw=text.split(/([.!?]["'’”]?\s+)/);const out=[];let buf="";for(let i=0;i<raw.length;i+=2){buf+=raw[i]+(raw[i+1]||"");const next=raw[i+2]||"";if(i+2>=raw.length||(!/(?:\b[A-Z]\.|\b(?:Mr|Mrs|Ms|Dr|Inc|Corp|Co|Jr|St|No|vs)\.)["'’”]?\s+$/.test(buf)&&/^["'“‘]?[A-Z0-9]/.test(next))){out.push(buf.trim());buf=""}}if(buf.trim())out.push(buf.trim());return out}
+function ctxOf(text,k){const re=phraseRe(k);let t=sentences(text).find(x=>re.test(x));if(!t)return"";const m=phraseRe(k).exec(t);if(!m)return esc(t);let pre=t.slice(0,m.index),post=t.slice(m.index+m[0].length);const pw=pre.split(" "),qw=post.split(" ");if(pw.length>11)pre="… "+pw.slice(-10).join(" ");if(qw.length>11)post=qw.slice(0,10).join(" ")+" …";return esc(pre)+"<mark>"+esc(m[0])+"</mark>"+esc(post)}
 function openLesson(id,nav=true){const l=byId(id);if(!l)return;currentId=id;
- $("lessonTitle").textContent=l.title;$("lessonMeta").textContent=l.level;$("lessonEn").textContent=l.en;
+ $("lessonTitle").textContent=l.title;$("lessonMeta").textContent=l.level;$("lessonEn").innerHTML=markText(l.en,l.phrases);
  $("lessonZh").textContent=l.zh||"（此則新聞暫無中文翻譯，可點右側 Google 翻譯）";$("lessonNotes").textContent=l.notes||"";$("lessonNotes").classList.add("hidden");
  const tl=$("transLink");if(!l.zh){tl.href="https://translate.google.com/?sl=en&tl=zh-TW&op=translate&text="+encodeURIComponent(l.en);tl.classList.remove("hidden")}else tl.classList.add("hidden");
  const lk=$("lessonLink");if(l.link){lk.href=l.link;lk.classList.remove("hidden")}else lk.classList.add("hidden");
- $("lessonPhrases").innerHTML=(l.phrases||[]).map((p,i)=>`<div class="phrase"><div class="grow"><strong>${esc(p[0])}</strong><span class="muted">　${esc(p[1])}</span></div><button class="btn secondary small" data-sayph="${i}">🔊</button></div>`).join("")||'<div class="muted">—</div>';
+ $("lessonPhrases").innerHTML=(l.phrases||[]).map((p,i)=>{const kn=state.known.includes(p[0]),c=ctxOf(l.en,p[0]);return `<div class="phrase"><div class="grow"><strong>${esc(p[0])}</strong><span class="muted">　${esc(p[1])}</span>${c?`<div class="ctx">${c}</div>`:""}</div><button class="btn secondary small" data-sayph="${i}">🔊</button><button class="btn small ${kn?"on":""}" data-knownph="${i}">${kn?"✓":"記"}</button></div>`}).join("")||'<div class="muted">—</div>';
  const list=isNews(l)?D.news:D.lessons;$("lessonPos").textContent=`${list.findIndex(x=>x.id===id)+1} / ${list.length}`;
  if(nav)showScreen("lesson")}
 
@@ -350,7 +356,7 @@ let toastT;function toast(msg){let t=document.querySelector(".toast");if(!t){t=d
 function initSettings(){document.querySelectorAll("[data-set]").forEach(el=>{const k=el.dataset.set;if(el.type==="checkbox")el.checked=!!SET[k];else el.value=String(SET[k]);
  el.addEventListener("change",()=>{SET[k]=el.type==="checkbox"?el.checked:(isNaN(+el.value)?el.value:+el.value);save();if(k==="speed"&&P.engine==="audio")audio.playbackRate=+SET.speed;ui()})})}
 
-document.addEventListener("click",e=>{const t=e.target.closest("[data-act],[data-open],[data-play],[data-unit],[data-list],[data-screen],[data-sayph],[data-sayw],[data-known],[data-ans],[data-wf]");if(!t)return;
+document.addEventListener("click",e=>{const t=e.target.closest("[data-act],[data-open],[data-play],[data-unit],[data-list],[data-screen],[data-sayph],[data-sayw],[data-known],[data-knownph],[data-ans],[data-wf]");if(!t)return;
  const d=t.dataset;
  if(d.screen)return showScreen(d.screen);
  if(d.play){e.stopPropagation();const l=byId(d.play);if(!l)return;let arr,name;
@@ -360,8 +366,9 @@ document.addEventListener("click",e=>{const t=e.target.closest("[data-act],[data
  if(d.open)return openLesson(d.open);
  if(d.unit){unitFilter=d.unit;return renderCourse()}
  if(d.list){const L=lists().find(x=>x[0]===d.list);if(L)startFrom(L[2],L[0]);return}
- if(d.sayph){const l=byId(currentId),p=l.phrases[+d.sayph];return say(p[0],"en",.85)}
+ if(d.sayph){const l=byId(currentId),p=l.phrases[+d.sayph];say(p[0],"en",.85);const c=ctxOf(l.en,p[0]).replace(/<[^>]+>/g,"").replace(/&amp;/g,"&").replace(/&#39;/g,"'").replace(/&quot;/g,'"');if(c&&c.toLowerCase()!==p[0].toLowerCase())utter(c,"en",.85*+SET.speed);return}
  if(d.sayw)return say(d.sayw,"en",.85);
+ if(d.knownph){const l=byId(currentId),w=l.phrases[+d.knownph][0];state.known=state.known.includes(w)?state.known.filter(x=>x!==w):[...state.known,w];save();toast(state.known.includes(w)?"已加入熟悉單字":"已移出熟悉單字");return openLesson(currentId,false)}
  if(d.known){const w=d.known;state.known=state.known.includes(w)?state.known.filter(x=>x!==w):[...state.known,w];save();return renderWords()}
  if(d.ans)return answer(+d.ans);
  if(d.wf){wordFilter=d.wf;document.querySelectorAll("[data-wf]").forEach(c=>c.classList.toggle("active",c===t));return renderWords()}

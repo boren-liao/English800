@@ -8,6 +8,7 @@
 """
 import datetime as dt
 import email.utils
+import hashlib
 import html
 import json
 import os
@@ -257,6 +258,11 @@ def keywords(text, limit=5):
     return found
 
 
+def news_id(date, title):
+    """以日期＋標題雜湊產生唯一編號，同一天跑多次也不會重複。"""
+    return f"N{date.replace('-', '')}-{hashlib.sha1(title.strip().lower().encode()).hexdigest()[:6]}"
+
+
 def main():
     now = dt.datetime.now(dt.timezone.utc)
     today = (now + dt.timedelta(hours=8)).strftime("%Y-%m-%d")  # 以台灣日期歸檔
@@ -298,7 +304,7 @@ def main():
         en = p["title"].rstrip(".") + "." + (" " + body if body else "")
         phrases = keywords(en)
         new_items.append({
-            "id": f"N{today.replace('-', '')}-{i + 1:02d}",
+            "id": news_id(today, p["title"]),
             "unit": "每日美國新聞",
             "date": today,
             "title": p["title"],
@@ -313,7 +319,15 @@ def main():
         })
 
     cutoff = (now + dt.timedelta(hours=8) - dt.timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%d")
-    kept = [x for x in old.get("items", []) if x.get("date", "") >= cutoff]
+    kept, seen_ids = [], {x["id"] for x in new_items}
+    for x in old.get("items", []):
+        if x.get("date", "") < cutoff:
+            continue
+        x["id"] = news_id(x["date"], x["title"])  # 修正舊版重複編號
+        if x["id"] in seen_ids:
+            continue
+        seen_ids.add(x["id"])
+        kept.append(x)
     for x in kept:  # 舊新聞用新版翻譯重新翻（失敗或版本較舊者）
         if not x.get("zh") or x.get("zh_v", 1) < ZH_VERSION:
             z = translate(x["en"], x.get("title"))

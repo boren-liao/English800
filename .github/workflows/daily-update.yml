@@ -6,7 +6,7 @@ on:
   workflow_dispatch:         # 可在 GitHub Actions 頁面手動按 Run workflow
   push:
     branches: [main]
-    paths: ["data/lessons.json"]   # 修改課程後自動重新產生音檔
+    paths: ["data/lessons.json", "scripts/**", ".github/workflows/**"]   # 修改課程或程式後自動重跑
 
 permissions:
   contents: write

@@ -165,7 +165,7 @@ TW_FIX = [
     ("德克薩斯州", "德州"), ("加利福尼亞州", "加州"), ("佛羅里達州", "佛州"), ("華盛頓特區", "華府"),
     ("納斯達克", "那斯達克"), ("標準普爾", "標普"), ("道瓊斯", "道瓊"), ("特朗普", "川普"),
     ("蘋果公司", "蘋果"), ("谷歌", "Google"), ("臉書", "Facebook"), ("亞馬遜公司", "亞馬遜"),
-    ("星際飛船", "星艦"), ("星艦飛船", "星艦"), ("火箭的上級", "火箭的上節"), ("全國全面停飛", "全美停飛"), ("美國聯邦航空局", "美國聯邦航空總署（FAA）"),
+    ("星際飛船", "星艦"), ("航天器", "太空船"), ("航天", "航太"), ("宇航員", "太空人"), ("星艦飛船", "星艦"), ("火箭的上級", "火箭的上節"), ("全國全面停飛", "全美停飛"), ("美國聯邦航空局", "美國聯邦航空總署（FAA）"),
     ("關稅壁壘", "關稅障礙"), ("出租車", "計程車"), ("公交", "公車"), ("短信", "簡訊"),
     ("黃仁勳的潛在回報", "黃仁勳可能回歸"), ("的潛在回報", "可能回歸"),
 ]
@@ -258,6 +258,11 @@ def _load_glossary():
 
 
 # 太基本、不值得當「關鍵片語」的字
+COMMON_LONG = set("""beginning including following according something everything important different available community president
+yesterday afternoon announced department companies business government themselves themselves everyone sometimes another
+interview statement questions countries understand experience happening political american americans thousands hundreds
+officials information continued currently basically recently previously especially immediately additional generally""".split())
+
 BASIC = set("""million billion trillion price prices market markets stock stocks shares sales jobs deal cut cuts growth ai
 customers workers spending trade board bank banks tax taxes economy policy oil consumer consumers demand supply executive
 executives investment invest credit loans launch boost rival rivals annual quarter quarterly decline competition""".split())
@@ -314,12 +319,13 @@ def keywords(en, title="", limit=6):
         cands = []
         for m in re.finditer(r"\b[a-z][a-z-]{8,}\b", en):
             w = m.group(0)
-            if w not in have and w not in cands and not any(m.start() < y and x < m.end() for x, y in taken):
+            if w not in have and w not in cands and w not in COMMON_LONG and not any(m.start() < y and x < m.end() for x, y in taken):
                 cands.append(w)
         for w in sorted(cands, key=len, reverse=True)[: 4 - len(found)]:
             z = _translate_one(w)
-            if z and len(z) <= 12:
-                found.append([w, tw_fix(z.rstrip("。."))])
+            z = tw_fix(re.split(r"[,，、;；]", z or "")[0].strip().rstrip("。."))
+            if z and len(z) <= 10 and z.lower() != w:
+                found.append([w, z])
     return found
 
 
@@ -328,7 +334,7 @@ def news_id(date, title):
     return f"N{date.replace('-', '')}-{hashlib.sha1(title.strip().lower().encode()).hexdigest()[:6]}"
 
 
-PH_VERSION = 2
+PH_VERSION = 3
 _GLOSS = {}
 
 

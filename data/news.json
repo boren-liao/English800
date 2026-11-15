@@ -1,6 +1,128 @@
 {
- "updated": "2026-11-15T04:36:15+00:00",
+ "updated": "2026-11-15T04:45:47+00:00",
  "items": [
+  {
+   "id": "N20261115-01",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Ground Stop Highlights Chronic Vulnerabilities in Air Traffic System",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/14/us/politics/ground-stop-air-traffic-faa.html",
+   "en": "Ground Stop Highlights Chronic Vulnerabilities in Air Traffic System. The Federal Aviation Administration’s aging air traffic control infrastructure has had several disruptive failures in recent months, as officials have sought to make upgrades.",
+   "zh": "停飛事件凸顯了空中交通系統的長期弱點。近幾個月來，美國聯邦航空管理局老化的空中交通管制基礎設施發生了幾次破壞性故障，官員一直在尋求升級。",
+   "zh_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "administration",
+     "政府"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-02",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "She Was a CBS News Producer When Few Women Were",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/14/business/media/linda-mason-dead-cbs-news.html",
+   "en": "She Was a CBS News Producer When Few Women Were. Linda Mason started in an entry-level job at CBS Radio in 1966 and rose through the news division’s ranks to senior vice president. She was 84.",
+   "zh": "當很少有女性擔任哥倫比亞廣播公司新聞製片人時，她是哥倫比亞廣播公司新聞製片人。琳達·梅森 (Linda Mason) 於 1966 年開始在哥倫比亞廣播公司 (CBS) 電台擔任初級職位，後來在新聞部門晉升為高級副總裁。她84歲了。",
+   "zh_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": []
+  },
+  {
+   "id": "N20261115-03",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
+   "en": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?. “Maybe next time I’ll try the other approach: I’ll board whenever I feel like it and drop my suitcase in the first open slot I see.”",
+   "zh": "「我厭倦了搭飛機」：我支付了優先登機費，但頭頂行李箱已滿。我被騙了嗎？“也許下次我會嘗試另一種方法：只要我願意，我就會登機，並將行李箱放在我看到的第一個空位上。”",
+   "zh_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "board",
+     "董事會"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-04",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
+   "en": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?. “It would be a less drastic step than selling the home now and splitting the proceeds.”",
+   "zh": "寡婦是否應該將已故伴侶的家留給她的繼子——或者切斷與他們的聯繫？“與現在出售房屋並分享收益相比，這將是一個不那麼激烈的舉措。”",
+   "zh_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "cut",
+     "削減"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-05",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html",
+   "en": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off. \"Grand Theft Auto VI\" launches Nov. 19 with huge expectations. Its impact could reach creators, streaming, music, workplace time off, food delivery and tourism.",
+   "zh": "Rockstar 的《GTA VI》版本將如何重塑遊戲、串流媒體甚至帶薪休假。《俠盜獵車手 VI》於 11 月 19 日推出，備受期待。它的影響可能會影響創作者、串流媒體、音樂、工作休假、食品配送和旅遊業。",
+   "zh_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": []
+  },
+  {
+   "id": "N20261115-06",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Meet the seven co-founders of Anthropic",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
+   "en": "Meet the seven co-founders of Anthropic. Four researchers, a former journalist, a public policymaker, and an engineer founded Anthropic in 2021. They're now poised to become multi-billionaires.",
+   "zh": "認識 Anthropic 的七位共同創辦人。四名研究人員、一名前記者、一名公共政策制定者和一名工程師於 2021 年創立了 Anthropic。他們現在準備成為億萬富翁。",
+   "zh_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": []
+  },
+  {
+   "id": "N20261115-07",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Is there an opening for Nvidia's competitors, now that Jensen Huang is out?",
+   "level": "NPR Business",
+   "source": "NPR Business",
+   "link": "https://www.npr.org/2026/11/13/nx-s1-6040264/is-there-an-opening-for-nvidias-competitors-now-that-jensen-huang-is-out",
+   "en": "Is there an opening for Nvidia's competitors, now that Jensen Huang is out?. NPR's Scott Detrow talks with Dylan Patel of the AI and semiconductor research firm SemiAnalysis about Jensen Huang's departure from Nvidia, and whether it opens up the field for Nvidia's competitors.",
+   "zh": "既然黃仁勳已經出局，輝達的競爭對手還有機會嗎？NPR 的 Scott Detrow 與人工智慧和半導體研究公司 SemiAnalysis 的 Dylan Patel 討論了黃仁勳離開 Nvidia 的問題，以及這是否為 Nvidia 的競爭對手打開了領域。",
+   "zh_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "semiconductor",
+     "半導體"
+    ],
+    [
+     "ai",
+     "人工智慧"
+    ]
+   ]
+  },
   {
    "id": "N20261115-01",
    "unit": "每日美國新聞",
@@ -12,7 +134,8 @@
    "en": "Geopolitics Looms Over Eurovision, but Not Its Asian Edition. So far, the contest’s organizers have kept politics offstage. The European edition shows how difficult that can be.",
    "zh": "地緣政治籠罩著歐洲電視網，但亞洲版並非如此。到目前為止，比賽的組織者一直將政治置於幕後。歐洲版顯示這有多麼困難。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": []
+   "phrases": [],
+   "zh_v": 2
   },
   {
    "id": "N20261115-02",
@@ -23,9 +146,10 @@
    "source": "NYT Business",
    "link": "https://www.nytimes.com/2026/11/14/business/faa-ground-stop-exceptions-airlines.html",
    "en": "How Some Flights Were Exempt From the Ground Stop. Dozens of international flights departed from the United States during Friday’s nationwide ground stop. Some planes also left for Hawaii from the West Coast.",
-   "zh": "某些航班如何免除地面停留。在週五的全國地面停留期間，有數十架國際航班從美國起飛。有些飛機也從西海岸飛往夏威夷。",
+   "zh": "某些航班如何免除全面停飛。在週五的全美停飛期間，有數十架國際航班從美國起飛。有些飛機也從西海岸飛往夏威夷。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": []
+   "phrases": [],
+   "zh_v": 2
   },
   {
    "id": "N20261115-03",
@@ -36,14 +160,15 @@
    "source": "MarketWatch",
    "link": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
    "en": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?. “He has always said he wants his daughter to inherit a chunk of his estate, and I’ve never objected to that.”",
-   "zh": "我從父親那裡繼承了 140 萬美元。我向結婚25年的丈夫要求婚後協議有錯嗎？ “他一直說他希望他的女兒繼承他的大部分遺產，我從來沒有反對過。”",
+   "zh": "我從父親那裡繼承了 140 萬美元。我向結婚25年的丈夫要求婚後協議有錯嗎？“他一直說他希望他的女兒繼承他的大部分遺產，我從來沒有反對過。”",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
    "phrases": [
     [
      "million",
      "百萬"
     ]
-   ]
+   ],
+   "zh_v": 2
   },
   {
    "id": "N20261115-04",
@@ -54,9 +179,10 @@
    "source": "MarketWatch",
    "link": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
    "en": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?. “I know older people can easily feel patronized, and I don’t want that to happen.”",
-   "zh": "「這讓我感到酸澀」：我年邁的母親給了我們表弟 800 美元作為汽車修理費。我該擔心嗎？ “我知道老年人很容易感到被欺負，我不希望這種情況發生。”",
+   "zh": "「這讓我感到酸澀」：我年邁的母親給了我們表弟 800 美元作為汽車修理費。我該擔心嗎？“我知道老年人很容易感到被欺負，我不希望這種情況發生。”",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": []
+   "phrases": [],
+   "zh_v": 2
   },
   {
    "id": "N20261115-05",
@@ -67,7 +193,7 @@
    "source": "CNBC Tech",
    "link": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
    "en": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio. Despite the turbulence, the S&P 500 secured a weekly gain of 2.5%, while the tech-heavy Nasdaq added 2.3%.",
-   "zh": "英偉達的領導危機擾亂了人工智慧產業。以下是我們調整投資組合的方式。儘管出現動盪，標準普爾 500 指數仍實現了 2.5% 的周漲幅，而以科技股為主的那斯達克指數則上漲了 2.3%。",
+   "zh": "輝達的領導危機擾亂了人工智慧產業。以下是我們調整投資組合的方式。儘管出現動盪，標普 500 指數仍實現了 2.5% 的周漲幅，而以科技股為主的那斯達克指數則上漲了 2.3%。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
    "phrases": [
     [
@@ -78,7 +204,8 @@
      "ai",
      "人工智慧"
     ]
-   ]
+   ],
+   "zh_v": 2
   },
   {
    "id": "N20261115-06",
@@ -89,7 +216,7 @@
    "source": "CNBC Tech",
    "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
    "en": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors. Two Nvidia investors with about $2.13 billion of stock disclosed as of June 30 are calling for a deliberate leadership search after Huang’s resignation.",
-   "zh": "兩位主要投資者敦促英偉達董事會考慮「黃仁勳的潛在回報」。截至 6 月 30 日，英偉達的兩名投資者已披露其股票價值約 21.3 億美元，他們呼籲在黃仁勳辭職後認真尋找領導層。",
+   "zh": "兩位主要投資者敦促輝達董事會考慮「黃仁勳可能回歸」。截至 6 月 30 日，輝達的兩名投資者已披露其股票價值約 21.3 億美元，他們呼籲在黃仁勳辭職後認真尋找領導層。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
    "phrases": [
     [
@@ -108,7 +235,8 @@
      "board",
      "董事會"
     ]
-   ]
+   ],
+   "zh_v": 2
   },
   {
    "id": "N20261115-07",
@@ -130,7 +258,8 @@
      "workers",
      "員工"
     ]
-   ]
+   ],
+   "zh_v": 2
   },
   {
    "id": "N20261115-08",
@@ -141,7 +270,7 @@
    "source": "CNBC",
    "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
    "en": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home. Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
-   "zh": "由 Eric Trump支持的機器人士兵新創公司在創始人向公司借了460萬美元買房後無法支付員工工資。由 Eric Trump 支持的機器人新創公司未來工業基金會 (Foundation Future Industries) 現金不足，且未能發放工資，執行長桑卡特帕塔克 (Sankaet Pathak) 面臨 460 萬美元公司貸款的審查。",
+   "zh": "由 Eric Trump支援的機器人士兵新創公司在創始人向公司借了460萬美元買房後無法支付員工工資。由 Eric Trump 支援的機器人新創公司未來工業基金會 (Foundation Future Industries) 現金不足，且未能發放工資，執行長桑卡特帕塔克 (Sankaet Pathak) 面臨 460 萬美元公司貸款的審查。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
    "phrases": [
     [
@@ -160,7 +289,8 @@
      "ceo",
      "執行長"
     ]
-   ]
+   ],
+   "zh_v": 2
   },
   {
    "id": "N20261115-01",
@@ -171,9 +301,10 @@
    "source": "NYT Business",
    "link": "https://www.nytimes.com/2026/11/14/science/spacex-starship-first-catch.html",
    "en": "SpaceX Makes History With Successful Rocket Catch in Texas. The Starship spacecraft returned from orbit to the same spot where it lifted off, marking a key milestone in SpaceX’s vision of building fully reusable rockets.",
-   "zh": "SpaceX 在德克薩斯州成功捕獲火箭，創造了歷史。星艦飛船從軌道返回到其升空的同一地點，標誌著 SpaceX 建造完全可重複使用火箭願景的一個重要里程碑。",
+   "zh": "SpaceX 在德州成功捕獲火箭，創造了歷史。星艦從軌道返回到其升空的同一地點，標誌著 SpaceX 建造完全可重複使用火箭願景的一個重要里程碑。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": []
+   "phrases": [],
+   "zh_v": 2
   },
   {
    "id": "N20261115-02",
@@ -186,7 +317,8 @@
    "en": "SpaceX successfully catches Starship rocket in huge milestone for the space industry. The historic first gets SpaceX closer to “rapid reusability” of rockets.",
    "zh": "SpaceX 成功捕獲了 Starship 火箭，這是航太產業的一個巨大里程碑。這段歷史性的首次讓 SpaceX 更接近火箭的「快速重複使用」。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": []
+   "phrases": [],
+   "zh_v": 2
   },
   {
    "id": "N20261115-03",
@@ -212,7 +344,8 @@
      "million",
      "百萬"
     ]
-   ]
+   ],
+   "zh_v": 2
   },
   {
    "id": "N20261115-04",
@@ -223,9 +356,10 @@
    "source": "CNBC Tech",
    "link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
    "en": "SpaceX catches upper stage of Starship rocket in historic first. Starship Test Flight 15 marked the first time Elon Musk's company tried to catch both the booster and upper stage of the rocket.",
-   "zh": "SpaceX 歷史性地首次捕獲了 Starship 火箭的上級。星際飛船第 15 次試飛標誌著埃隆馬斯克的公司首次嘗試同時捕獲火箭的助推器和上部級。",
+   "zh": "SpaceX 歷史性地首次捕獲了 Starship 火箭的上節。星艦第 15 次試飛標誌著埃隆馬斯克的公司首次嘗試同時捕獲火箭的助推器和上部級。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": []
+   "phrases": [],
+   "zh_v": 2
   },
   {
    "id": "N20261115-05",
@@ -236,9 +370,10 @@
    "source": "CNBC Tech",
    "link": "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html",
    "en": "'Root cause’ of nationwide ground stop is unknown, FAA says. Routers and networking equipment may be involved in the problems that led to the ground stop, but a definitive cause has not been established, officials said.",
-   "zh": "美國聯邦航空局表示，全國地面停車的「根本原因」尚不清楚。官員表示，路由器和網路設備可能與導致地面停止的問題有關，但具體原因尚未確定。",
+   "zh": "美國聯邦航空總署（FAA）表示，全美停飛的「根本原因」尚不清楚。官員表示，路由器和網路設備可能與導致全面停飛的問題有關，但具體原因尚未確定。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": []
+   "phrases": [],
+   "zh_v": 2
   },
   {
    "id": "N20261115-06",
@@ -249,14 +384,15 @@
    "source": "NPR Business",
    "link": "https://www.npr.org/2026/11/14/nx-s1-6040379/commerce-department-under-pressure-for-delaying-export-controls-on-nvidia-chips",
    "en": "Commerce Department under pressure for delaying export controls on Nvidia chips. The U.S. Commerce Department is under scrutiny for clearing Chinese companies to handle Nvidia chips, despite national security concerns from cabinet officials and U.S. intelligence agencies.",
-   "zh": "美國商務部因推遲對英偉達晶片的出口管製而面臨壓力。儘管內閣官員和美國情報機構出於國家安全考慮，但美國商務部仍因批准中國公司處理英偉達晶片而受到審查。",
+   "zh": "美國商務部因推遲對輝達晶片的出口管制而面臨壓力。儘管內閣官員和美國情報機構出於國家安全考慮，但美國商務部仍因批准中國公司處理輝達晶片而受到審查。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
    "phrases": [
     [
      "chips",
      "晶片"
     ]
-   ]
+   ],
+   "zh_v": 2
   },
   {
    "id": "N20261115-07",
@@ -267,7 +403,7 @@
    "source": "MarketWatch",
    "link": "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories",
    "en": "I’m 63 and spending $95,000 on a roof deck for my $500,000 home. Is that a good investment?. “I have a net worth of $2.3 million and my only debt is a 15-year mortgage.”",
-   "zh": "我今年 63 歲，花了 95,000 美元為我價值 50 萬美元的房子買了一個屋頂平台。這是一項好的投資嗎？ “我的淨資產為 230 萬美元，我唯一的債務是 15 年期抵押貸款。”",
+   "zh": "我今年 63 歲，花了 95,000 美元為我價值 50 萬美元的房子買了一個屋頂平台。這是一項好的投資嗎？“我的淨資產為 230 萬美元，我唯一的債務是 15 年期抵押貸款。”",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
    "phrases": [
     [
@@ -290,7 +426,8 @@
      "debt",
      "債務"
     ]
-   ]
+   ],
+   "zh_v": 2
   },
   {
    "id": "N20261115-08",
@@ -308,7 +445,8 @@
      "retailers",
      "零售商"
     ]
-   ]
+   ],
+   "zh_v": 2
   }
  ]
 }

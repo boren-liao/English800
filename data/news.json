@@ -1,6 +1,186 @@
 {
- "updated": "2026-11-15T05:45:24+00:00",
+ "updated": "2026-11-15T22:44:42+00:00",
  "items": [
+  {
+   "id": "N20261116-668a38",
+   "unit": "每日美國新聞",
+   "date": "2026-11-16",
+   "title": "My older brother, who has no children, cut our only sister out of his will. I’ll get everything. Do I tell her?",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/she-has-a-history-of-financial-mismanagement-my-brother-cut-my-sister-out-of-his-will-im-getting-everything-do-i-tell-her-3e537851?mod=mw_rss_topstories",
+   "en": "My older brother, who has no children, cut our only sister out of his will. I’ll get everything. Do I tell her?. “I’m torn between respecting my brother’s wishes and being fair to my sister.”",
+   "zh": "我哥哥沒有孩子，他把我們唯一的妹妹從遺囑中除名了。我會繼承所有遺產。我要告訴她嗎？「我正處於尊重我哥哥的意願與對我妹妹公平之間的兩難。」",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "respecting",
+     "尊重"
+    ]
+   ]
+  },
+  {
+   "id": "N20261116-f28383",
+   "unit": "每日美國新聞",
+   "date": "2026-11-16",
+   "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
+   "en": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years. Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
+   "zh": "Nvidia 正為華爾街多年來最受期待的財報電話會議之一作準備。黃仁勳的突然離職讓週二的財報電話會議成為「公司歷史上最重要的一次」。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "earnings",
+     "獲利；財報"
+    ],
+    [
+     "anticipated",
+     "預期"
+    ],
+    [
+     "departure",
+     "離開"
+    ]
+   ]
+  },
+  {
+   "id": "N20261116-b1da67",
+   "unit": "每日美國新聞",
+   "date": "2026-11-16",
+   "title": "F.D.A. Rejects Closely Watched Lung Cancer Drug From China",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/15/business/fda-lung-cancer-drug-china.html",
+   "en": "F.D.A. Rejects Closely Watched Lung Cancer Drug From China. The treatment, called ivonescimab, has become a symbol of China’s rise in drug development.",
+   "zh": "美國食品藥物管理局 (FDA) 拒絕一款備受關注的中國肺癌藥物。這種名為 ivonescimab 的療法已成為中國在藥物開發領域崛起的一個象徵。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "development",
+     "發展"
+    ],
+    [
+     "treatment",
+     "治療"
+    ]
+   ]
+  },
+  {
+   "id": "N20261116-e1f379",
+   "unit": "每日美國新聞",
+   "date": "2026-11-16",
+   "title": "Behind the All-American Ralph Lauren Brand Is a French C.E.O.",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/15/business/ralph-lauren-patrice-louvet.html",
+   "en": "Behind the All-American Ralph Lauren Brand Is a French C.E.O. Patrice Louvet on working with Ralph Lauren, the man, winning over Generation Z and striking a balance between magic and logic.",
+   "zh": "全美品牌 Ralph Lauren 的背後，有一位法國籍的執行長。Patrice Louvet 談到與 Ralph Lauren 本人合作、贏得 Z 世代的青睞，以及在魔法與邏輯之間取得平衡。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "strike",
+     "罷工"
+    ]
+   ]
+  },
+  {
+   "id": "N20261116-87541f",
+   "unit": "每日美國新聞",
+   "date": "2026-11-16",
+   "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+   "en": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker. Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+   "zh": "盧特尼克面臨有關輝達間諜醜聞的質疑。他兒子的公司與這家晶片製造商有關係。Jensen Huang 辭去 Nvidia 執行長一職，讓外界再次關注商務部長 Howard Lutnick 及其家人與該晶片製造商的財務關係。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "face questions",
+     "面臨質疑"
+    ],
+    [
+     "spy scandal",
+     "間諜醜聞"
+    ],
+    [
+     "resignation",
+     "辭職"
+    ],
+    [
+     "chipmaker",
+     "晶片製造商"
+    ]
+   ]
+  },
+  {
+   "id": "N20261116-cd59bc",
+   "unit": "每日美國新聞",
+   "date": "2026-11-16",
+   "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+   "en": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO. Bessent has criticized Howard Lutnick’s department over suspected chip diversion to China while defending President Donald Trump’s handling of the matter.",
+   "zh": "貝森特呼籲輝達進行「重大改革」，並敦促聘請外部人士擔任執行長。貝森特 (Bessent) 批評霍華德·盧特尼克 (Howard Lutnick) 的部門涉嫌將晶片轉移至中國，同時為川普總統 (Donald Trump) 對此事的處理方式辯護。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "criticized",
+     "受到批評"
+    ],
+    [
+     "suspected",
+     "疑似"
+    ],
+    [
+     "diversion",
+     "轉移注意力"
+    ],
+    [
+     "defending",
+     "防守"
+    ]
+   ]
+  },
+  {
+   "id": "N20261116-18a05c",
+   "unit": "每日美國新聞",
+   "date": "2026-11-16",
+   "title": "Rivian, Lucid, Scout CEOs aren’t counting on Democrats to restore EV federal support after midterm wins",
+   "level": "CNBC",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html",
+   "en": "Rivian, Lucid, Scout CEOs aren’t counting on Democrats to restore EV federal support after midterm wins. EV makers have had to contend with flip-flopping regulatory support from Washington over the years.",
+   "zh": "Rivian、Lucid 和 Scout 的執行長並不指望民主黨在中期選舉獲勝後恢復對電動車的聯邦補助。多年來，電動車製造商不得不應對華盛頓當局反覆無常的監管政策。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "flip-flopping",
+     "反覆無常"
+    ],
+    [
+     "regulatory",
+     "法規"
+    ]
+   ]
+  },
   {
    "id": "N20261115-f1a289",
    "unit": "每日美國新聞",

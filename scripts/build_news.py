@@ -136,16 +136,45 @@ def parse_feed(source, raw):
     return items
 
 
+def _gtx(text):
+    q = urllib.parse.urlencode({"client": "gtx", "sl": "en", "tl": "zh-TW", "dt": "t", "q": text})
+    data = json.loads(fetch("https://translate.googleapis.com/translate_a/single?" + q, timeout=15))
+    return "".join(seg[0] for seg in data[0] if seg and seg[0])
+
+
+def _mymemory(text):
+    q = urllib.parse.urlencode({"q": text[:480], "langpair": "en|zh-TW"})
+    data = json.loads(fetch("https://api.mymemory.translated.net/get?" + q, timeout=20))
+    out = (data.get("responseData") or {}).get("translatedText") or ""
+    if "MYMEMORY WARNING" in out.upper() or "QUERY LENGTH LIMIT" in out.upper():
+        return ""
+    return html.unescape(out)
+
+
 def translate(text):
+    """依序嘗試多個免費翻譯來源，全部失敗就回傳空字串。"""
     if not TRANSLATE or not text:
         return ""
-    try:
-        q = urllib.parse.urlencode({"client": "gtx", "sl": "en", "tl": "zh-TW", "dt": "t", "q": text})
-        data = json.loads(fetch("https://translate.googleapis.com/translate_a/single?" + q, timeout=15))
-        return "".join(seg[0] for seg in data[0] if seg and seg[0])
-    except Exception as e:  # 翻譯失敗不影響主流程
-        print("  translate failed:", e, file=sys.stderr)
-        return ""
+    for fn in (_gtx, _mymemory):
+        try:
+            out = fn(text).strip()
+            if out and re.search(r"[\u4e00-\u9fff]", out):
+                return out
+        except Exception as e:  # 翻譯失敗不影響主流程
+            print(f"  translate via {fn.__name__} failed: {e}", file=sys.stderr)
+    return ""
+
+
+STOP = set("the a an of to in on for and with as at by is are was be from that this its it after over new says said will has have".split())
+
+
+def topic_words(title):
+    return {w[:5] for w in re.findall(r"[a-z]+", title.lower()) if len(w) > 2 and w not in STOP}  # 取字首5碼當簡易詞幹
+
+
+def similar(a, b):
+    x, y = topic_words(a), topic_words(b)
+    return bool(x and y) and len(x & y) / min(len(x), len(y)) >= 0.4
 
 
 def keywords(text, limit=5):
@@ -187,8 +216,8 @@ def main():
     picked, per_source = [], {}
     for p in recent:
         key = p["title"].lower()
-        if key in known_titles or any(key == x["title"].lower() for x in picked):
-            continue
+        if key in known_titles or any(similar(p["title"], x["title"]) for x in picked):
+            continue  # 同一事件只留一則
         if per_source.get(p["source"], 0) >= 2:  # 每個來源最多 2 則，增加多樣性
             continue
         picked.append(p)
@@ -216,7 +245,11 @@ def main():
         })
 
     cutoff = (now + dt.timedelta(hours=8) - dt.timedelta(days=KEEP_DAYS)).strftime("%Y-%m-%d")
-    items = new_items + [x for x in old.get("items", []) if x.get("date", "") >= cutoff]
+    kept = [x for x in old.get("items", []) if x.get("date", "") >= cutoff]
+    for x in kept:  # 先前翻譯失敗的舊新聞補翻譯
+        if not x.get("zh"):
+            x["zh"] = translate(x["en"])
+    items = new_items + kept
     out = {"updated": now.isoformat(timespec="seconds"), "items": items}
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)

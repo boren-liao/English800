@@ -36,6 +36,37 @@ def load(path, default):
         return default
 
 
+def duration(path):
+    out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path],
+                         capture_output=True, text=True, check=True).stdout.strip()
+    return float(out)
+
+
+def build_bundle(name, items, manifest, wanted):
+    """把清單的所有課串成一個長音檔（章節式），鎖定螢幕也能一路播放不中斷。"""
+    files = [(i["id"], os.path.join(ROOT, manifest[i["id"]])) for i in items if i["id"] in manifest]
+    if len(files) < 2:
+        return None
+    key = hashlib.sha1("|".join(os.path.basename(f) for _, f in files).encode()).hexdigest()[:8]
+    fname = f"bundle-{name}-{key}.mp3"
+    out = os.path.join(AUDIO_DIR, fname)
+    wanted.add(fname)
+    chapters, t = [], 0.0
+    for id_, f in files:
+        d = duration(f)
+        chapters.append({"id": id_, "start": round(t, 2), "end": round(t + d, 2)})
+        t += d
+    if not os.path.exists(out):
+        print("bundle", fname, f"{len(files)} items, {t / 60:.1f} min")
+        lst = out + ".txt"
+        with open(lst, "w") as fh:
+            fh.writelines(f"file '{f}'\n" for _, f in files)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lst,
+                        "-c", "copy", "-metadata", f"title=English 800 {name}", out], check=True)
+        os.remove(lst)
+    return {"url": "audio/" + fname, "duration": round(t, 2), "chapters": chapters}
+
+
 def digest(item):
     raw = json.dumps([item.get("en"), item.get("zh"), item.get("phrases"), EN_VOICE, ZH_VOICE], ensure_ascii=False)
     return hashlib.sha1(raw.encode()).hexdigest()[:8]
@@ -115,6 +146,22 @@ async def main():
             finally:
                 shutil.rmtree(tmp, ignore_errors=True)
         manifest[item["id"]] = "audio/" + name
+    # 章節式合輯：全部課程、今日新聞、本週新聞
+    bundles = {}
+    latest = max((n.get("date", "") for n in news), default="")
+    today_news = sorted([n for n in news if n.get("date") == latest], key=lambda n: n["id"])
+    week_news = sorted(news, key=lambda n: (-int((n.get("date") or "0").replace("-", "") or 0), n["id"]))
+    for name, items in (("lessons", lessons), ("news", today_news), ("newsall", week_news)):
+        if name == "newsall" and len(week_news) == len(today_news) and "news" in bundles:
+            bundles["newsall"] = bundles["news"]  # 只有一天的新聞時共用同一檔
+            continue
+        try:
+            b = build_bundle(name, items, manifest, wanted)
+            if b:
+                bundles[name] = b
+        except Exception as e:
+            print(f"  bundle {name} failed: {e}", file=sys.stderr)
+    manifest["_bundles"] = bundles
     # 刪除過期或內容已變更的舊音檔
     for f in glob.glob(os.path.join(AUDIO_DIR, "*.mp3")):
         if os.path.basename(f) not in wanted:

@@ -138,7 +138,7 @@ mark{background:rgba(255,157,66,.22);color:#ffd4a4;border-radius:5px;padding:0 3
  <div class="d-text"><div class="d-seg" id="dSeg">—</div><div id="dText">播放時會自動唸英文、中文、慢速與片語，播完自動接下一課。</div></div>
  <div class="dctl"><button data-act="prev" aria-label="上一課">⏮</button><button class="play" data-act="toggle" id="dPlay" aria-label="播放">▶</button><button data-act="next" aria-label="下一課">⏭</button></div>
  <div class="row"><button class="btn secondary small" data-act="toggle-auto" id="autoBtn2">自動下一課：開</button><button class="btn secondary small" data-act="mark">✓ 標記完成</button><span class="muted" id="dEngine"></span></div>
- <p class="notice">🚗 <b>CarPlay 使用方式</b>：iPhone 連上 CarPlay 後在這裡按播放，聲音會從車上喇叭輸出。使用「音檔」模式時，CarPlay 的「播放中」畫面與方向盤的 ⏮ / ⏭ 可以切換課程，鎖定螢幕也能持續播放。系統語音模式只能在 App 開著時播放。行車中請勿操作手機。</p>
+ <p class="notice">🔒 <b>鎖定螢幕收聽</b>：選「全部課程／未完成／今日新聞／本週新聞」時，會播放章節式連續音檔（像有聲書），按下播放後就可以關掉螢幕，播完自動接下一課。<br>🚗 <b>CarPlay</b>：連上 CarPlay 後在手機按播放，可在「播放中」畫面或方向盤用 ⏮ ⏭ 切換課程。<br>「新聞＋課程」混合清單、每課重複 2 次以上、或使用系統語音時，無法在鎖定時連續播放。行車中請勿操作手機。</p>
 </section>
 
 <!-- WORDS -->
@@ -218,7 +218,7 @@ function updateStats(){const done=state.completed.filter(id=>D.lessons.some(l=>l
 function showScreen(id){if(id!=="lesson"){const cur=document.querySelector(".screen.active")?.id;if(cur&&cur!=="lesson")prevScreen=cur}
  document.querySelectorAll(".screen").forEach(s=>s.classList.toggle("active",s.id===id));
  document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("active",t.dataset.screen===id||(id==="lesson"&&t.dataset.screen===prevScreen)));
- if(id==="words")renderWords();if(id==="course")renderCourse();if(id==="drive")renderDrive();ui();window.scrollTo(0,0);wake(id==="drive"&&P.playing)}
+ if(id==="words")renderWords();if(id==="course")renderCourse();if(id==="drive")renderDrive();ui();window.scrollTo(0,0);wake(id==="drive"&&P.playing&&P.engine==="tts")}
 function card(l){const done=state.completed.includes(l.id),news=isNews(l);
  return `<div class="card lesson" data-open="${esc(l.id)}"><div class="tile ${news?"news":""} ${done?"done":""}">${done?"✓":news?"📰":"🎧"}</div><div style="flex:1;min-width:0"><h4>${esc(l.title)}</h4><p>${esc(l.unit)} · ${esc(l.level)}${news&&l.date?" · "+esc(l.date):""}${done?" · 已完成":""}${D.audio[l.id]?" · 🎵":""}</p></div><button class="btn small" data-play="${esc(l.id)}">▶</button></div>`}
 function renderLists(){
@@ -255,13 +255,38 @@ function nextTodo(){const last=state.lastId?D.lessons.findIndex(l=>l.id===state.
 function setList(arr,name){P.list=arr.slice();P.name=name}
 function startFrom(arr,name,id){if(!arr.length){toast("清單是空的");return}setList(arr,name);const i=Math.max(0,arr.findIndex(x=>x.id===id));playAt(i)}
 function useAudio(l){return SET.engine!=="tts"&&!!D.audio[l.id]}
-let switching=false;function stopAll(){P.token++;try{speechSynthesis.cancel()}catch(e){}if(!audio.paused){switching=true;audio.pause()}}
-function playAt(i,keepRep){if(!P.list.length)return;stopAll();
+let switching=false;function stopAll(keepAudio){P.token++;try{speechSynthesis.cancel()}catch(e){}if(!keepAudio&&!audio.paused){switching=true;audio.pause()}}
+/* 章節式連續音檔：整個清單是一個長 MP3，鎖定螢幕也不會中斷 */
+const B={b:null,chap:-1,chosen:null,seeking:false};
+function bundleFor(list){if(SET.engine==="tts"||+SET.repeat>1||list.length<2)return null;const bs=(D.audio&&D.audio._bundles)||{};
+ for(const k of ["lessons","news","newsall"]){const b=bs[k];if(!b||!b.chapters)continue;const ids=new Set(b.chapters.map(c=>c.id));if(list.every(x=>ids.has(x.id)))return b}return null}
+function seekTo(t){B.seeking=true;const go=()=>{audio.currentTime=t};if(audio.readyState>=1)go();else audio.addEventListener("loadedmetadata",go,{once:true})}
+audio.addEventListener("seeked",()=>{B.seeking=false});
+function okChap(c){return P.list.some(x=>x.id===c.id)&&!(SET.skipDone&&state.completed.includes(c.id)&&c.id!==B.chosen&&P.list.some(x=>!state.completed.includes(x.id)))}
+function bundleTick(){const b=B.b,t=audio.currentTime;if(B.seeking||audio.seeking)return;const ch=b.chapters.findIndex(c=>t>=c.start&&t<c.end);if(ch<0)return;const c=b.chapters[ch];
+ $("dProg").style.width=Math.min(100,(t-c.start)/(c.end-c.start)*100)+"%";if(ch===B.chap)return;
+ const natural=ch===B.chap+1,prevId=B.chap>=0?b.chapters[B.chap].id:null;
+ if(natural&&prevId&&SET.autoMark)markDone(prevId,true);
+ if(!okChap(c)){const nx=b.chapters.findIndex((x,j)=>j>ch&&okChap(x));if(nx>=0){B.chap=nx;seekTo(b.chapters[nx].start+.05);enterChap(nx)}else bundleEnded();return}
+ if(natural&&!SET.autoNext){audio.pause();P.playing=false;seekTo(c.start+.05)}
+ B.chap=ch;enterChap(ch)}
+function enterChap(ch){const id=B.b.chapters[ch].id;const i=P.list.findIndex(x=>x.id===id);if(i<0)return;P.idx=i;const l=cur();if(!isNews(l))state.lastId=l.id;save();setMeta(l);segUI(SET.autoNext?"🎵 連續播放中（可鎖定螢幕）":"🎵 播放中",l.en);if(currentId!==l.id&&$("lesson").classList.contains("active"))openLesson(l.id,false);ui()}
+function bundleEnded(){const b=B.b;if(B.chap>=0&&SET.autoMark)markDone(b.chapters[B.chap].id,true);
+ const first=b.chapters.findIndex(okChap);if(SET.autoNext&&first>=0){toast("🎉 清單播完了，從頭開始");B.chap=first;B.chosen=b.chapters[first].id;seekTo(b.chapters[first].start+.05);enterChap(first);audio.play().catch(()=>{})}
+ else{audio.pause();P.playing=false;segUI("✓ 清單播放完畢","");ui()}}
+function playAt(i,keepRep){if(!P.list.length)return;stopAll(!!(B.b&&bundleFor(P.list)===B.b));
  const n=P.list.length;i=((i%n)+n)%n;
  if(SET.skipDone&&!keepRep&&P.list.some(x=>!state.completed.includes(x.id))){let g=0;while(state.completed.includes(P.list[i].id)&&g++<n)i=(i+1)%n}
  P.idx=i;if(!keepRep)P.rep=0;const l=cur();state.lastId=isNews(l)?state.lastId:l.id;save();
  if(currentId!==l.id&&$("lesson").classList.contains("active"))openLesson(l.id,false);
  setMeta(l);P.playing=true;const tok=P.token;
+ const b=bundleFor(P.list);
+ if(b){P.engine="audio";const ch=b.chapters.findIndex(c=>c.id===l.id);B.chap=ch;B.chosen=l.id;
+  if(B.b!==b||!audio.src.endsWith(b.url)){B.b=b;audio.src=b.url}
+  audio.playbackRate=+SET.speed;audio.defaultPlaybackRate=+SET.speed;seekTo(b.chapters[ch].start+.05);
+  segUI("🎵 連續播放中（可鎖定螢幕）",l.en);
+  audio.play().catch(err=>{if(tok!==P.token)return;console.warn(err);B.b=null;P.playing=false;ui();toast("請再按一次 ▶ 開始播放")});ui();return}
+ B.b=null;
  if(useAudio(l)){P.engine="audio";audio.src=D.audio[l.id];audio.playbackRate=+SET.speed;audio.defaultPlaybackRate=+SET.speed;
   segUI("🎵 音檔播放中（英→中→慢速→片語）",l.en);
   audio.play().catch(err=>{if(tok!==P.token)return;console.warn(err);if(SET.engine==="audio"){P.playing=false;ui();toast("音檔無法播放，請點 ▶ 再試")}else startTTS(l,tok)})}
@@ -290,8 +315,8 @@ function itemEnded(tok){if(tok!==undefined&&tok!==P.token)return;const l=cur();i
   if(last&&!SET.skipDone){toast("🎉 清單播完了，從頭開始");}
   if(P.engine==="audio"){playAt(P.idx+1)}else{toast("⏭ 自動切換到下一課");const t2=P.token;setTimeout(()=>{if(P.playing&&t2===P.token)playAt(P.idx+1)},1200)}}
  else{P.playing=false;segUI("✓ 本課播放完畢","");ui()}}
-audio.addEventListener("ended",()=>itemEnded());
-audio.addEventListener("timeupdate",()=>{if(audio.duration){$("dProg").style.width=(audio.currentTime/audio.duration*100)+"%";try{navigator.mediaSession.setPositionState({duration:audio.duration,position:Math.min(audio.currentTime,audio.duration),playbackRate:audio.playbackRate})}catch(e){}}});
+audio.addEventListener("ended",()=>{if(B.b&&P.engine==="audio")bundleEnded();else itemEnded()});
+audio.addEventListener("timeupdate",()=>{if(B.b&&P.engine==="audio")bundleTick();if(audio.duration){if(!B.b)$("dProg").style.width=(audio.currentTime/audio.duration*100)+"%";try{navigator.mediaSession.setPositionState({duration:audio.duration,position:Math.min(audio.currentTime,audio.duration),playbackRate:audio.playbackRate})}catch(e){}}});
 audio.addEventListener("pause",()=>{if(switching){switching=false;return}if(P.engine==="audio"&&!audio.ended&&P.playing){P.playing=false;ui()}});
 audio.addEventListener("play",()=>{if(P.engine==="audio"){P.playing=true;ui()}});
 audio.addEventListener("error",()=>{if(P.engine==="audio"&&P.playing&&SET.engine!=="audio"){const l=cur();if(l)startTTS(l,P.token)}});
@@ -300,17 +325,17 @@ function resume(){if(!P.list.length){const nx=nextTodo()||D.lessons[0];if(nx)sta
  P.playing=true;if(P.engine==="audio")audio.play().catch(()=>{});else{P.token++;ttsStep(P.token)}ui()}
 function toggle(){P.playing?pause():resume()}
 function next(){if(!P.list.length)return resume();playAt(P.idx+1)}
-function prev(){if(!P.list.length)return;if(P.engine==="audio"&&audio.currentTime>4){audio.currentTime=0;return}playAt(P.idx-1)}
+function prev(){if(!P.list.length)return;if(P.engine==="audio"){const st=B.b&&B.chap>=0?B.b.chapters[B.chap].start:0;if(audio.currentTime-st>4){seekTo(st+.05);return}}playAt(P.idx-1)}
 function hl(box){["boxEn","boxZh","boxPh"].forEach(b=>$(b).classList.toggle("speaking",b===box&&currentId===cur()?.id))}
 function segUI(label,text){$("dSeg").textContent=label;$("dText").textContent=text}
 function ui(){const l=cur();const ic=P.playing?"⏸":"▶";$("miniPlay").textContent=ic;$("dPlay").textContent=ic;
  $("mini").classList.toggle("hidden",!l||$("drive").classList.contains("active"));if(l){$("miniT").textContent=l.title;$("miniS").textContent=`${l.unit} · ${P.idx+1}/${P.list.length}${SET.autoNext?" · 自動下一課":""}`;
   $("dUnit").textContent=l.unit+(isNews(l)?" · "+(l.source||""):"");$("dTitle").textContent=l.title;$("dPos").textContent=`第 ${P.idx+1} / ${P.list.length} 課`;
-  $("dEngine").textContent=P.engine==="audio"?"🎵 音檔（支援 CarPlay/鎖定畫面）":"🗣 系統語音";
+  $("dEngine").textContent=P.engine==="audio"?(B.b?"🎵 連續音檔・可鎖定螢幕／CarPlay":"🎵 單課音檔（鎖定後播完此課會停）"):"🗣 系統語音（需保持螢幕開啟）";
   if(P.engine!=="audio")$("dProg").style.width=(P.segs.length?P.seg/P.segs.length*100:0)+"%"}
  const a=SET.autoNext?"自動下一課：開":"自動下一課：關";["autoBtn","autoBtn2"].forEach(b=>{$(b).textContent=a;$(b).classList.toggle("on",SET.autoNext)});
  try{navigator.mediaSession.playbackState=P.playing?"playing":"paused"}catch(e){}
- renderDriveLists();wake($("drive").classList.contains("active")&&P.playing)}
+ renderDriveLists();wake($("drive").classList.contains("active")&&P.playing&&P.engine==="tts")}
 function setMeta(l){if(!("mediaSession" in navigator))return;try{navigator.mediaSession.metadata=new MediaMetadata({title:l.title,artist:"English 800 · "+l.unit,album:isNews(l)?"每日美國新聞 "+(l.date||""):"職場商務英文",artwork:[{src:"icon-192.png",sizes:"192x192",type:"image/png"},{src:"icon-512.png",sizes:"512x512",type:"image/png"}]})}catch(e){}}
 if("mediaSession" in navigator){const h=(a,f)=>{try{navigator.mediaSession.setActionHandler(a,f)}catch(e){}};
  h("play",()=>resume());h("pause",()=>pause());h("nexttrack",()=>next());h("previoustrack",()=>prev());
@@ -318,7 +343,7 @@ if("mediaSession" in navigator){const h=(a,f)=>{try{navigator.mediaSession.setAc
  h("seekforward",d=>{if(P.engine==="audio")audio.currentTime=Math.min(audio.duration||0,audio.currentTime+(d.seekOffset||10))});
  h("seekto",d=>{if(P.engine==="audio"&&d.seekTime!=null)audio.currentTime=d.seekTime})}
 let wakeLock=null;async function wake(on){try{if(on&&!wakeLock&&navigator.wakeLock){wakeLock=await navigator.wakeLock.request("screen");wakeLock.addEventListener("release",()=>wakeLock=null)}else if(!on&&wakeLock){await wakeLock.release();wakeLock=null}}catch(e){}}
-document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")wake($("drive").classList.contains("active")&&P.playing)});
+document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")wake($("drive").classList.contains("active")&&P.playing&&P.engine==="tts")});
 function say(text,lang,rate){stopAll();if(P.playing){P.playing=false;ui()}utter(text,lang,rate*+SET.speed)}
 function renderDrive(){renderDriveLists();ui()}
 function renderDriveLists(){$("driveLists").innerHTML=lists().map(([k,n,a])=>`<button class="chip ${P.name===k?"active":""}" data-list="${k}">${n} (${a.length})</button>`).join("")}

@@ -334,7 +334,7 @@ def news_id(date, title):
     return f"N{date.replace('-', '')}-{hashlib.sha1(title.strip().lower().encode()).hexdigest()[:6]}"
 
 
-PH_VERSION = 3
+PH_VERSION = 4
 _GLOSS = {}
 
 

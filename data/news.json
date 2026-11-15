@@ -1,6 +1,106 @@
 {
- "updated": "2026-11-15T05:12:52+00:00",
+ "updated": "2026-11-15T05:18:15+00:00",
  "items": [
+  {
+   "id": "N20261115-c15fa8",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "5 Big Questions as C.E.O.s Meet in China",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/14/business/dealbook/questions-china-us-apec-summit.html",
+   "en": "5 Big Questions as C.E.O.s Meet in China. President Trump and U.S. tech executives are expected to gather for a major summit in Shenzhen next week. On the agenda: a stalled trade war, expanding export controls, and suspected spy games.",
+   "zh": "執行長齊聚中國，5 大問題備受關注。川普總統與美國科技業高層預計將於下週在深圳舉行一場重要峰會。議程包括：陷入僵局的貿易戰、擴大出口管制，以及疑似間諜活動。",
+   "zh_v": 2,
+   "ph_v": 3,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "export controls",
+     "出口管制"
+    ],
+    [
+     "trade war",
+     "貿易戰"
+    ],
+    [
+     "executives",
+     "主管"
+    ],
+    [
+     "expanding",
+     "擴充"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-f6e2b3",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "He Was China’s Man in Panama. Then He Became a Wanted Man.",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/14/business/zhang-liang-china-panama.html",
+   "en": "He Was China’s Man in Panama. Then He Became a Wanted Man. A Chinese businessman arrived in Panama with money and power. Then he sold a port when his luck turned. Now China wants him sent back.",
+   "zh": "他曾是中國在巴拿馬的代表。後來他成了通緝犯。一位中國商人帶著金錢和權勢來到巴拿馬。後來，當他的運氣變差時，他賣掉了一個港口。現在，中國希望將他遣返。",
+   "zh_v": 2,
+   "ph_v": 3,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "businessman",
+     "商人"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-6a66ce",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
+   "en": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker. Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
+   "zh": "盧特尼克面臨有關輝達間諜醜聞的質疑。他兒子的公司與這家晶片製造商關係密切。Jensen Huang 辭去輝達 (Nvidia) 執行長一職，讓外界重新審視商務部長 Howard Lutnick 及其家人與該晶片製造商的財務關係。",
+   "zh_v": 2,
+   "ph_v": 3,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "chipmaker",
+     "晶片製造商"
+    ],
+    [
+     "resignation",
+     "屈從"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-38c89c",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+   "en": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion. Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
+   "zh": "Nvidia 股價經歷了自 2012 年以來最長的連續週線跌勢，市值蒸發 1.7 兆美元。黃仁勳的辭職加劇了輝達的市場困境，該公司的股價自 10 月初以來已持續走跌。",
+   "zh_v": 2,
+   "ph_v": 3,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "market value",
+     "市值"
+    ],
+    [
+     "resignation",
+     "屈從"
+    ]
+   ]
+  },
   {
    "id": "N20261115-376e51",
    "unit": "每日美國新聞",
@@ -12,7 +112,7 @@
    "en": "The trillion-dollar mistake corporate America is making about retirement. The market is dramatically underpricing the economic impact of Americans age 50 and older.",
    "zh": "美國企業在退休議題上犯下的數兆美元錯誤。市場嚴重低估了 50 歲及以上美國人的經濟影響力。",
    "zh_v": 2,
-   "ph_v": 2,
+   "ph_v": 3,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
    "phrases": [
     [
@@ -44,7 +144,7 @@
    "en": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’. Here’s what might be coming for Social Security, Medicare and long-term care.",
    "zh": "退休人士應是期中選舉的主要受益者：「民主黨將掌握所有與高齡化和公共政策相關的權力。」以下是社會安全福利、聯邦醫療保險與長期照護的可能發展。",
    "zh_v": 2,
-   "ph_v": 2,
+   "ph_v": 3,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
    "phrases": [
     [
@@ -68,7 +168,7 @@
    "en": "This Man Stole $9 Million in Gold Bars on the Upper West Side, Police Say. The victim, who believed his financial assets had been compromised, was the target of an online fraud scheme and believed he had to buy the precious metal, the authorities said.",
    "zh": "警方表示，這名男子在曼哈頓上西城竊取了價值 900 萬美元的金條。當局表示，受害者認為自己的財務資產遭到侵害，成為網路詐騙計畫的目標，並相信自己必須購買貴金屬。",
    "zh_v": 2,
-   "ph_v": 2,
+   "ph_v": 3,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
    "phrases": [
     [
@@ -96,7 +196,7 @@
    "en": "Microsoft’s Global Outage and Fixes: What We Know. Disruptions to the company’s email, messaging and other products lasted about 36 hours, hampering companies and services around the world.",
    "zh": "Microsoft 的全球服務中斷與修復：我們所知道的資訊。該公司電子郵件、訊息和其他產品的中斷情況持續了大約 36 小時，影響了全球的公司和服務。",
    "zh_v": 2,
-   "ph_v": 2,
+   "ph_v": 3,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
    "phrases": [
     [
@@ -105,7 +205,7 @@
     ],
     [
      "messaging",
-     "傳訊, 訊息中心"
+     "傳訊"
     ],
     [
      "hampering",
@@ -124,12 +224,12 @@
    "en": "SpaceX launches Starship in key test flight of massive rocket. The test flight is SpaceX's first attempt to ​catch both the Super Heavy booster and upper stage spacecraft of the rocket at its launch site in Starbase, Texas.",
    "zh": "SpaceX 進行大型火箭的關鍵測試飛行，發射星艦。這次試飛是 SpaceX 首次嘗試在德州星際基地 (Starbase) 的發射場捕捉火箭的超重型助推器 (Super Heavy booster) 和上級太空船 (upper stage spacecraft)。",
    "zh_v": 2,
-   "ph_v": 2,
+   "ph_v": 3,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
    "phrases": [
     [
      "spacecraft",
-     "航天器"
+     "太空船"
     ]
    ]
   },
@@ -144,14 +244,9 @@
    "en": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning. The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.",
    "zh": "Nvidia 與黃仁勳的合作已告一段落。華盛頓的後續效應才正要開始。共和黨主導的國會希望在民主黨於 1 月掌權之前，讓黃仁勳到華盛頓一趟。",
    "zh_v": 2,
-   "ph_v": 2,
+   "ph_v": 3,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "beginning",
-     "開始"
-    ]
-   ]
+   "phrases": []
   },
   {
    "id": "N20261115-d003ed",
@@ -179,7 +274,7 @@
      "抗議"
     ]
    ],
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-31e4e0",
@@ -203,7 +298,7 @@
      "負擔得起"
     ]
    ],
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-9f825f",
@@ -231,7 +326,7 @@
      "刪除"
     ]
    ],
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-f17af9",
@@ -263,7 +358,7 @@
      "推銷；提案"
     ]
    ],
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-ecebc4",
@@ -287,7 +382,7 @@
      "道歉"
     ]
    ],
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-5a25fd",
@@ -311,7 +406,7 @@
      "治理"
     ]
    ],
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-7d7120",
@@ -351,7 +446,7 @@
      "長期的"
     ]
    ],
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-5a7614",
@@ -369,13 +464,9 @@
     [
      "entry-level",
      "入門級"
-    ],
-    [
-     "president",
-     "總統"
     ]
    ],
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-d7f352",
@@ -399,7 +490,7 @@
      "頭頂行李櫃"
     ]
    ],
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-c6d219",
@@ -419,7 +510,7 @@
      "分割"
     ]
    ],
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-dcb39f",
@@ -447,7 +538,7 @@
      "重塑"
     ]
    ],
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-01b228",
@@ -479,7 +570,7 @@
      "決策者"
     ]
    ],
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-65afdf",
@@ -511,7 +602,7 @@
      "離開"
     ]
    ],
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-861720",
@@ -539,7 +630,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-d764b1",
@@ -571,7 +662,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-f856bb",
@@ -599,7 +690,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-4ddf5c",
@@ -619,7 +710,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-3b88a2",
@@ -647,7 +738,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-43e172",
@@ -679,7 +770,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-12d61f",
@@ -711,7 +802,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-0970cd",
@@ -747,7 +838,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-d9fffd",
@@ -771,11 +862,11 @@
     ],
     [
      "spacecraft",
-     "航天器"
+     "太空船"
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-823417",
@@ -803,7 +894,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-923f2e",
@@ -843,7 +934,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-d10856",
@@ -858,7 +949,7 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
    "phrases": [],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-9efb1b",
@@ -890,7 +981,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-e2145c",
@@ -930,7 +1021,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-6f3acb",
@@ -958,7 +1049,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   },
   {
    "id": "N20261115-ef0dc1",
@@ -986,7 +1077,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 2
+   "ph_v": 3
   }
  ]
 }

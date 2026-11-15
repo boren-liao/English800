@@ -1,8 +1,133 @@
 {
- "updated": "2026-11-15T04:45:47+00:00",
+ "updated": "2026-11-15T04:59:09+00:00",
  "items": [
   {
-   "id": "N20261115-01",
+   "id": "N20261115-d003ed",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "A ‘Generational Clash’ Is Fueling Europe’s Protests",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
+   "en": "A ‘Generational Clash’ Is Fueling Europe’s Protests. As retirees live longer, governments need to spend more on pensions. That makes it harder to fund other services, spurring protests like those in France.",
+   "zh": "「世代衝突」正在加劇歐洲的抗議活動。隨著退休人員壽命的延長，政府需要增加退休金支出。這使得為其他服務提供資金變得更加困難，從而引發了像法國那樣的抗議活動。",
+   "zh_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": []
+  },
+  {
+   "id": "N20261115-31e4e0",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
+   "en": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?. “We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
+   "zh": "「他稱我的計劃為幻想」：我丈夫說我們負擔不起每年 20 萬美元的退休金。他佔便宜了嗎？“我們的退休帳戶裡存有 200 萬美元，還有一套價值 130 萬美元的房子。”",
+   "zh_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "million",
+     "百萬"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-9f825f",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
+   "en": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’. The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
+   "zh": "以下是伯尼·桑德斯希望「幾代人」保持社會保障償付能力的方式。這位佛蒙特州參議員的目標是取消稅基上限，讓富人繳納更多稅款。",
+   "zh_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "taxes",
+     "稅"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-f17af9",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Wall Street Makes Its Pitch for Anthropic’s I.P.O.",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/13/business/anthropic-ipo-roadshow.html",
+   "en": "Wall Street Makes Its Pitch for Anthropic’s I.P.O. As market uncertainty deepens, investment banks are on a roadshow to sell investors on what could be the largest public offering ever.",
+   "zh": "華爾街為 Anthropic 的 IPO 做準備隨著市場不確定性的加深，投資銀行正在進行路演，向投資者推銷可能是有史以來最大規模的公開發行。",
+   "zh_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "wall street",
+     "華爾街"
+    ],
+    [
+     "uncertainty",
+     "不確定性"
+    ],
+    [
+     "investment",
+     "投資"
+    ],
+    [
+     "investors",
+     "投資人"
+    ],
+    [
+     "market",
+     "市場"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-ecebc4",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
+   "en": "Microsoft apologizes for massive outage that took down Outlook and other 365 services. A Microsoft outage on Thursday and Friday affected users of services like Outlook, Teams and 365.",
+   "zh": "微軟對導致 Outlook 和其他 365 服務癱瘓的大規模中斷表示歉意。Microsoft 週四和週五的服務中斷影響了 Outlook、Teams 和 365 等服務的使用者。",
+   "zh_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "outlook",
+     "展望"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-5a25fd",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
+   "en": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one. Jensen Huang’s exit tests Nvidia’s succession planning and governance, and offers lessons for companies that elevate their CEOs to rockstar status.",
+   "zh": "分析：公司喜歡「搖滾明星」執行長。直到他們依賴一個人。黃仁勳的退出考驗了輝達的繼任計畫和治理，並為那些將執行長提升到明星地位的公司提供了教訓。",
+   "zh_v": 2,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "ceo",
+     "執行長"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-7d7120",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "Ground Stop Highlights Chronic Vulnerabilities in Air Traffic System",
@@ -21,7 +146,7 @@
    ]
   },
   {
-   "id": "N20261115-02",
+   "id": "N20261115-5a7614",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "She Was a CBS News Producer When Few Women Were",
@@ -35,7 +160,7 @@
    "phrases": []
   },
   {
-   "id": "N20261115-03",
+   "id": "N20261115-d7f352",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
@@ -54,7 +179,7 @@
    ]
   },
   {
-   "id": "N20261115-04",
+   "id": "N20261115-c6d219",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
@@ -73,7 +198,7 @@
    ]
   },
   {
-   "id": "N20261115-05",
+   "id": "N20261115-dcb39f",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off",
@@ -87,7 +212,7 @@
    "phrases": []
   },
   {
-   "id": "N20261115-06",
+   "id": "N20261115-01b228",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "Meet the seven co-founders of Anthropic",
@@ -101,7 +226,7 @@
    "phrases": []
   },
   {
-   "id": "N20261115-07",
+   "id": "N20261115-65afdf",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "Is there an opening for Nvidia's competitors, now that Jensen Huang is out?",
@@ -124,7 +249,7 @@
    ]
   },
   {
-   "id": "N20261115-01",
+   "id": "N20261115-861720",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "Geopolitics Looms Over Eurovision, but Not Its Asian Edition",
@@ -138,7 +263,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-02",
+   "id": "N20261115-d764b1",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "How Some Flights Were Exempt From the Ground Stop",
@@ -152,7 +277,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-03",
+   "id": "N20261115-f856bb",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
@@ -171,7 +296,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-04",
+   "id": "N20261115-4ddf5c",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
@@ -185,7 +310,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-05",
+   "id": "N20261115-3b88a2",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
@@ -208,7 +333,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-06",
+   "id": "N20261115-43e172",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
@@ -239,7 +364,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-07",
+   "id": "N20261115-12d61f",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "These economists say in-person work boosts creativity, but office mandates fall short",
@@ -262,7 +387,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-08",
+   "id": "N20261115-0970cd",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
@@ -293,7 +418,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-01",
+   "id": "N20261115-d9fffd",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "SpaceX Makes History With Successful Rocket Catch in Texas",
@@ -307,7 +432,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-02",
+   "id": "N20261115-823417",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "SpaceX successfully catches Starship rocket in huge milestone for the space industry",
@@ -321,7 +446,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-03",
+   "id": "N20261115-923f2e",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "Family Dollar to Pay $63 Million Settlement for Overcharging Customers",
@@ -348,7 +473,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-04",
+   "id": "N20261115-d10856",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "SpaceX catches upper stage of Starship rocket in historic first",
@@ -362,7 +487,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-05",
+   "id": "N20261115-9efb1b",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "'Root cause’ of nationwide ground stop is unknown, FAA says",
@@ -376,7 +501,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-06",
+   "id": "N20261115-e2145c",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "Commerce Department under pressure for delaying export controls on Nvidia chips",
@@ -395,7 +520,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-07",
+   "id": "N20261115-6f3acb",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "I’m 63 and spending $95,000 on a roof deck for my $500,000 home. Is that a good investment?",
@@ -430,7 +555,7 @@
    "zh_v": 2
   },
   {
-   "id": "N20261115-08",
+   "id": "N20261115-ef0dc1",
    "unit": "每日美國新聞",
    "date": "2026-11-15",
    "title": "Retailers are turning to entertainment to win shoppers’ attention",

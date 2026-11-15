@@ -1,6 +1,93 @@
 {
- "updated": "2026-11-15T05:18:15+00:00",
+ "updated": "2026-11-15T05:21:41+00:00",
  "items": [
+  {
+   "id": "N20261115-25896d",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Trump Administration Delays Enforcement of Medicaid Work Requirement",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/13/us/politics/medicaid-work-requirement-delay.html",
+   "en": "Trump Administration Delays Enforcement of Medicaid Work Requirement. The federal government had planned to require poor adults to prove they were working or lose insurance coverage starting Jan. 1. Now, it will let states wait until July.",
+   "zh": "",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "administration",
+     "政府（行政團隊）"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-18fd06",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Despite Nvidia’s Drop, Stocks Push Ahead",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/13/business/nvidia-turmoil-stock-market.html",
+   "en": "Despite Nvidia’s Drop, Stocks Push Ahead. A drop in Nvidia shares after the ouster of the company’s chief executive has not spread to the rest of the market, as stocks have held their ground broadly.",
+   "zh": "",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "chief executive",
+     "執行長"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-f8e749",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Nvidia closes below $4T market cap for first time since July 2025 in Huang fallout",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+   "en": "Nvidia closes below $4T market cap for first time since July 2025 in Huang fallout. Jensen Huang resigned as CEO of Nvidia on Thursday after coming under scrutiny for two extramarital affairs.",
+   "zh": "",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "under scrutiny",
+     "受到審視"
+    ],
+    [
+     "market cap",
+     "市值"
+    ],
+    [
+     "fallout",
+     "後果；餘波"
+    ],
+    [
+     "resign",
+     "辭職"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-bc4b80",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
+   "en": "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC. Speculation has swirled around who Nvidia's board will select to permanently succeed CEO Jensen Huang.",
+   "zh": "",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": []
+  },
   {
    "id": "N20261115-c15fa8",
    "unit": "每日美國新聞",
@@ -12,7 +99,7 @@
    "en": "5 Big Questions as C.E.O.s Meet in China. President Trump and U.S. tech executives are expected to gather for a major summit in Shenzhen next week. On the agenda: a stalled trade war, expanding export controls, and suspected spy games.",
    "zh": "執行長齊聚中國，5 大問題備受關注。川普總統與美國科技業高層預計將於下週在深圳舉行一場重要峰會。議程包括：陷入僵局的貿易戰、擴大出口管制，以及疑似間諜活動。",
    "zh_v": 2,
-   "ph_v": 3,
+   "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
    "phrases": [
     [
@@ -24,12 +111,8 @@
      "貿易戰"
     ],
     [
-     "executives",
-     "主管"
-    ],
-    [
-     "expanding",
-     "擴充"
+     "expand",
+     "擴張"
     ]
    ]
   },
@@ -44,9 +127,13 @@
    "en": "He Was China’s Man in Panama. Then He Became a Wanted Man. A Chinese businessman arrived in Panama with money and power. Then he sold a port when his luck turned. Now China wants him sent back.",
    "zh": "他曾是中國在巴拿馬的代表。後來他成了通緝犯。一位中國商人帶著金錢和權勢來到巴拿馬。後來，當他的運氣變差時，他賣掉了一個港口。現在，中國希望將他遣返。",
    "zh_v": 2,
-   "ph_v": 3,
+   "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
    "phrases": [
+    [
+     "wanted man",
+     "通緝犯"
+    ],
     [
      "businessman",
      "商人"
@@ -64,16 +151,24 @@
    "en": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker. Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
    "zh": "盧特尼克面臨有關輝達間諜醜聞的質疑。他兒子的公司與這家晶片製造商關係密切。Jensen Huang 辭去輝達 (Nvidia) 執行長一職，讓外界重新審視商務部長 Howard Lutnick 及其家人與該晶片製造商的財務關係。",
    "zh_v": 2,
-   "ph_v": 3,
+   "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
    "phrases": [
     [
-     "chipmaker",
-     "晶片製造商"
+     "face questions",
+     "面臨質疑"
+    ],
+    [
+     "spy scandal",
+     "間諜醜聞"
     ],
     [
      "resignation",
-     "屈從"
+     "辭職"
+    ],
+    [
+     "chipmaker",
+     "晶片製造商"
     ]
    ]
   },
@@ -88,16 +183,20 @@
    "en": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion. Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
    "zh": "Nvidia 股價經歷了自 2012 年以來最長的連續週線跌勢，市值蒸發 1.7 兆美元。黃仁勳的辭職加劇了輝達的市場困境，該公司的股價自 10 月初以來已持續走跌。",
    "zh_v": 2,
-   "ph_v": 3,
+   "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
    "phrases": [
+    [
+     "losing streak",
+     "連跌"
+    ],
     [
      "market value",
      "市值"
     ],
     [
      "resignation",
-     "屈從"
+     "辭職"
     ]
    ]
   },
@@ -112,23 +211,19 @@
    "en": "The trillion-dollar mistake corporate America is making about retirement. The market is dramatically underpricing the economic impact of Americans age 50 and older.",
    "zh": "美國企業在退休議題上犯下的數兆美元錯誤。市場嚴重低估了 50 歲及以上美國人的經濟影響力。",
    "zh_v": 2,
-   "ph_v": 3,
+   "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
    "phrases": [
+    [
+     "corporate america",
+     "美國企業界"
+    ],
     [
      "retirement",
      "退休"
     ],
     [
-     "trillion-dollar",
-     "兆美元"
-    ],
-    [
-     "dramatically",
-     "大幅"
-    ],
-    [
-     "underpricing",
+     "underprice",
      "定價過低"
     ]
    ]
@@ -144,16 +239,16 @@
    "en": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’. Here’s what might be coming for Social Security, Medicare and long-term care.",
    "zh": "退休人士應是期中選舉的主要受益者：「民主黨將掌握所有與高齡化和公共政策相關的權力。」以下是社會安全福利、聯邦醫療保險與長期照護的可能發展。",
    "zh_v": 2,
-   "ph_v": 3,
+   "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
    "phrases": [
     [
-     "beneficiaries",
+     "beneficiary",
      "受益者"
     ],
     [
-     "long-term",
-     "長期"
+     "midterms",
+     "期中選舉"
     ]
    ]
   },
@@ -168,20 +263,20 @@
    "en": "This Man Stole $9 Million in Gold Bars on the Upper West Side, Police Say. The victim, who believed his financial assets had been compromised, was the target of an online fraud scheme and believed he had to buy the precious metal, the authorities said.",
    "zh": "警方表示，這名男子在曼哈頓上西城竊取了價值 900 萬美元的金條。當局表示，受害者認為自己的財務資產遭到侵害，成為網路詐騙計畫的目標，並相信自己必須購買貴金屬。",
    "zh_v": 2,
-   "ph_v": 3,
+   "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
    "phrases": [
     [
-     "fraud",
-     "詐欺"
-    ],
-    [
-     "compromised",
-     "遭入侵"
-    ],
-    [
      "authorities",
      "當局"
+    ],
+    [
+     "compromise",
+     "危害；妥協"
+    ],
+    [
+     "fraud",
+     "詐欺"
     ]
    ]
   },
@@ -196,20 +291,12 @@
    "en": "Microsoft’s Global Outage and Fixes: What We Know. Disruptions to the company’s email, messaging and other products lasted about 36 hours, hampering companies and services around the world.",
    "zh": "Microsoft 的全球服務中斷與修復：我們所知道的資訊。該公司電子郵件、訊息和其他產品的中斷情況持續了大約 36 小時，影響了全球的公司和服務。",
    "zh_v": 2,
-   "ph_v": 3,
+   "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
    "phrases": [
     [
      "outage",
      "服務中斷"
-    ],
-    [
-     "messaging",
-     "傳訊"
-    ],
-    [
-     "hampering",
-     "阻礙"
     ]
    ]
   },
@@ -224,12 +311,20 @@
    "en": "SpaceX launches Starship in key test flight of massive rocket. The test flight is SpaceX's first attempt to ​catch both the Super Heavy booster and upper stage spacecraft of the rocket at its launch site in Starbase, Texas.",
    "zh": "SpaceX 進行大型火箭的關鍵測試飛行，發射星艦。這次試飛是 SpaceX 首次嘗試在德州星際基地 (Starbase) 的發射場捕捉火箭的超重型助推器 (Super Heavy booster) 和上級太空船 (upper stage spacecraft)。",
    "zh_v": 2,
-   "ph_v": 3,
+   "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
    "phrases": [
     [
+     "test flight",
+     "試飛"
+    ],
+    [
      "spacecraft",
      "太空船"
+    ],
+    [
+     "booster",
+     "推進器"
     ]
    ]
   },
@@ -244,9 +339,14 @@
    "en": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning. The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.",
    "zh": "Nvidia 與黃仁勳的合作已告一段落。華盛頓的後續效應才正要開始。共和黨主導的國會希望在民主黨於 1 月掌權之前，讓黃仁勳到華盛頓一趟。",
    "zh_v": 2,
-   "ph_v": 3,
+   "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": []
+   "phrases": [
+    [
+     "fallout",
+     "後果；餘波"
+    ]
+   ]
   },
   {
    "id": "N20261115-d003ed",
@@ -274,7 +374,7 @@
      "抗議"
     ]
    ],
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-31e4e0",
@@ -298,7 +398,7 @@
      "負擔得起"
     ]
    ],
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-9f825f",
@@ -316,17 +416,9 @@
     [
      "solvent",
      "有償付能力的"
-    ],
-    [
-     "generations",
-     "世代"
-    ],
-    [
-     "eliminate",
-     "刪除"
     ]
    ],
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-f17af9",
@@ -358,7 +450,7 @@
      "推銷；提案"
     ]
    ],
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-ecebc4",
@@ -376,13 +468,9 @@
     [
      "outage",
      "服務中斷"
-    ],
-    [
-     "apologizes",
-     "道歉"
     ]
    ],
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-5a25fd",
@@ -400,13 +488,9 @@
     [
      "succession",
      "接班"
-    ],
-    [
-     "governance",
-     "治理"
     ]
    ],
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-7d7120",
@@ -446,7 +530,7 @@
      "長期的"
     ]
    ],
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-5a7614",
@@ -460,13 +544,8 @@
    "zh": "當很少有女性擔任哥倫比亞廣播公司新聞製片人時，她是哥倫比亞廣播公司新聞製片人。琳達·梅森 (Linda Mason) 於 1966 年開始在哥倫比亞廣播公司 (CBS) 電台擔任初級職位，後來在新聞部門晉升為高級副總裁。她84歲了。",
    "zh_v": 2,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "entry-level",
-     "入門級"
-    ]
-   ],
-   "ph_v": 3
+   "phrases": [],
+   "ph_v": 4
   },
   {
    "id": "N20261115-d7f352",
@@ -490,7 +569,7 @@
      "頭頂行李櫃"
     ]
    ],
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-c6d219",
@@ -504,13 +583,8 @@
    "zh": "寡婦是否應該將已故伴侶的家留給她的繼子——或者切斷與他們的聯繫？“與現在出售房屋並分享收益相比，這將是一個不那麼激烈的舉措。”",
    "zh_v": 2,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "splitting",
-     "分割"
-    ]
-   ],
-   "ph_v": 3
+   "phrases": [],
+   "ph_v": 4
   },
   {
    "id": "N20261115-dcb39f",
@@ -538,7 +612,7 @@
      "重塑"
     ]
    ],
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-01b228",
@@ -552,25 +626,8 @@
    "zh": "認識 Anthropic 的七位共同創辦人。四名研究人員、一名前記者、一名公共政策制定者和一名工程師於 2021 年創立了 Anthropic。他們現在準備成為億萬富翁。",
    "zh_v": 2,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "multi-billionaires",
-     "億萬富豪"
-    ],
-    [
-     "co-founders",
-     "共同創辦人"
-    ],
-    [
-     "researchers",
-     "研究人員"
-    ],
-    [
-     "policymaker",
-     "決策者"
-    ]
-   ],
-   "ph_v": 3
+   "phrases": [],
+   "ph_v": 4
   },
   {
    "id": "N20261115-65afdf",
@@ -592,17 +649,9 @@
     [
      "competitor",
      "競爭對手"
-    ],
-    [
-     "competitors",
-     "競爭對手"
-    ],
-    [
-     "departure",
-     "離開"
     ]
    ],
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-861720",
@@ -619,18 +668,10 @@
     [
      "geopolitics",
      "地緣政治"
-    ],
-    [
-     "organizers",
-     "主辦單位"
-    ],
-    [
-     "difficult",
-     "困难"
     ]
    ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-d764b1",
@@ -651,18 +692,10 @@
     [
      "exempt from",
      "豁免於"
-    ],
-    [
-     "international",
-     "國際的"
-    ],
-    [
-     "nationwide",
-     "全國各地"
     ]
    ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-f856bb",
@@ -690,7 +723,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-4ddf5c",
@@ -703,14 +736,9 @@
    "en": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?. “I know older people can easily feel patronized, and I don’t want that to happen.”",
    "zh": "「這讓我感到酸澀」：我年邁的母親給了我們表弟 800 美元作為汽車修理費。我該擔心嗎？“我知道老年人很容易感到被欺負，我不希望這種情況發生。”",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "patronized",
-     "受到照顧"
-    ]
-   ],
+   "phrases": [],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-3b88a2",
@@ -729,6 +757,10 @@
      "領導危機"
     ],
     [
+     "weekly gain",
+     "週漲幅"
+    ],
+    [
      "portfolio",
      "投資組合"
     ],
@@ -738,7 +770,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-43e172",
@@ -753,24 +785,16 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
    "phrases": [
     [
+     "resignation",
+     "辭職"
+    ],
+    [
      "investors",
      "投資人"
-    ],
-    [
-     "resignation",
-     "屈從"
-    ],
-    [
-     "deliberate",
-     "故意的"
-    ],
-    [
-     "leadership",
-     "領導統御"
     ]
    ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-12d61f",
@@ -802,7 +826,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-0970cd",
@@ -838,7 +862,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-d9fffd",
@@ -853,20 +877,20 @@
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
    "phrases": [
     [
+     "spacecraft",
+     "太空船"
+    ],
+    [
      "milestone",
      "里程碑"
     ],
     [
      "reusable",
      "可重複使用的"
-    ],
-    [
-     "spacecraft",
-     "太空船"
     ]
    ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-823417",
@@ -883,18 +907,10 @@
     [
      "milestone",
      "里程碑"
-    ],
-    [
-     "successfully",
-     "成功"
-    ],
-    [
-     "reusability",
-     "可重複使用性"
     ]
    ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-923f2e",
@@ -934,7 +950,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-d10856",
@@ -947,9 +963,14 @@
    "en": "SpaceX catches upper stage of Starship rocket in historic first. Starship Test Flight 15 marked the first time Elon Musk's company tried to catch both the booster and upper stage of the rocket.",
    "zh": "SpaceX 歷史性地首次捕獲了 Starship 火箭的上節。星艦第 15 次試飛標誌著埃隆馬斯克的公司首次嘗試同時捕獲火箭的助推器和上部級。",
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [],
+   "phrases": [
+    [
+     "booster",
+     "推進器"
+    ]
+   ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-9efb1b",
@@ -966,22 +987,10 @@
     [
      "ground stop",
      "全面停飛"
-    ],
-    [
-     "established",
-     "著名"
-    ],
-    [
-     "nationwide",
-     "全國各地"
-    ],
-    [
-     "networking",
-     "網路"
     ]
    ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-e2145c",
@@ -1021,7 +1030,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-6f3acb",
@@ -1049,7 +1058,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   },
   {
    "id": "N20261115-ef0dc1",
@@ -1077,7 +1086,7 @@
     ]
    ],
    "zh_v": 2,
-   "ph_v": 3
+   "ph_v": 4
   }
  ]
 }

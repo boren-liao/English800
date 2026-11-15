@@ -1,6 +1,118 @@
 {
- "updated": "2026-11-15T05:21:41+00:00",
+ "updated": "2026-11-15T05:45:24+00:00",
  "items": [
+  {
+   "id": "N20261115-f1a289",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Deed Theft Is Rising, Along With Property Values",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/13/your-money/deed-title-theft-houses.html",
+   "en": "Deed Theft Is Rising, Along With Property Values. The victims are often older people or immigrants, with thieves going after vacant land or unoccupied homes. But there are ways to protect yourself.",
+   "zh": "隨著房地產價值的攀升，房契竊盜案也日益增加。受害者通常是年長者或移民，小偷會盯上空地或無人居住的房屋。但有一些方法可以保護自己。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "immigrants",
+     "移民"
+    ],
+    [
+     "unoccupied",
+     "未使用"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-92e136",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "Inside Microsoft’s Rush to Get Back Online After a Global Outage",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/13/business/microsoft-outage.html",
+   "en": "Inside Microsoft’s Rush to Get Back Online After a Global Outage. A prolonged outage left many without email and other services, the most recent reminder that the world’s technological underpinnings rely on just a few companies.",
+   "zh": "深入瞭解 Microsoft 在全球服務中斷後，如何趕緊恢復線上服務。長時間的服務中斷導致許多人無法使用電子郵件和其他服務，這再次提醒我們，全球的技術基礎僅仰賴少數幾家公司。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "outage",
+     "服務中斷"
+    ],
+    [
+     "technological",
+     "技术"
+    ],
+    [
+     "underpinnings",
+     "基礎"
+    ],
+    [
+     "prolonged",
+     "延長"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-e763fc",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html",
+   "en": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade. The top U.S. commodities regulator in October announced proposed crypto rules to assert its jurisdiction over the asset class.",
+   "zh": "美國商品期貨交易委員會 (CFTC) 主席 Selig 向 CNBC 表示，隨著立法希望逐漸消退，加密貨幣產業正逐漸接受該機構的監管規定。美國最高商品監管機構於 10 月宣布了加密貨幣監管提案，以確立其對該資產類別的管轄權。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "legislation",
+     "立法"
+    ],
+    [
+     "regulator",
+     "監管機關"
+    ],
+    [
+     "crypto",
+     "加密貨幣"
+    ]
+   ]
+  },
+  {
+   "id": "N20261115-fb7a36",
+   "unit": "每日美國新聞",
+   "date": "2026-11-15",
+   "title": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
+   "en": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users. OpenAI's ChatGPT Wallet partners with American Express, Mastercard and Visa, and those cardholders keep their existing credit card rewards.",
+   "zh": "OpenAI 推出 ChatGPT Wallet，讓其「dots」AI 代理人能夠為使用者進行購買。OpenAI 的 ChatGPT Wallet 與美國運通、萬事達卡和 Visa 合作，這些卡片的持卡人仍可享有現有的信用卡獎勵。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "credit card",
+     "信用卡"
+    ],
+    [
+     "cardholders",
+     "持卡人"
+    ],
+    [
+     "purchases",
+     "購買"
+    ]
+   ]
+  },
   {
    "id": "N20261115-25896d",
    "unit": "每日美國新聞",
@@ -10,7 +122,7 @@
    "source": "NYT Business",
    "link": "https://www.nytimes.com/2026/11/13/us/politics/medicaid-work-requirement-delay.html",
    "en": "Trump Administration Delays Enforcement of Medicaid Work Requirement. The federal government had planned to require poor adults to prove they were working or lose insurance coverage starting Jan. 1. Now, it will let states wait until July.",
-   "zh": "",
+   "zh": "川普政府延遲執行聯邦醫療補助 (Medicaid) 的工作要求。聯邦政府原先計劃要求貧困成年人自 1 月 1 日起證明自己有工作，否則將失去保險保障。現在，聯邦政府將允許各州延至 7 月再執行。",
    "zh_v": 2,
    "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
@@ -30,7 +142,7 @@
    "source": "NYT Business",
    "link": "https://www.nytimes.com/2026/11/13/business/nvidia-turmoil-stock-market.html",
    "en": "Despite Nvidia’s Drop, Stocks Push Ahead. A drop in Nvidia shares after the ouster of the company’s chief executive has not spread to the rest of the market, as stocks have held their ground broadly.",
-   "zh": "",
+   "zh": "儘管輝達 (Nvidia) 股價下跌，但整體股市仍持續上漲。在輝達 (Nvidia) 執行長被撤換後，該公司股價下跌，但這股跌勢並未蔓延至市場其他領域，因為整體而言，各類股仍穩若泰山。",
    "zh_v": 2,
    "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
@@ -50,7 +162,7 @@
    "source": "CNBC Tech",
    "link": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
    "en": "Nvidia closes below $4T market cap for first time since July 2025 in Huang fallout. Jensen Huang resigned as CEO of Nvidia on Thursday after coming under scrutiny for two extramarital affairs.",
-   "zh": "",
+   "zh": "受黃仁勳影響，Nvidia 市值自 2025 年 7 月以來首次收盤跌破 4 兆美元。在因兩起婚外情而受到審查後，黃仁勳於週四辭去輝達 (Nvidia) 執行長一職。",
    "zh_v": 2,
    "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
@@ -82,7 +194,7 @@
    "source": "CNBC Tech",
    "link": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
    "en": "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC. Speculation has swirled around who Nvidia's board will select to permanently succeed CEO Jensen Huang.",
-   "zh": "",
+   "zh": "董事會向 CNBC 表示，Nvidia 尚未選定搜尋公司來尋找黃仁勳的永久繼任人選。關於誰將被 Nvidia 董事會選為執行長黃仁勳的永久繼任人選，眾說紛紜。",
    "zh_v": 2,
    "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",

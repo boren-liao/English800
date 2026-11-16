@@ -1,6 +1,229 @@
 {
- "updated": "2026-11-15T22:44:42+00:00",
+ "updated": "2026-11-16T22:52:10+00:00",
  "items": [
+  {
+   "id": "N20261117-b40aac",
+   "unit": "每日美國新聞",
+   "date": "2026-11-17",
+   "title": "United Airlines reports system outage affecting departing flights",
+   "level": "CNBC",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html",
+   "en": "United Airlines reports system outage affecting departing flights. United Airlines said Monday that a widespread system outage was affecting departing flights.",
+   "zh": "聯合航空 (United Airlines) 報告系統故障，影響出發航班。聯合航空 (United Airlines) 週一表示，大規模系統故障正影響出境航班。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "outage",
+     "服務中斷"
+    ],
+    [
+     "widespread",
+     "廣泛"
+    ],
+    [
+     "affecting",
+     "影響"
+    ],
+    [
+     "departing",
+     "出發"
+    ]
+   ]
+  },
+  {
+   "id": "N20261117-a80759",
+   "unit": "每日美國新聞",
+   "date": "2026-11-17",
+   "title": "A Bull Market for Pokémon Cards, Fueled by Pikachu and Nostalgia",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/16/us/pokemon-cards-value-investors.html",
+   "en": "A Bull Market for Pokémon Cards, Fueled by Pikachu and Nostalgia. On the 30th anniversary of the franchise, Pokémon cards are skyrocketing in value — to the point that collecting them can be a viable livelihood.",
+   "zh": "皮卡丘與懷舊情懷帶動寶可夢卡牌牛市。在寶可夢系列問世 30 週年之際，寶可夢卡片的價值正飆升，甚至到了收藏卡片可以成為一種可行生計的地步。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "skyrocketing",
+     "飆升"
+    ],
+    [
+     "anniversary",
+     "週年日"
+    ],
+    [
+     "collecting",
+     "收藏"
+    ],
+    [
+     "livelihood",
+     "生計"
+    ]
+   ]
+  },
+  {
+   "id": "N20261117-72041b",
+   "unit": "每日美國新聞",
+   "date": "2026-11-17",
+   "title": "Bessent Takes Hawkish Turn in White House Debate on China",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/16/us/politics/bessent-lutnick-china.html",
+   "en": "Bessent Takes Hawkish Turn in White House Debate on China. The Treasury secretary who sought to de-escalate tariff wars is taking a tougher approach to exports of sensitive U.S. technology.",
+   "zh": "在白宮的中國議題辯論中，貝森特轉向鷹派立場。這位曾試圖緩和關稅戰的財政部長，現在對美國敏感技術的出口採取了更強硬的態度。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "exports",
+     "出口"
+    ],
+    [
+     "tariff",
+     "關稅"
+    ],
+    [
+     "de-escalate",
+     "降級"
+    ],
+    [
+     "technology",
+     "科技"
+    ]
+   ]
+  },
+  {
+   "id": "N20261117-7bb003",
+   "unit": "每日美國新聞",
+   "date": "2026-11-17",
+   "title": "U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/u-s-dollars-ai-driven-breakout-could-become-a-stock-market-wrecking-ball-18199b95?mod=mw_rss_topstories",
+   "en": "U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball. The dollar recently climbed to its strongest level in a year and a half.",
+   "zh": "美元受人工智慧驅動的突破性走勢可能會成為股市的破壞者。美元近期升至一年半以來的最高點。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "stock-market",
+     "股票市場"
+    ],
+    [
+     "strongest",
+     "最強的"
+    ]
+   ]
+  },
+  {
+   "id": "N20261117-c6d117",
+   "unit": "每日美國新聞",
+   "date": "2026-11-17",
+   "title": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories",
+   "en": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks. Berkshire Hathaway stepped up its investments in the U.S. housing market last quarter, nearly doubling its stake in home builder Lennar.",
+   "zh": "巴郡加碼押注陷入困境的美國房地產市場，同時對這些銀行股的態度轉趨負面。巴郡 (Berkshire Hathaway) 在上一季加大了對美國房地產市場的投資，將其在房屋營建商 Lennar 的持股增加近一倍。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "housing market",
+     "房市"
+    ],
+    [
+     "housing",
+     "住房"
+    ],
+    [
+     "stake",
+     "持股"
+    ]
+   ]
+  },
+  {
+   "id": "N20261117-c36420",
+   "unit": "每日美國新聞",
+   "date": "2026-11-17",
+   "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
+   "level": "CNBC",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
+   "en": "JPMorgan Chase says temporary software bug is affecting consumer banking. CNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.",
+   "zh": "摩根大通表示，暫時性的軟體錯誤正在影響消費者銀行業務。CNBC 的 Eamon Javers 報導稱，沒有跡象表明有惡意行為者參與其中，也沒有跡象表明有漏洞同時影響多家銀行。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "indication",
+     "指示"
+    ],
+    [
+     "temporary",
+     "無法創建臨時文件"
+    ],
+    [
+     "affecting",
+     "影響"
+    ],
+    [
+     "impacting",
+     "影響"
+    ]
+   ]
+  },
+  {
+   "id": "N20261117-d6ad86",
+   "unit": "每日美國新聞",
+   "date": "2026-11-17",
+   "title": "New rule aims to close loophole on chip exports",
+   "level": "NPR Business",
+   "source": "NPR Business",
+   "link": "https://www.npr.org/2026/11/16/nx-s1-6042918/new-rule-aims-to-close-loophole-on-chip-exports",
+   "en": "New rule aims to close loophole on chip exports. The Commerce Department released a new rule designed to make it harder for China to gain access to America's most powerful computer chips using third-country data centers.",
+   "zh": "新規定旨在堵住晶片出口的漏洞。美國商務部發布了一項新規定，旨在讓中國更難透過第三國的資料中心取得美國最強大的電腦晶片。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "data centers",
+     "資料中心"
+    ],
+    [
+     "exports",
+     "出口"
+    ],
+    [
+     "chips",
+     "晶片"
+    ]
+   ]
+  },
+  {
+   "id": "N20261117-bdb93f",
+   "unit": "每日美國新聞",
+   "date": "2026-11-17",
+   "title": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
+   "en": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO. Gerstner told CNBC that he's looking to put five time as much money into Anthropic as he's ever put into an IPO.",
+   "zh": "Altimeter 的 Brad Gerstner 計劃在 Anthropic 的首次公開發行 (IPO) 中投資 50 億美元。格斯特納 (Gerstner) 告訴 CNBC，他希望將比以往投入 IPO 的資金多五倍的資金投入 Anthropic。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": []
+  },
   {
    "id": "N20261116-668a38",
    "unit": "每日美國新聞",

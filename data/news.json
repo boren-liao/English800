@@ -1,6 +1,208 @@
 {
- "updated": "2026-11-16T22:52:10+00:00",
+ "updated": "2026-11-17T22:59:13+00:00",
  "items": [
+  {
+   "id": "N20261118-0daf2c",
+   "unit": "每日美國新聞",
+   "date": "2026-11-18",
+   "title": "Trump had urged Jensen Huang to fight for his job.",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price/trump-had-urged-jensen-huang-to-fight-for-his-job",
+   "en": "Trump had urged Jensen Huang to fight for his job.",
+   "zh": "川普曾敦促黃仁勳為自己的職位而戰。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": []
+  },
+  {
+   "id": "N20261118-e3d820",
+   "unit": "每日美國新聞",
+   "date": "2026-11-18",
+   "title": "Costco is benefiting from ‘apocalyptic concerns’ as customers stock up on goods, analysts say",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/costco-is-benefiting-from-apocalyptic-concerns-as-customers-stock-up-on-goods-analysts-say-24f611ab?mod=mw_rss_topstories",
+   "en": "Costco is benefiting from ‘apocalyptic concerns’ as customers stock up on goods, analysts say. Mizuho analysts have seen an “acceleration on emergency prep sales” at the warehouse chain following the Microsoft outage and nationwide flight stoppage.",
+   "zh": "分析師表示，由於顧客囤積商品，好市多 (Costco) 正從「末日焦慮」中獲益。瑞穗銀行 (Mizuho) 的分析師發現，在微軟系統中斷和全國航班停飛之後，這家連鎖倉儲的「緊急準備用品銷售額加速成長」。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "outage",
+     "服務中斷"
+    ],
+    [
+     "apocalyptic",
+     "末日"
+    ],
+    [
+     "benefiting",
+     "受益"
+    ]
+   ]
+  },
+  {
+   "id": "N20261118-758a54",
+   "unit": "每日美國新聞",
+   "date": "2026-11-18",
+   "title": "‘It’s downright dirty’: My brother took over our ailing mother’s life and finances. What can I do?",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
+   "en": "‘It’s downright dirty’: My brother took over our ailing mother’s life and finances. What can I do?. “It is devastating when the people you should be able to trust become the very people you have to protect yourself from.”",
+   "zh": "「這簡直太卑鄙了」：我哥哥接管了我們臥病在床的母親的生活和財務。我能做些什麼？「當你本應能夠信任的人成為你必須防範的人時，那種感覺真是令人崩潰。」",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "devastating",
+     "毀滅性"
+    ],
+    [
+     "downright",
+     "徹頭徹尾的"
+    ]
+   ]
+  },
+  {
+   "id": "N20261118-6f6673",
+   "unit": "每日美國新聞",
+   "date": "2026-11-18",
+   "title": "Jensen Huang’s daughter, a close ally, remains in a senior role at Nvidia.",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price/jensen-huangs-daughter-a-close-ally-remains-in-a-senior-role-at-nvidia",
+   "en": "Jensen Huang’s daughter, a close ally, remains in a senior role at Nvidia.",
+   "zh": "黃仁勳的女兒是他的得力助手，目前仍在輝達擔任高階職位。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": []
+  },
+  {
+   "id": "N20261118-c5448f",
+   "unit": "每日美國新聞",
+   "date": "2026-11-18",
+   "title": "Nvidia tries to get back to business",
+   "level": "NPR Business",
+   "source": "NPR Business",
+   "link": "https://www.npr.org/2026/11/17/nx-s1-6044197/nvidia-tries-to-get-back-to-business",
+   "en": "Nvidia tries to get back to business. Nvidia quarterly earnings are in. But the biggest question isn't about past business performance it's about the company's future leadership.",
+   "zh": "Nvidia 試圖重振業務。Nvidia 的季度財報已出爐。然而，最大的問題並非過去的業務表現，而是公司的未來領導層。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "quarterly earnings",
+     "季度財報"
+    ],
+    [
+     "performance",
+     "效能"
+    ],
+    [
+     "leadership",
+     "領導統御"
+    ]
+   ]
+  },
+  {
+   "id": "N20261118-160779",
+   "unit": "每日美國新聞",
+   "date": "2026-11-18",
+   "title": "Nike lays out financial goals ahead of first investor day in 9 years",
+   "level": "CNBC",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/17/nike-investor-day-elliott-hill.html",
+   "en": "Nike lays out financial goals ahead of first investor day in 9 years. Nike is hosting an investor day at its Oregon headquarters as the company tries to prove to investors that its turnaround is working.",
+   "zh": "耐吉在 9 年來首次投資者日之前公佈財務目標。耐吉 (Nike) 將在俄勒岡州的總部舉辦投資人日活動，藉此向投資人證明公司的轉型策略正在發揮成效。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "investors",
+     "投資人"
+    ],
+    [
+     "headquarters",
+     "總公司"
+    ],
+    [
+     "turnaround",
+     "轉機"
+    ]
+   ]
+  },
+  {
+   "id": "N20261118-fce572",
+   "unit": "每日美國新聞",
+   "date": "2026-11-18",
+   "title": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html",
+   "en": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything. Major outages showcase the risks of interconnected tech in the age of AI.",
+   "zh": "大規模的服務中斷影響了銀行、航空業、美國國家安全局 (NSA) 和蘋果，似乎所有事物都受到干擾。重大服務中斷事件凸顯了在人工智慧時代，相互連結的科技所帶來的風險。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "outage",
+     "服務中斷"
+    ],
+    [
+     "interconnected",
+     "相互連結"
+    ],
+    [
+     "disrupting",
+     "破壞"
+    ],
+    [
+     "seemingly",
+     "看似"
+    ]
+   ]
+  },
+  {
+   "id": "N20261118-d652b7",
+   "unit": "每日美國新聞",
+   "date": "2026-11-18",
+   "title": "U.S. officially loses measles elimination status amid ongoing outbreaks",
+   "level": "CNBC",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html",
+   "en": "U.S. officially loses measles elimination status amid ongoing outbreaks. The director of PAHO made the final call that measles is endemic — or always present — in the U.S. following 12 months of continuous transmission.",
+   "zh": "由於疫情持續爆發，美國正式失去麻疹消除的地位。在麻疹持續傳播 12 個月後，泛美衛生組織 (PAHO) 的主任最終宣布麻疹在美國為地方性疾病，也就是說，麻疹在美國一直存在。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "amid",
+     "在……之際"
+    ],
+    [
+     "transmission",
+     "傳輸"
+    ],
+    [
+     "elimination",
+     "消去"
+    ],
+    [
+     "officially",
+     "正式"
+    ]
+   ]
+  },
   {
    "id": "N20261117-b40aac",
    "unit": "每日美國新聞",

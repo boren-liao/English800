@@ -1,6 +1,208 @@
 {
- "updated": "2026-11-17T22:59:13+00:00",
+ "updated": "2026-11-18T22:57:07+00:00",
  "items": [
+  {
+   "id": "N20261119-5bca2f",
+   "unit": "每日美國新聞",
+   "date": "2026-11-19",
+   "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
+   "en": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind. Tech stocks are looking cheap, while defensive sectors like consumer staples are screening as expensive.",
+   "zh": "隨著科技股表現落後，股市正經歷一代人以來最大的震盪。科技股看起來便宜，而必需消費品等防禦性類股則顯得昂貴。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "fall behind",
+     "落後"
+    ],
+    [
+     "generation",
+     "生成集"
+    ],
+    [
+     "defensive",
+     "防禦性姿態"
+    ],
+    [
+     "screening",
+     "初步評估"
+    ]
+   ]
+  },
+  {
+   "id": "N20261119-340ed4",
+   "unit": "每日美國新聞",
+   "date": "2026-11-19",
+   "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
+   "en": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings. The company boosts its outlook in the face of the “current threat environment and demand we see ahead of us.”",
+   "zh": "Palo Alto Networks 的股價因財報而獲得 AI 推動的新助力。面對「當前的威脅環境和我們預見的未來需求」，公司提升了其前景展望。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "earnings",
+     "獲利；財報"
+    ],
+    [
+     "outlook",
+     "展望"
+    ],
+    [
+     "environment",
+     "環境"
+    ]
+   ]
+  },
+  {
+   "id": "N20261119-5dd8ac",
+   "unit": "每日美國新聞",
+   "date": "2026-11-19",
+   "title": "Here’s the latest on the 2026 DealBook Summit.",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/live/2026/11/18/business/dealbook-summit-news/heres-the-latest-on-the-2026-dealbook-summit",
+   "en": "Here’s the latest on the 2026 DealBook Summit.",
+   "zh": "以下是 2026 年 DealBook 峰會的最新消息。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": []
+  },
+  {
+   "id": "N20261119-308dae",
+   "unit": "每日美國新聞",
+   "date": "2026-11-19",
+   "title": "Polymarket CEO Says Donald Trump Jr.’s Involvement Is ‘Overblown’",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/18/business/dealbook/polymarket-donald-trump-jr-shayne-coplan.html",
+   "en": "Polymarket CEO Says Donald Trump Jr.’s Involvement Is ‘Overblown’. At the DealBook Summit, Shayne Coplan, the founder of Polymarket, defended the investment by a firm associated with President Trump’s oldest son.",
+   "zh": "Polymarket 執行長表示，小唐納·川普的參與「被誇大了」。在 DealBook 峰會上，Polymarket 的創辦人 Shayne Coplan 為與川普總統長子有關聯的公司所進行的投資辯護。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "ceo",
+     "執行長"
+    ],
+    [
+     "investment",
+     "投资"
+    ],
+    [
+     "associated",
+     "<g>相關的</g>"
+    ]
+   ]
+  },
+  {
+   "id": "N20261119-f037f4",
+   "unit": "每日美國新聞",
+   "date": "2026-11-19",
+   "title": "Retail investor enthusiasm for Anthropic IPO to rival SpaceX debut",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html",
+   "en": "Retail investor enthusiasm for Anthropic IPO to rival SpaceX debut. Anthropic is gearing up for a blockbuster initial public offering this week, and excitement among retail investors looks to be off the charts.",
+   "zh": "散戶投資人對 Anthropic 上市的熱情可與 SpaceX 上市相媲美。Anthropic 本週正準備進行一場轟動的首次公開發行 (IPO)，散戶投資人的興奮情緒似乎已達前所未有的高點。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "initial public offering",
+     "首次公開發行"
+    ],
+    [
+     "investors",
+     "投資人"
+    ],
+    [
+     "retail",
+     "零售"
+    ]
+   ]
+  },
+  {
+   "id": "N20261119-94dd27",
+   "unit": "每日美國新聞",
+   "date": "2026-11-19",
+   "title": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html",
+   "en": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings. Palo Alto Networks has been steadily acquiring companies to capitalize on demand for cyber tools to fight AI.",
+   "zh": "Palo Alto 以 45 億美元的價格收購 AI 新創公司 Applied Compute，股價因財報表現上漲 7%。Palo Alto Networks 一直在穩步收購公司，以利用對網路工具的需求來對抗人工智慧。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "earnings",
+     "獲利；財報"
+    ],
+    [
+     "acquire",
+     "收購"
+    ],
+    [
+     "startup",
+     "新創公司"
+    ]
+   ]
+  },
+  {
+   "id": "N20261119-1754d0",
+   "unit": "每日美國新聞",
+   "date": "2026-11-19",
+   "title": "Lowe's posts strong online sales, raises outlook despite slow housing market",
+   "level": "CNBC",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/18/lowes-low-q3-2026-earnings.html",
+   "en": "Lowe's posts strong online sales, raises outlook despite slow housing market. Lowe's said it saw strength in online sales during its quarter that contributed to a guidance raise for the full year.",
+   "zh": "儘管房地產市場低迷，Lowe's 的線上銷售表現強勁，並上調了展望。Lowe's 表示，該季線上銷售表現強勁，有助於提高全年財測。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "housing market",
+     "房市"
+    ],
+    [
+     "guidance",
+     "財測"
+    ],
+    [
+     "outlook",
+     "展望"
+    ]
+   ]
+  },
+  {
+   "id": "N20261119-c34c8f",
+   "unit": "每日美國新聞",
+   "date": "2026-11-19",
+   "title": "Karl Kani dressed hip-hop royalty for decades. Now he's telling his own story",
+   "level": "NPR Business",
+   "source": "NPR Business",
+   "link": "https://www.npr.org/2026/11/18/g-s1-154227/karl-kani-a-life-by-design",
+   "en": "Karl Kani dressed hip-hop royalty for decades. Now he's telling his own story. On NPR's Morning Edition , fashion designer Karl Kani talks about his new memoir, dressing some of hip-hop's biggest stars and why skinny jeans aren't for everyone.",
+   "zh": "數十年來，Karl Kani 為嘻哈巨星打造造型。現在，他要講述自己的故事。在 NPR 的《晨間新聞》(Morning Edition) 節目中，時尚設計師 Karl Kani 談到他的新回憶錄、為嘻哈界一些最知名明星設計服裝的經歷，以及為什麼不是每個人都適合穿窄管牛仔褲。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
+   "phrases": []
+  },
   {
    "id": "N20261118-0daf2c",
    "unit": "每日美國新聞",

@@ -1,6 +1,226 @@
 {
- "updated": "2026-11-18T22:57:07+00:00",
+ "updated": "2026-11-19T22:54:29+00:00",
  "items": [
+  {
+   "id": "N20261120-d229ed",
+   "unit": "每日美國新聞",
+   "date": "2026-11-20",
+   "title": "How Much Anthropic Are You About to Own?",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/19/upshot/anthropic-ipo-stock.html",
+   "en": "How Much Anthropic Are You About to Own?. See how much of the stock you may own through common index funds, like those found in retirement accounts.",
+   "zh": "您即將擁有多少 Anthropic 股份？看看您透過普通指數基金（例如退休帳戶中的基金）可能持有多少股票。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "retirement",
+     "退休"
+    ]
+   ]
+  },
+  {
+   "id": "N20261120-b47cae",
+   "unit": "每日美國新聞",
+   "date": "2026-11-20",
+   "title": "Judge Allows Trump’s $15 Billion Case Against The Times to Proceed",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/19/business/media/new-york-times-trump-defamation-case.html",
+   "en": "Judge Allows Trump’s $15 Billion Case Against The Times to Proceed. Mr. Trump accused the news organization and the book publisher Penguin Random House of disparaging his reputation as a successful businessman.",
+   "zh": "法官允許川普對《紐約時報》提起 150 億美元的訴訟。川普先生指控該新聞機構和書籍出版商企鵝藍燈書屋 (Penguin Random House) 損害了他作為成功企業家的聲譽。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "businessman",
+     "商人"
+    ],
+    [
+     "disparaging",
+     "貶損"
+    ],
+    [
+     "reputation",
+     "聲望"
+    ]
+   ]
+  },
+  {
+   "id": "N20261120-af2af3",
+   "unit": "每日美國新聞",
+   "date": "2026-11-20",
+   "title": "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/a-coreweave-co-founder-just-made-an-unconventional-30-million-wager-on-its-battered-bonds-5586b0e9?mod=mw_rss_topstories",
+   "en": "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds. While executives typically buy shares to signal confidence, CoreWeave co-founder Brian Venturo is turning to the bond market to calm AI jitters.",
+   "zh": "CoreWeave 的一位共同創辦人剛剛對其受挫的債券下了一個非常規的 3,000 萬美元賭注。雖然高階主管通常會買進股票以展現信心，但 CoreWeave 共同創辦人 Brian Venturo 卻轉向債券市場，以平息對人工智慧的擔憂。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "turn to",
+     "轉向（求助）"
+    ],
+    [
+     "co-founder",
+     "共同創辦人"
+    ],
+    [
+     "bonds",
+     "債券"
+    ]
+   ]
+  },
+  {
+   "id": "N20261120-ccf0d5",
+   "unit": "每日美國新聞",
+   "date": "2026-11-20",
+   "title": "We’re in our 50s and terrified of a market crash. Should we put $400,000 of our $1 million retirement savings into an annuity?",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+   "en": "We’re in our 50s and terrified of a market crash. Should we put $400,000 of our $1 million retirement savings into an annuity?. “We have a house worth $450,000. Our combined annual income is $125,000.”",
+   "zh": "我們年屆 50 歲，對市場崩盤感到非常害怕。我們是否應該將 100 萬美元退休儲蓄中的 40 萬美元投入年金？「我們有一棟價值 45 萬美元的房子。我們的總年收入為 $125,000。」",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "retirement",
+     "退休"
+    ],
+    [
+     "terrified",
+     "極度害怕"
+    ]
+   ]
+  },
+  {
+   "id": "N20261120-7803dc",
+   "unit": "每日美國新聞",
+   "date": "2026-11-20",
+   "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+   "en": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says. Members of Congress have pushed in the wake of the Jensen Huang scandal for legislation to tighten export controls on chip sales to China.",
+   "zh": "眾議員馬斯特 (Brian Mast) 表示，商務部批准向中國公司銷售超過 87.9 萬顆 AI 晶片。在黃仁勳醜聞爆發後，國會議員推動立法，以加強對中國晶片銷售的出口管制。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "in the wake of",
+     "在……之後"
+    ],
+    [
+     "export controls",
+     "出口管制"
+    ],
+    [
+     "legislation",
+     "立法"
+    ],
+    [
+     "scandal",
+     "醜聞"
+    ],
+    [
+     "chips",
+     "晶片"
+    ]
+   ]
+  },
+  {
+   "id": "N20261120-a9ca0f",
+   "unit": "每日美國新聞",
+   "date": "2026-11-20",
+   "title": "Intuit to sell Mailchimp to Bending Spoons for $3.68 billion",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html",
+   "en": "Intuit to sell Mailchimp to Bending Spoons for $3.68 billion. Intuit is offloading a segment that has slowed down revenue growth, for less than a third of what it paid to acquire Mailchimp in 2021.",
+   "zh": "Intuit 以 36.8 億美元的價格將 Mailchimp 出售給 Bending Spoons。Intuit 正以不到其 2021 年收購 Mailchimp 所支付金額的三分之一的價格，出售一個導致營收成長放緩的部門。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "revenue",
+     "營收"
+    ],
+    [
+     "acquire",
+     "收購"
+    ],
+    [
+     "offloading",
+     "卸載"
+    ]
+   ]
+  },
+  {
+   "id": "N20261120-fdab0f",
+   "unit": "每日美國新聞",
+   "date": "2026-11-20",
+   "title": "Gap names new Athleta CEO, lowers full-year guidance",
+   "level": "CNBC",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html",
+   "en": "Gap names new Athleta CEO, lowers full-year guidance. Gap on Thursday announced Ashley Kechter as the new CEO of Athleta. The retailer also reported mixed fiscal third-quarter earnings.",
+   "zh": "Gap 任命新任 Athleta 執行長，並下調全年財測。Gap 在週四宣布任命 Ashley Kechter 為 Athleta 的新任執行長。該零售商還公佈了喜憂參半的第三季財報。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "earnings",
+     "獲利；財報"
+    ],
+    [
+     "guidance",
+     "財測"
+    ],
+    [
+     "retailer",
+     "零售商"
+    ]
+   ]
+  },
+  {
+   "id": "N20261120-c7cd2b",
+   "unit": "每日美國新聞",
+   "date": "2026-11-20",
+   "title": "AI giant Anthropic's shares pop in debut after blockbuster IPO",
+   "level": "NPR Business",
+   "source": "NPR Business",
+   "link": "https://www.npr.org/2026/11/19/nx-s1-6042560/ai-giant-anthropics-shares-pop-in-debut-after-blockbuster-ipo",
+   "en": "AI giant Anthropic's shares pop in debut after blockbuster IPO. Shares in the AI juggernaut Anthropic are now trading on the stock market. They debuted Thursday, after a record-breaking IPO.",
+   "zh": "人工智慧巨擘 Anthropic 在轟動一時的 IPO 後，股價在上市首日飆升。人工智慧巨擘 Anthropic 的股票現已在股市交易。該公司在創下紀錄的首次公開發行 (IPO) 之後，於週四正式上市。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "record-breaking",
+     "破紀錄的"
+    ],
+    [
+     "blockbuster",
+     "一鳴驚人的事物"
+    ],
+    [
+     "juggernaut",
+     "紅坦克"
+    ]
+   ]
+  },
   {
    "id": "N20261119-5bca2f",
    "unit": "每日美國新聞",

@@ -1,6 +1,222 @@
 {
- "updated": "2026-11-19T22:54:29+00:00",
+ "updated": "2026-11-20T22:53:20+00:00",
  "items": [
+  {
+   "id": "N20261121-906dd9",
+   "unit": "每日美國新聞",
+   "date": "2026-11-21",
+   "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+   "en": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis. Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.",
+   "zh": "Nvidia 股價暴跌 14%，結束了自 2008 年金融危機以來最長的連續下跌週數。Nvidia 曾是全球最有價值的公司，如今排名第四，位居 Apple、Microsoft 和 Alphabet 之後。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "losing streak",
+     "連跌"
+    ],
+    [
+     "plunge",
+     "暴跌"
+    ]
+   ]
+  },
+  {
+   "id": "N20261121-90c994",
+   "unit": "每日美國新聞",
+   "date": "2026-11-21",
+   "title": "Anthropic Shares Slip as AI and Tech Stock Sell-Off Continues",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html",
+   "en": "Anthropic Shares Slip as AI and Tech Stock Sell-Off Continues. The S&P 500 ended the day down more than 10 percent from its recent high, in a symbolic measure of investors’ souring mood.",
+   "zh": "隨著人工智慧與科技股持續拋售，Anthropic 股價下跌。標普 500 指數收盤時較近期高點下跌超過 10%，象徵著投資者情緒的惡化。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "sell off",
+     "拋售"
+    ],
+    [
+     "investors",
+     "投資人"
+    ]
+   ]
+  },
+  {
+   "id": "N20261121-61c369",
+   "unit": "每日美國新聞",
+   "date": "2026-11-21",
+   "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
+   "en": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020. All 11 S&P 500 sectors finished more than 1% lower this week for the first time since April 2025.",
+   "zh": "道瓊工業指數與標普 500 指數進入修正階段，那斯達克指數則經歷 2020 年以來最糟糕的一週。本週，標普 500 指數的所有 11 個類股均下跌超過 1%，這是自 2025 年 4 月以來的首次。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "correction",
+     "校正"
+    ]
+   ]
+  },
+  {
+   "id": "N20261121-9c4e8c",
+   "unit": "每日美國新聞",
+   "date": "2026-11-21",
+   "title": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03?mod=mw_rss_topstories",
+   "en": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade. A major semiconductor index just posted its worst weekly performance in 25 years.",
+   "zh": "隨著恐慌情緒籠罩人工智慧 (AI) 交易，晶片類股在一週內蒸發 2.3 兆美元。一項主要半導體指數剛剛創下 25 年來最差的週表現。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "semiconductor",
+     "半導體"
+    ],
+    [
+     "performance",
+     "效能"
+    ]
+   ]
+  },
+  {
+   "id": "N20261121-c511c6",
+   "unit": "每日美國新聞",
+   "date": "2026-11-21",
+   "title": "Stocks Often Prosper After an Abrupt C.E.O. Exit. Is Nvidia Different?",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/20/business/nvidia-ceo-stock-succession-jensen-huang.html",
+   "en": "Stocks Often Prosper After an Abrupt C.E.O. Exit. Is Nvidia Different?. The stock value of a top executive is often less important than it initially seems. But Nvidia’s entanglement in U.S.-Chinese relations poses special problems.",
+   "zh": "執行長突然離職後，股價往往會上漲。Nvidia 會不一樣嗎？高階主管的持股價值通常沒有一開始看起來那麼重要。然而，Nvidia 捲入中美關係，帶來了特殊的問題。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "entanglement",
+     "糾纏"
+    ],
+    [
+     "executive",
+     "執行"
+    ],
+    [
+     "initially",
+     "的時候"
+    ],
+    [
+     "relations",
+     "关系"
+    ]
+   ]
+  },
+  {
+   "id": "N20261121-a130bd",
+   "unit": "每日美國新聞",
+   "date": "2026-11-21",
+   "title": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year",
+   "level": "NPR Business",
+   "source": "NPR Business",
+   "link": "https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative",
+   "en": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year. AI stocks have hefty market values and have a much bigger impact on the market's direction. They were responsible for Wall Street's big gains this year and are now behind the big slide for the market.",
+   "zh": "標普 500 指數下跌 3.7%，那斯達克綜合指數今年以來表現為負值。人工智慧 (AI) 股票的市值龐大，對市場走勢的影響力也大得多。它們是今年華爾街大漲的功臣，現在卻成為市場大跌的元兇。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "market value",
+     "市值"
+    ],
+    [
+     "responsible",
+     "負責"
+    ],
+    [
+     "composite",
+     "複合"
+    ],
+    [
+     "direction",
+     "方向"
+    ]
+   ]
+  },
+  {
+   "id": "N20261121-fc35ed",
+   "unit": "每日美國新聞",
+   "date": "2026-11-21",
+   "title": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+   "en": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged. Trump said he discussed Jensen Huang with China's Xi. Bessent said the ousted Nvidia CEO didn't come up in talks he had while in China.",
+   "zh": "川普表示，他與習近平討論了黃仁勳；貝森特 (Bessent) 向 CNBC 表示，Nvidia 的晶片出口政策維持不變。川普表示，他與中國國家主席習近平討論了有關輝達執行長黃仁勳 (Jensen Huang) 的話題。貝森表示，他在中國期間的會談中，並未提及這位被撤換的輝達執行長。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "oust",
+     "撤換；逐出"
+    ],
+    [
+     "discussed",
+     "已討論"
+    ],
+    [
+     "unchanged",
+     "未變更"
+    ]
+   ]
+  },
+  {
+   "id": "N20261121-59bb2d",
+   "unit": "每日美國新聞",
+   "date": "2026-11-21",
+   "title": "Trump's impact on an Ohio steel plant",
+   "level": "NPR Business",
+   "source": "NPR Business",
+   "link": "https://www.npr.org/2026/11/20/nx-s1-5860971/trumps-impact-on-ohio-steel-plant",
+   "en": "Trump's impact on an Ohio steel plant. The giant steel plant in Middletown, Ohio planned to switch away from using coke, a refined form of coal. The switch would have cut hazardous air pollution -- and greenhouse gas emissions. But that plan has changed under President Trump",
+   "zh": "川普對俄亥俄州鋼鐵廠的影響。位於俄亥俄州米德爾敦的這座大型鋼鐵廠原本計畫不再使用焦炭（一種精煉煤）。這項變更原本可以減少有害的空氣污染，以及溫室氣體排放。然而，在川普總統的領導下，該計畫有所變更。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "emissions",
+     "排放"
+    ],
+    [
+     "greenhouse",
+     "溫室"
+    ],
+    [
+     "hazardous",
+     "危險情況"
+    ],
+    [
+     "pollution",
+     "污染"
+    ]
+   ]
+  },
   {
    "id": "N20261120-d229ed",
    "unit": "每日美國新聞",

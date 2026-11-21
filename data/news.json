@@ -1,6 +1,226 @@
 {
- "updated": "2026-11-20T22:53:20+00:00",
+ "updated": "2026-11-21T22:47:19+00:00",
  "items": [
+  {
+   "id": "N20261122-b0b235",
+   "unit": "每日美國新聞",
+   "date": "2026-11-22",
+   "title": "What's next after a brutal stock plunge we might have seen coming",
+   "level": "NPR Economy",
+   "source": "NPR Economy",
+   "link": "https://www.npr.org/2026/11/21/nx-s1-6049146/whats-next-after-a-brutal-stock-plunge-we-might-have-seen-coming",
+   "en": "What's next after a brutal stock plunge we might have seen coming. Stocks tanked this week as investors grew wary of tech investments that have seen years of growth. NPR's Rob Schmitz speaks with Katie Martin of the Financial Times about the global ripple effects.",
+   "zh": "在我們可能已經預見的股市暴跌之後，接下來會發生什麼事。由於投資人對多年來成長的科技投資越來越謹慎，股市本週暴跌。 NPR 的 Rob Schmitz 與英國《金融時報》的凱蒂馬丁 (Katie Martin) 談論了全球連鎖反應。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Economy RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "investors",
+     "投資人"
+    ],
+    [
+     "plunge",
+     "暴跌"
+    ],
+    [
+     "investments",
+     "投資"
+    ]
+   ]
+  },
+  {
+   "id": "N20261122-359a25",
+   "unit": "每日美國新聞",
+   "date": "2026-11-22",
+   "title": "‘It’s downright dirty’: My brother moved in with our ailing mother and closed her bank account. What can I do?",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
+   "en": "‘It’s downright dirty’: My brother moved in with our ailing mother and closed her bank account. What can I do?. “It is devastating when the people you should be able to trust become the very people you have to protect yourself from.”",
+   "zh": "「這真是太髒了」：我哥哥搬去和生病的母親住在一起，並關閉了她的銀行帳戶。我能做些什麼？ 。“當你應該信任的人變成了你必須保護自己免受傷害的人時，這是毀滅性的。”",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "devastating",
+     "毀滅性的"
+    ],
+    [
+     "downright",
+     "徹頭徹尾"
+    ]
+   ]
+  },
+  {
+   "id": "N20261122-805b66",
+   "unit": "每日美國新聞",
+   "date": "2026-11-22",
+   "title": "Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/20/business/nvidia-sec-accounting.html",
+   "en": "Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices. Questions around the company’s accounting had surfaced amid revelations about its questionable chip sales in Asia.",
+   "zh": "Nvidia 稱將面臨 S.E.C.對其會計實務的探討。隨著該公司在亞洲晶片銷售問題的曝光，圍繞該公司會計的問題浮出水面。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "probe",
+     "調查"
+    ],
+    [
+     "amid",
+     "在……之際"
+    ],
+    [
+     "questionable",
+     "有問題的"
+    ],
+    [
+     "revelations",
+     "啟示錄"
+    ]
+   ]
+  },
+  {
+   "id": "N20261122-290203",
+   "unit": "每日美國新聞",
+   "date": "2026-11-22",
+   "title": "‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/ive-been-a-stay-at-home-mom-im-50-and-have-a-chronic-illness-my-husband-lost-his-job-should-he-raid-his-401-k-63e59123?mod=mw_rss_topstories",
+   "en": "‘I’ve been a stay-at-home mom’: I’m 50 and have a chronic illness. My husband lost his job. Should he raid his 401(k)?. “Our financial and healthcare situation has become increasingly concerning.”",
+   "zh": "「我一直是全職媽媽」：我今年 50 歲，患有慢性病。我先生失業了。他应该突袭他的 401(k) 吗？“我們的財務和醫療保健狀況變得越來越令人擔憂。”",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "chronic",
+     "長期的"
+    ],
+    [
+     "stay-at-home",
+     "待在家裡"
+    ],
+    [
+     "increasingly",
+     "日益"
+    ],
+    [
+     "healthcare",
+     "衛生保健"
+    ]
+   ]
+  },
+  {
+   "id": "N20261122-47d95d",
+   "unit": "每日美國新聞",
+   "date": "2026-11-22",
+   "title": "Why Nostalgia for Tamagotchis, the Virtual Pets, Won’t Die",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/21/arts/tamagotchis-comeback.html",
+   "en": "Why Nostalgia for Tamagotchis, the Virtual Pets, Won’t Die. Millennials are answering the beeping call of the pocket-size game that caused a sensation 30 years ago. But analog-craving Gen Zers are, too.",
+   "zh": "為什麼對虛擬寵物「電子雞」的懷舊情懷不會消逝。千禧世代正在響應 30 年前引起轟動的袖珍遊戲的召喚。但 Z 世代也渴望模擬。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "analog-craving",
+     "模擬渴望"
+    ],
+    [
+     "pocket-size",
+     "袖珍"
+    ],
+    [
+     "answering",
+     "回答"
+    ],
+    [
+     "sensation",
+     "感覺"
+    ]
+   ]
+  },
+  {
+   "id": "N20261122-0a4131",
+   "unit": "每日美國新聞",
+   "date": "2026-11-22",
+   "title": "Trump says there could be a 'positive spin' from the latest FBI database hack",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html",
+   "en": "Trump says there could be a 'positive spin' from the latest FBI database hack. This would make the second recent intrusion into the FBI system.",
+   "zh": "川普表示，最新的聯邦調查局資料庫駭客事件可能會帶來「正面的影響」。這將是近期對聯邦調查局系統的第二次入侵。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "intrusion",
+     "入侵"
+    ]
+   ]
+  },
+  {
+   "id": "N20261122-71445d",
+   "unit": "每日美國新聞",
+   "date": "2026-11-22",
+   "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
+   "en": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020. Anthropic held its historic Nasdaq debut a day before Nvidia's stock closed out its longest weekly losing streak since 2008.",
+   "zh": "Anthropic 創紀錄的 IPO 與華爾街科技股自 2020 年以來最糟糕的一周相撞。在輝達股票結束自 2008 年以來最長的周線下跌前一天，Anthropic 歷史性地在那斯達克首次亮相。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "losing streak",
+     "連跌"
+    ]
+   ]
+  },
+  {
+   "id": "N20261122-c7a701",
+   "unit": "每日美國新聞",
+   "date": "2026-11-22",
+   "title": "International first class is over for U.S. airlines. Enter the mega business-class cabin",
+   "level": "CNBC",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/21/us-airlines-first-class-business-class.html",
+   "en": "International first class is over for U.S. airlines. Enter the mega business-class cabin. Airlines are opting to build giant business-class cabins with ever-more luxurious suites.",
+   "zh": "美國航空的國際頭等艙已經結束。進入大型商務艙。航空公司選擇建造巨型商務艙和更豪華的套房。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "airlines",
+     "航空公司"
+    ],
+    [
+     "business-class",
+     "商務艙"
+    ],
+    [
+     "ever-more",
+     "永遠更多"
+    ],
+    [
+     "luxurious",
+     "豪華"
+    ]
+   ]
+  },
   {
    "id": "N20261121-906dd9",
    "unit": "每日美國新聞",

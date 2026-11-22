@@ -1,6 +1,222 @@
 {
- "updated": "2026-11-21T22:47:19+00:00",
+ "updated": "2026-11-22T22:49:21+00:00",
  "items": [
+  {
+   "id": "N20261123-50b21a",
+   "unit": "每日美國新聞",
+   "date": "2026-11-23",
+   "title": "Rising costs leave consumers looking for Thanksgiving bargains",
+   "level": "NPR Economy",
+   "source": "NPR Economy",
+   "link": "https://www.npr.org/2026/11/22/nx-s1-6048751/rising-costs-leave-consumers-looking-for-thanksgiving-bargains",
+   "en": "Rising costs leave consumers looking for Thanksgiving bargains. It's Thanksgiving week and you may have seen that turkey and gravy are more expensive. NPR's Rob Schmitz speaks with Heather Long, chief economist at Navy Federal Credit Union, about why costs are up.",
+   "zh": "成本上漲導致消費者尋找感恩節特惠。現在是感恩節週，您可能已經注意到火雞和肉汁的價格上漲了。美國國家公共廣播電台 (NPR) 的羅伯·施密茲 (Rob Schmitz) 與海軍聯邦信用合作社 (Navy Federal Credit Union) 的首席經濟學家海瑟·隆 (Heather Long) 探討了成本上漲的原因。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Economy RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "economist",
+     "經濟學家"
+    ],
+    [
+     "consumers",
+     "進行銷售"
+    ],
+    [
+     "expensive",
+     "貴"
+    ]
+   ]
+  },
+  {
+   "id": "N20261123-ad3594",
+   "unit": "每日美國新聞",
+   "date": "2026-11-23",
+   "title": "Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/corporate-america-hunts-for-generational-growth-in-ai-trading-cards-and-the-l-a-airport-3072eb1a?mod=mw_rss_topstories",
+   "en": "Corporate America hunts for ‘generational’ growth in AI, trading cards and the L.A. airport. There’s been no shortage of trends deemed once-in-a-generation by executives on earnings calls.",
+   "zh": "美國企業界正尋求在人工智慧、交易卡與洛杉磯機場等領域實現「世代性」成長。在財報電話會議上，高階主管認為是百年一遇的趨勢比比皆是。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "corporate america",
+     "美國企業界"
+    ],
+    [
+     "generational",
+     "世代的"
+    ],
+    [
+     "earnings",
+     "獲利；財報"
+    ],
+    [
+     "shortage",
+     "短缺"
+    ]
+   ]
+  },
+  {
+   "id": "N20261123-1c23dc",
+   "unit": "每日美國新聞",
+   "date": "2026-11-23",
+   "title": "Ron Johnson’s Social Security gaffe buried important news",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/ron-johnsons-social-security-gaffe-buried-important-news-b96e0ce8?mod=mw_rss_topstories",
+   "en": "Ron Johnson’s Social Security gaffe buried important news. The Wisconsin Republican’s remarks overshadowed what might have been a useful Senate committee hearing about fixing Social Security.",
+   "zh": "朗·強森 (Ron Johnson) 的社安失言掩蓋了重要新聞。這位威斯康辛州共和黨議員的言論，讓本來可能對修訂社會安全制度有幫助的參議院委員會聽證會黯然失色。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "overshadowed",
+     "被比下去"
+    ],
+    [
+     "committee",
+     "執行委員會"
+    ]
+   ]
+  },
+  {
+   "id": "N20261123-6bdcc8",
+   "unit": "每日美國新聞",
+   "date": "2026-11-23",
+   "title": "How the U.S. Economy Is Tied to A.I.",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/video/business/100000011293737/how-the-us-economy-is-tied-to-ai.html",
+   "en": "How the U.S. Economy Is Tied to A.I. Artificial intelligence has become a huge piece of the U.S. economy. Ben Casselman, the chief economics correspondent for The New York Times, explains why that is and how it might be risky.",
+   "zh": "美國經濟如何與人工智慧息息相關人工智慧已成為美國經濟的重要組成部分。《紐約時報》首席經濟記者 Ben Casselman 解釋了箇中原因，以及這可能存在的風險。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "artificial intelligence",
+     "人工智慧"
+    ],
+    [
+     "correspondent",
+     "通訊員"
+    ],
+    [
+     "economics",
+     "經濟指標"
+    ]
+   ]
+  },
+  {
+   "id": "N20261123-043379",
+   "unit": "每日美國新聞",
+   "date": "2026-11-23",
+   "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+   "level": "CNBC",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+   "en": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens. Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+   "zh": "隨著公司現金短缺問題加劇，艾瑞克·川普 (Eric Trump) 支援的機器人新創公司員工失去了健康保險福利。Foundation 正在尋求緊急過渡貸款，並一直在與創投公司洽談，同時等待來自韓國 Base Group 的 1.5 億美元投資。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "startup",
+     "新創公司"
+    ],
+    [
+     "loan",
+     "貸款"
+    ],
+    [
+     "investment",
+     "投资"
+    ],
+    [
+     "emergency",
+     "緊急"
+    ]
+   ]
+  },
+  {
+   "id": "N20261123-82860e",
+   "unit": "每日美國新聞",
+   "date": "2026-11-23",
+   "title": "Rather Than Sell Their House, They Became Landlords Instead",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/22/business/mortgage-rates-housing-landlords.html",
+   "en": "Rather Than Sell Their House, They Became Landlords Instead. Homeowners say the rental income helps them cover their mortgage payments, but they must also learn to handle needed repairs and confront bad tenants.",
+   "zh": "他們沒有賣掉房子，反而成了房東。屋主表示，租金收入有助於支付房貸，但他們也必須學會處理必要的修繕工作，並應對不良房客。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "mortgage",
+     "房貸"
+    ]
+   ]
+  },
+  {
+   "id": "N20261123-c29579",
+   "unit": "每日美國新聞",
+   "date": "2026-11-23",
+   "title": "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+   "en": "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages. Clayton’s warning comes ahead of Thanksgiving travel, after separate outages disrupted air travel, Microsoft 365 and some bank transactions.",
+   "zh": "國家情報總監傑伊·克萊頓 (Jay Clayton) 在技術中斷後警告美國人可能會遇到「阻礙」。克萊頓 (Clayton) 的警告是在感恩節假期前夕發出的，在此之前，多起斷電事件分別導致航空運輸、Microsoft 365 和部分銀行交易中斷。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "outage",
+     "服務中斷"
+    ],
+    [
+     "transactions",
+     "交易"
+    ],
+    [
+     "disrupted",
+     "中斷"
+    ]
+   ]
+  },
+  {
+   "id": "N20261123-dbaa17",
+   "unit": "每日美國新聞",
+   "date": "2026-11-23",
+   "title": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
+   "level": "CNBC",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
+   "en": "Pizza chains are under pressure. GLP-1 use is only one part of the problem. Domino's, Papa Johns and Pizza Hut face weaker demand, more delivery competition and changing eating habits, including GLP-1 use.",
+   "zh": "披薩連鎖店面臨壓力。GLP-1 的使用只是問題的一部分。達美樂 (Domino's)、棒約翰 (Papa Johns) 和必勝客 (Pizza Hut) 面臨需求疲軟、外送競爭加劇以及飲食習慣的變化，包括 GLP-1 的使用。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "under pressure",
+     "承受壓力"
+    ],
+    [
+     "competition",
+     "競爭者"
+    ]
+   ]
+  },
   {
    "id": "N20261122-b0b235",
    "unit": "每日美國新聞",
@@ -1463,1205 +1679,6 @@
      "法規"
     ]
    ]
-  },
-  {
-   "id": "N20261115-f1a289",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Deed Theft Is Rising, Along With Property Values",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/13/your-money/deed-title-theft-houses.html",
-   "en": "Deed Theft Is Rising, Along With Property Values. The victims are often older people or immigrants, with thieves going after vacant land or unoccupied homes. But there are ways to protect yourself.",
-   "zh": "隨著房地產價值的攀升，房契竊盜案也日益增加。受害者通常是年長者或移民，小偷會盯上空地或無人居住的房屋。但有一些方法可以保護自己。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "immigrants",
-     "移民"
-    ],
-    [
-     "unoccupied",
-     "未使用"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-92e136",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Inside Microsoft’s Rush to Get Back Online After a Global Outage",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/13/business/microsoft-outage.html",
-   "en": "Inside Microsoft’s Rush to Get Back Online After a Global Outage. A prolonged outage left many without email and other services, the most recent reminder that the world’s technological underpinnings rely on just a few companies.",
-   "zh": "深入瞭解 Microsoft 在全球服務中斷後，如何趕緊恢復線上服務。長時間的服務中斷導致許多人無法使用電子郵件和其他服務，這再次提醒我們，全球的技術基礎僅仰賴少數幾家公司。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "outage",
-     "服務中斷"
-    ],
-    [
-     "technological",
-     "技术"
-    ],
-    [
-     "underpinnings",
-     "基礎"
-    ],
-    [
-     "prolonged",
-     "延長"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-e763fc",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/13/cftc-chair-selig-crypto-industry-opting-into-agencys-crypto-rules-.html",
-   "en": "CFTC Chair Selig tells CNBC crypto industry is embracing agency rules as legislation hopes fade. The top U.S. commodities regulator in October announced proposed crypto rules to assert its jurisdiction over the asset class.",
-   "zh": "美國商品期貨交易委員會 (CFTC) 主席 Selig 向 CNBC 表示，隨著立法希望逐漸消退，加密貨幣產業正逐漸接受該機構的監管規定。美國最高商品監管機構於 10 月宣布了加密貨幣監管提案，以確立其對該資產類別的管轄權。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "legislation",
-     "立法"
-    ],
-    [
-     "regulator",
-     "監管機關"
-    ],
-    [
-     "crypto",
-     "加密貨幣"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-fb7a36",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html",
-   "en": "OpenAI launches ChatGPT Wallet, allowing its 'dots' AI agents to make purchases for users. OpenAI's ChatGPT Wallet partners with American Express, Mastercard and Visa, and those cardholders keep their existing credit card rewards.",
-   "zh": "OpenAI 推出 ChatGPT Wallet，讓其「dots」AI 代理人能夠為使用者進行購買。OpenAI 的 ChatGPT Wallet 與美國運通、萬事達卡和 Visa 合作，這些卡片的持卡人仍可享有現有的信用卡獎勵。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "credit card",
-     "信用卡"
-    ],
-    [
-     "cardholders",
-     "持卡人"
-    ],
-    [
-     "purchases",
-     "購買"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-25896d",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Trump Administration Delays Enforcement of Medicaid Work Requirement",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/13/us/politics/medicaid-work-requirement-delay.html",
-   "en": "Trump Administration Delays Enforcement of Medicaid Work Requirement. The federal government had planned to require poor adults to prove they were working or lose insurance coverage starting Jan. 1. Now, it will let states wait until July.",
-   "zh": "川普政府延遲執行聯邦醫療補助 (Medicaid) 的工作要求。聯邦政府原先計劃要求貧困成年人自 1 月 1 日起證明自己有工作，否則將失去保險保障。現在，聯邦政府將允許各州延至 7 月再執行。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "administration",
-     "政府（行政團隊）"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-18fd06",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Despite Nvidia’s Drop, Stocks Push Ahead",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/13/business/nvidia-turmoil-stock-market.html",
-   "en": "Despite Nvidia’s Drop, Stocks Push Ahead. A drop in Nvidia shares after the ouster of the company’s chief executive has not spread to the rest of the market, as stocks have held their ground broadly.",
-   "zh": "儘管輝達 (Nvidia) 股價下跌，但整體股市仍持續上漲。在輝達 (Nvidia) 執行長被撤換後，該公司股價下跌，但這股跌勢並未蔓延至市場其他領域，因為整體而言，各類股仍穩若泰山。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "chief executive",
-     "執行長"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-f8e749",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Nvidia closes below $4T market cap for first time since July 2025 in Huang fallout",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
-   "en": "Nvidia closes below $4T market cap for first time since July 2025 in Huang fallout. Jensen Huang resigned as CEO of Nvidia on Thursday after coming under scrutiny for two extramarital affairs.",
-   "zh": "受黃仁勳影響，Nvidia 市值自 2025 年 7 月以來首次收盤跌破 4 兆美元。在因兩起婚外情而受到審查後，黃仁勳於週四辭去輝達 (Nvidia) 執行長一職。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "under scrutiny",
-     "受到審視"
-    ],
-    [
-     "market cap",
-     "市值"
-    ],
-    [
-     "fallout",
-     "後果；餘波"
-    ],
-    [
-     "resign",
-     "辭職"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-bc4b80",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
-   "en": "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC. Speculation has swirled around who Nvidia's board will select to permanently succeed CEO Jensen Huang.",
-   "zh": "董事會向 CNBC 表示，Nvidia 尚未選定搜尋公司來尋找黃仁勳的永久繼任人選。關於誰將被 Nvidia 董事會選為執行長黃仁勳的永久繼任人選，眾說紛紜。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": []
-  },
-  {
-   "id": "N20261115-c15fa8",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "5 Big Questions as C.E.O.s Meet in China",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/14/business/dealbook/questions-china-us-apec-summit.html",
-   "en": "5 Big Questions as C.E.O.s Meet in China. President Trump and U.S. tech executives are expected to gather for a major summit in Shenzhen next week. On the agenda: a stalled trade war, expanding export controls, and suspected spy games.",
-   "zh": "執行長齊聚中國，5 大問題備受關注。川普總統與美國科技業高層預計將於下週在深圳舉行一場重要峰會。議程包括：陷入僵局的貿易戰、擴大出口管制，以及疑似間諜活動。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "export controls",
-     "出口管制"
-    ],
-    [
-     "trade war",
-     "貿易戰"
-    ],
-    [
-     "expand",
-     "擴張"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-f6e2b3",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "He Was China’s Man in Panama. Then He Became a Wanted Man.",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/14/business/zhang-liang-china-panama.html",
-   "en": "He Was China’s Man in Panama. Then He Became a Wanted Man. A Chinese businessman arrived in Panama with money and power. Then he sold a port when his luck turned. Now China wants him sent back.",
-   "zh": "他曾是中國在巴拿馬的代表。後來他成了通緝犯。一位中國商人帶著金錢和權勢來到巴拿馬。後來，當他的運氣變差時，他賣掉了一個港口。現在，中國希望將他遣返。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "wanted man",
-     "通緝犯"
-    ],
-    [
-     "businessman",
-     "商人"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-6a66ce",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-   "en": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker. Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
-   "zh": "盧特尼克面臨有關輝達間諜醜聞的質疑。他兒子的公司與這家晶片製造商關係密切。Jensen Huang 辭去輝達 (Nvidia) 執行長一職，讓外界重新審視商務部長 Howard Lutnick 及其家人與該晶片製造商的財務關係。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "face questions",
-     "面臨質疑"
-    ],
-    [
-     "spy scandal",
-     "間諜醜聞"
-    ],
-    [
-     "resignation",
-     "辭職"
-    ],
-    [
-     "chipmaker",
-     "晶片製造商"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-38c89c",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
-   "en": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion. Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
-   "zh": "Nvidia 股價經歷了自 2012 年以來最長的連續週線跌勢，市值蒸發 1.7 兆美元。黃仁勳的辭職加劇了輝達的市場困境，該公司的股價自 10 月初以來已持續走跌。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "losing streak",
-     "連跌"
-    ],
-    [
-     "market value",
-     "市值"
-    ],
-    [
-     "resignation",
-     "辭職"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-376e51",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "The trillion-dollar mistake corporate America is making about retirement",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/corporate-america-is-making-a-trillion-dollar-mistake-about-retirement-234c8996?mod=mw_rss_topstories",
-   "en": "The trillion-dollar mistake corporate America is making about retirement. The market is dramatically underpricing the economic impact of Americans age 50 and older.",
-   "zh": "美國企業在退休議題上犯下的數兆美元錯誤。市場嚴重低估了 50 歲及以上美國人的經濟影響力。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "corporate america",
-     "美國企業界"
-    ],
-    [
-     "retirement",
-     "退休"
-    ],
-    [
-     "underprice",
-     "定價過低"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-384226",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/retirees-should-be-big-beneficiaries-of-the-midterms-democrats-will-hold-every-gavel-that-matters-for-aging-and-public-policy-71e966f0?mod=mw_rss_topstories",
-   "en": "Retirees should be big beneficiaries of the midterms: ‘Democrats will hold every gavel that matters for aging and public policy’. Here’s what might be coming for Social Security, Medicare and long-term care.",
-   "zh": "退休人士應是期中選舉的主要受益者：「民主黨將掌握所有與高齡化和公共政策相關的權力。」以下是社會安全福利、聯邦醫療保險與長期照護的可能發展。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "beneficiary",
-     "受益者"
-    ],
-    [
-     "midterms",
-     "期中選舉"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-91b9f7",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "This Man Stole $9 Million in Gold Bars on the Upper West Side, Police Say",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/14/nyregion/gold-bars-scam-new-york-city.html",
-   "en": "This Man Stole $9 Million in Gold Bars on the Upper West Side, Police Say. The victim, who believed his financial assets had been compromised, was the target of an online fraud scheme and believed he had to buy the precious metal, the authorities said.",
-   "zh": "警方表示，這名男子在曼哈頓上西城竊取了價值 900 萬美元的金條。當局表示，受害者認為自己的財務資產遭到侵害，成為網路詐騙計畫的目標，並相信自己必須購買貴金屬。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "authorities",
-     "當局"
-    ],
-    [
-     "compromise",
-     "危害；妥協"
-    ],
-    [
-     "fraud",
-     "詐欺"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-23e9b1",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Microsoft’s Global Outage and Fixes: What We Know",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/13/technology/microsoft-outage-what-to-know.html",
-   "en": "Microsoft’s Global Outage and Fixes: What We Know. Disruptions to the company’s email, messaging and other products lasted about 36 hours, hampering companies and services around the world.",
-   "zh": "Microsoft 的全球服務中斷與修復：我們所知道的資訊。該公司電子郵件、訊息和其他產品的中斷情況持續了大約 36 小時，影響了全球的公司和服務。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "outage",
-     "服務中斷"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-7bf99d",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "SpaceX launches Starship in key test flight of massive rocket",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html",
-   "en": "SpaceX launches Starship in key test flight of massive rocket. The test flight is SpaceX's first attempt to ​catch both the Super Heavy booster and upper stage spacecraft of the rocket at its launch site in Starbase, Texas.",
-   "zh": "SpaceX 進行大型火箭的關鍵測試飛行，發射星艦。這次試飛是 SpaceX 首次嘗試在德州星際基地 (Starbase) 的發射場捕捉火箭的超重型助推器 (Super Heavy booster) 和上級太空船 (upper stage spacecraft)。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "test flight",
-     "試飛"
-    ],
-    [
-     "spacecraft",
-     "太空船"
-    ],
-    [
-     "booster",
-     "推進器"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-d684b8",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-   "en": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning. The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.",
-   "zh": "Nvidia 與黃仁勳的合作已告一段落。華盛頓的後續效應才正要開始。共和黨主導的國會希望在民主黨於 1 月掌權之前，讓黃仁勳到華盛頓一趟。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "fallout",
-     "後果；餘波"
-    ]
-   ]
-  },
-  {
-   "id": "N20261115-d003ed",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "A ‘Generational Clash’ Is Fueling Europe’s Protests",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
-   "en": "A ‘Generational Clash’ Is Fueling Europe’s Protests. As retirees live longer, governments need to spend more on pensions. That makes it harder to fund other services, spurring protests like those in France.",
-   "zh": "「世代衝突」正在加劇歐洲的抗議活動。隨著退休人員壽命的延長，政府需要增加退休金支出。這使得為其他服務提供資金變得更加困難，從而引發了像法國那樣的抗議活動。",
-   "zh_v": 2,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "generational",
-     "世代的"
-    ],
-    [
-     "pension",
-     "退休金"
-    ],
-    [
-     "protest",
-     "抗議"
-    ]
-   ],
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-31e4e0",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
-   "en": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?. “We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
-   "zh": "「他稱我的計劃為幻想」：我丈夫說我們負擔不起每年 20 萬美元的退休金。他佔便宜了嗎？“我們的退休帳戶裡存有 200 萬美元，還有一套價值 130 萬美元的房子。”",
-   "zh_v": 2,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "retirement",
-     "退休"
-    ],
-    [
-     "afford",
-     "負擔得起"
-    ]
-   ],
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-9f825f",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/heres-how-bernie-sanders-wants-to-keep-social-security-solvent-for-generations-f5666a38?mod=mw_rss_topstories",
-   "en": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’. The Vermont senator aims to eliminate the taxable maximum, making the wealthy pay more in taxes",
-   "zh": "以下是伯尼·桑德斯希望「幾代人」保持社會保障償付能力的方式。這位佛蒙特州參議員的目標是取消稅基上限，讓富人繳納更多稅款。",
-   "zh_v": 2,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "solvent",
-     "有償付能力的"
-    ]
-   ],
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-f17af9",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Wall Street Makes Its Pitch for Anthropic’s I.P.O.",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/13/business/anthropic-ipo-roadshow.html",
-   "en": "Wall Street Makes Its Pitch for Anthropic’s I.P.O. As market uncertainty deepens, investment banks are on a roadshow to sell investors on what could be the largest public offering ever.",
-   "zh": "華爾街為 Anthropic 的 IPO 做準備隨著市場不確定性的加深，投資銀行正在進行路演，向投資者推銷可能是有史以來最大規模的公開發行。",
-   "zh_v": 2,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "wall street",
-     "華爾街"
-    ],
-    [
-     "uncertainty",
-     "不確定性"
-    ],
-    [
-     "investors",
-     "投資人"
-    ],
-    [
-     "pitch",
-     "推銷；提案"
-    ]
-   ],
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-ecebc4",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Microsoft apologizes for massive outage that took down Outlook and other 365 services",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
-   "en": "Microsoft apologizes for massive outage that took down Outlook and other 365 services. A Microsoft outage on Thursday and Friday affected users of services like Outlook, Teams and 365.",
-   "zh": "微軟對導致 Outlook 和其他 365 服務癱瘓的大規模中斷表示歉意。Microsoft 週四和週五的服務中斷影響了 Outlook、Teams 和 365 等服務的使用者。",
-   "zh_v": 2,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "outage",
-     "服務中斷"
-    ]
-   ],
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-5a25fd",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
-   "en": "Analysis: Companies love a ‘rockstar’ CEO. Until they depend on one. Jensen Huang’s exit tests Nvidia’s succession planning and governance, and offers lessons for companies that elevate their CEOs to rockstar status.",
-   "zh": "分析：公司喜歡「搖滾明星」執行長。直到他們依賴一個人。黃仁勳的退出考驗了輝達的繼任計畫和治理，並為那些將執行長提升到明星地位的公司提供了教訓。",
-   "zh_v": 2,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "succession",
-     "接班"
-    ]
-   ],
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-7d7120",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Ground Stop Highlights Chronic Vulnerabilities in Air Traffic System",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/14/us/politics/ground-stop-air-traffic-faa.html",
-   "en": "Ground Stop Highlights Chronic Vulnerabilities in Air Traffic System. The Federal Aviation Administration’s aging air traffic control infrastructure has had several disruptive failures in recent months, as officials have sought to make upgrades.",
-   "zh": "停飛事件凸顯了空中交通系統的長期弱點。近幾個月來，美國聯邦航空管理局老化的空中交通管制基礎設施發生了幾次破壞性故障，官員一直在尋求升級。",
-   "zh_v": 2,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "air traffic control",
-     "航空交通管制"
-    ],
-    [
-     "ground stop",
-     "全面停飛"
-    ],
-    [
-     "infrastructure",
-     "基礎設施"
-    ],
-    [
-     "vulnerability",
-     "弱點；漏洞"
-    ],
-    [
-     "disruptive",
-     "具破壞性的"
-    ],
-    [
-     "chronic",
-     "長期的"
-    ]
-   ],
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-5a7614",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "She Was a CBS News Producer When Few Women Were",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/14/business/media/linda-mason-dead-cbs-news.html",
-   "en": "She Was a CBS News Producer When Few Women Were. Linda Mason started in an entry-level job at CBS Radio in 1966 and rose through the news division’s ranks to senior vice president. She was 84.",
-   "zh": "當很少有女性擔任哥倫比亞廣播公司新聞製片人時，她是哥倫比亞廣播公司新聞製片人。琳達·梅森 (Linda Mason) 於 1966 年開始在哥倫比亞廣播公司 (CBS) 電台擔任初級職位，後來在新聞部門晉升為高級副總裁。她84歲了。",
-   "zh_v": 2,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [],
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-d7f352",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/im-sick-of-flying-i-paid-for-priority-boarding-but-the-overhead-bins-were-full-was-i-duped-0badcc80?mod=mw_rss_topstories",
-   "en": "‘I’m sick of flying’: I paid for priority boarding, but the overhead bins were full. Was I duped?. “Maybe next time I’ll try the other approach: I’ll board whenever I feel like it and drop my suitcase in the first open slot I see.”",
-   "zh": "「我厭倦了搭飛機」：我支付了優先登機費，但頭頂行李箱已滿。我被騙了嗎？“也許下次我會嘗試另一種方法：只要我願意，我就會登機，並將行李箱放在我看到的第一個空位上。”",
-   "zh_v": 2,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "priority boarding",
-     "優先登機"
-    ],
-    [
-     "overhead bin",
-     "頭頂行李櫃"
-    ]
-   ],
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-c6d219",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/she-can-always-change-her-mind-should-a-widow-leave-the-family-home-to-her-stepchildren-649b06af?mod=mw_rss_topstories",
-   "en": "Should a widow leave her late partner’s home to her stepkids — or cut off contact with them?. “It would be a less drastic step than selling the home now and splitting the proceeds.”",
-   "zh": "寡婦是否應該將已故伴侶的家留給她的繼子——或者切斷與他們的聯繫？“與現在出售房屋並分享收益相比，這將是一個不那麼激烈的舉措。”",
-   "zh_v": 2,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [],
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-dcb39f",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/14/gta-6-grand-theft-auto-launch.html",
-   "en": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off. \"Grand Theft Auto VI\" launches Nov. 19 with huge expectations. Its impact could reach creators, streaming, music, workplace time off, food delivery and tourism.",
-   "zh": "Rockstar 的《GTA VI》版本將如何重塑遊戲、串流媒體甚至帶薪休假。《俠盜獵車手 VI》於 11 月 19 日推出，備受期待。它的影響可能會影響創作者、串流媒體、音樂、工作休假、食品配送和旅遊業。",
-   "zh_v": 2,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "paid time off",
-     "帶薪休假"
-    ],
-    [
-     "streaming",
-     "串流"
-    ],
-    [
-     "reshape",
-     "重塑"
-    ]
-   ],
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-01b228",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Meet the seven co-founders of Anthropic",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/14/meet-the-seven-co-founders-of-anthropic.html",
-   "en": "Meet the seven co-founders of Anthropic. Four researchers, a former journalist, a public policymaker, and an engineer founded Anthropic in 2021. They're now poised to become multi-billionaires.",
-   "zh": "認識 Anthropic 的七位共同創辦人。四名研究人員、一名前記者、一名公共政策制定者和一名工程師於 2021 年創立了 Anthropic。他們現在準備成為億萬富翁。",
-   "zh_v": 2,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [],
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-65afdf",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Is there an opening for Nvidia's competitors, now that Jensen Huang is out?",
-   "level": "NPR Business",
-   "source": "NPR Business",
-   "link": "https://www.npr.org/2026/11/13/nx-s1-6040264/is-there-an-opening-for-nvidias-competitors-now-that-jensen-huang-is-out",
-   "en": "Is there an opening for Nvidia's competitors, now that Jensen Huang is out?. NPR's Scott Detrow talks with Dylan Patel of the AI and semiconductor research firm SemiAnalysis about Jensen Huang's departure from Nvidia, and whether it opens up the field for Nvidia's competitors.",
-   "zh": "既然黃仁勳已經出局，輝達的競爭對手還有機會嗎？NPR 的 Scott Detrow 與人工智慧和半導體研究公司 SemiAnalysis 的 Dylan Patel 討論了黃仁勳離開 Nvidia 的問題，以及這是否為 Nvidia 的競爭對手打開了領域。",
-   "zh_v": 2,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "semiconductor",
-     "半導體"
-    ],
-    [
-     "competitor",
-     "競爭對手"
-    ]
-   ],
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-861720",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Geopolitics Looms Over Eurovision, but Not Its Asian Edition",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/14/world/asia/eurovision-asia-politics.html",
-   "en": "Geopolitics Looms Over Eurovision, but Not Its Asian Edition. So far, the contest’s organizers have kept politics offstage. The European edition shows how difficult that can be.",
-   "zh": "地緣政治籠罩著歐洲電視網，但亞洲版並非如此。到目前為止，比賽的組織者一直將政治置於幕後。歐洲版顯示這有多麼困難。",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "geopolitics",
-     "地緣政治"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-d764b1",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "How Some Flights Were Exempt From the Ground Stop",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/14/business/faa-ground-stop-exceptions-airlines.html",
-   "en": "How Some Flights Were Exempt From the Ground Stop. Dozens of international flights departed from the United States during Friday’s nationwide ground stop. Some planes also left for Hawaii from the West Coast.",
-   "zh": "某些航班如何免除全面停飛。在週五的全美停飛期間，有數十架國際航班從美國起飛。有些飛機也從西海岸飛往夏威夷。",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "ground stop",
-     "全面停飛"
-    ],
-    [
-     "exempt from",
-     "豁免於"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-f856bb",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
-   "en": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?. “He has always said he wants his daughter to inherit a chunk of his estate, and I’ve never objected to that.”",
-   "zh": "我從父親那裡繼承了 140 萬美元。我向結婚25年的丈夫要求婚後協議有錯嗎？“他一直說他希望他的女兒繼承他的大部分遺產，我從來沒有反對過。”",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "postnuptial agreement",
-     "婚後協議"
-    ],
-    [
-     "inherit",
-     "繼承"
-    ],
-    [
-     "estate",
-     "遺產；房地產"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-4ddf5c",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
-   "en": "‘It leaves me with a sour taste’: My elderly mother gave our cousin $800 for a car repair. Should I be worried?. “I know older people can easily feel patronized, and I don’t want that to happen.”",
-   "zh": "「這讓我感到酸澀」：我年邁的母親給了我們表弟 800 美元作為汽車修理費。我該擔心嗎？“我知道老年人很容易感到被欺負，我不希望這種情況發生。”",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-3b88a2",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/investingclub/2026/11/14/nvidias-leadership-crisis-rattles-wall-street-how-were-adjusting.html",
-   "en": "Nvidia's leadership crisis rattles the AI trade. Here's how we're adjusting our portfolio. Despite the turbulence, the S&P 500 secured a weekly gain of 2.5%, while the tech-heavy Nasdaq added 2.3%.",
-   "zh": "輝達的領導危機擾亂了人工智慧產業。以下是我們調整投資組合的方式。儘管出現動盪，標普 500 指數仍實現了 2.5% 的周漲幅，而以科技股為主的那斯達克指數則上漲了 2.3%。",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "leadership crisis",
-     "領導危機"
-    ],
-    [
-     "weekly gain",
-     "週漲幅"
-    ],
-    [
-     "portfolio",
-     "投資組合"
-    ],
-    [
-     "rattle",
-     "使不安"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-43e172",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
-   "en": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors. Two Nvidia investors with about $2.13 billion of stock disclosed as of June 30 are calling for a deliberate leadership search after Huang’s resignation.",
-   "zh": "兩位主要投資者敦促輝達董事會考慮「黃仁勳可能回歸」。截至 6 月 30 日，輝達的兩名投資者已披露其股票價值約 21.3 億美元，他們呼籲在黃仁勳辭職後認真尋找領導層。",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "resignation",
-     "辭職"
-    ],
-    [
-     "investors",
-     "投資人"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-12d61f",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "These economists say in-person work boosts creativity, but office mandates fall short",
-   "level": "NPR Business",
-   "source": "NPR Business",
-   "link": "https://www.npr.org/2026/11/14/nx-s1-6040158/these-economists-say-in-person-work-boosts-creativity-but-office-mandates-fall-short",
-   "en": "These economists say in-person work boosts creativity, but office mandates fall short. A pair economists argue in a new book that people are more creative and productive when they work together in person. But it's not enough for employers to simply order workers back to the office.",
-   "zh": "這些經濟學家表示，面對面的工作可以提高創造力，但辦公室的規定卻不夠。兩位經濟學家在一本新書中指出，當人們一起工作時，他們會更有創造力和生產力。但雇主僅僅命令員工返回辦公室是不夠的。",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "in-person work",
-     "實體上班"
-    ],
-    [
-     "office mandate",
-     "進辦公室規定"
-    ],
-    [
-     "economists",
-     "經濟學家"
-    ],
-    [
-     "creativity",
-     "創造力"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-0970cd",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-   "level": "CNBC",
-   "source": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-   "en": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home. Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
-   "zh": "由 Eric Trump支援的機器人士兵新創公司在創始人向公司借了460萬美元買房後無法支付員工工資。由 Eric Trump 支援的機器人新創公司未來工業基金會 (Foundation Future Industries) 現金不足，且未能發放工資，執行長桑卡特帕塔克 (Sankaet Pathak) 面臨 460 萬美元公司貸款的審查。",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "pay staff",
-     "支付員工薪水"
-    ],
-    [
-     "startup",
-     "新創公司"
-    ],
-    [
-     "payroll",
-     "薪資"
-    ],
-    [
-     "borrow",
-     "借款"
-    ],
-    [
-     "loan",
-     "貸款"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-d9fffd",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "SpaceX Makes History With Successful Rocket Catch in Texas",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/14/science/spacex-starship-first-catch.html",
-   "en": "SpaceX Makes History With Successful Rocket Catch in Texas. The Starship spacecraft returned from orbit to the same spot where it lifted off, marking a key milestone in SpaceX’s vision of building fully reusable rockets.",
-   "zh": "SpaceX 在德州成功捕獲火箭，創造了歷史。星艦從軌道返回到其升空的同一地點，標誌著 SpaceX 建造完全可重複使用火箭願景的一個重要里程碑。",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "spacecraft",
-     "太空船"
-    ],
-    [
-     "milestone",
-     "里程碑"
-    ],
-    [
-     "reusable",
-     "可重複使用的"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-823417",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "SpaceX successfully catches Starship rocket in huge milestone for the space industry",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/spacex-successfully-catches-starship-rocket-in-huge-milestone-for-the-space-industry-f42c136c?mod=mw_rss_topstories",
-   "en": "SpaceX successfully catches Starship rocket in huge milestone for the space industry. The historic first gets SpaceX closer to “rapid reusability” of rockets.",
-   "zh": "SpaceX 成功捕獲了 Starship 火箭，這是航太產業的一個巨大里程碑。這段歷史性的首次讓 SpaceX 更接近火箭的「快速重複使用」。",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "milestone",
-     "里程碑"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-923f2e",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Family Dollar to Pay $63 Million Settlement for Overcharging Customers",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/14/business/family-dollar-overcharging-settlement.html",
-   "en": "Family Dollar to Pay $63 Million Settlement for Overcharging Customers. Since 2023, the discount retailer has been overcharging shoppers “millions of dollars” at checkout, according to a complaint filed by federal regulators and 17 states.",
-   "zh": "Family Dollar 將為多收費用的客戶支付 6,300 萬美元和解金。根據聯邦監管機構和 17 個州提交的投訴，自 2023 年以來，這家折扣零售商一直在結帳時向購物者多收「數百萬美元」的費用。",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "regulators",
-     "監管機關"
-    ],
-    [
-     "settlement",
-     "和解（金）"
-    ],
-    [
-     "overcharge",
-     "超收費用"
-    ],
-    [
-     "complaint",
-     "投訴；申訴"
-    ],
-    [
-     "discount",
-     "折扣"
-    ],
-    [
-     "retailer",
-     "零售商"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-d10856",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "SpaceX catches upper stage of Starship rocket in historic first",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/14/spacex-plans-to-try-first-ever-catch-of-starship-rocket-from-orbit.html",
-   "en": "SpaceX catches upper stage of Starship rocket in historic first. Starship Test Flight 15 marked the first time Elon Musk's company tried to catch both the booster and upper stage of the rocket.",
-   "zh": "SpaceX 歷史性地首次捕獲了 Starship 火箭的上節。星艦第 15 次試飛標誌著埃隆馬斯克的公司首次嘗試同時捕獲火箭的助推器和上部級。",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "booster",
-     "推進器"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-9efb1b",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "'Root cause’ of nationwide ground stop is unknown, FAA says",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html",
-   "en": "'Root cause’ of nationwide ground stop is unknown, FAA says. Routers and networking equipment may be involved in the problems that led to the ground stop, but a definitive cause has not been established, officials said.",
-   "zh": "美國聯邦航空總署（FAA）表示，全美停飛的「根本原因」尚不清楚。官員表示，路由器和網路設備可能與導致全面停飛的問題有關，但具體原因尚未確定。",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "ground stop",
-     "全面停飛"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-e2145c",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Commerce Department under pressure for delaying export controls on Nvidia chips",
-   "level": "NPR Business",
-   "source": "NPR Business",
-   "link": "https://www.npr.org/2026/11/14/nx-s1-6040379/commerce-department-under-pressure-for-delaying-export-controls-on-nvidia-chips",
-   "en": "Commerce Department under pressure for delaying export controls on Nvidia chips. The U.S. Commerce Department is under scrutiny for clearing Chinese companies to handle Nvidia chips, despite national security concerns from cabinet officials and U.S. intelligence agencies.",
-   "zh": "美國商務部因推遲對輝達晶片的出口管制而面臨壓力。儘管內閣官員和美國情報機構出於國家安全考慮，但美國商務部仍因批准中國公司處理輝達晶片而受到審查。",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "commerce department",
-     "美國商務部"
-    ],
-    [
-     "intelligence agency",
-     "情報機構"
-    ],
-    [
-     "national security",
-     "國家安全"
-    ],
-    [
-     "cabinet official",
-     "內閣官員"
-    ],
-    [
-     "export controls",
-     "出口管制"
-    ],
-    [
-     "under pressure",
-     "承受壓力"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-6f3acb",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "I’m 63 and spending $95,000 on a roof deck for my $500,000 home. Is that a good investment?",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/im-63-and-want-to-spend-95-000-on-a-roof-deck-for-my-500-000-home-is-that-a-good-investment-f1a59c27?mod=mw_rss_topstories",
-   "en": "I’m 63 and spending $95,000 on a roof deck for my $500,000 home. Is that a good investment?. “I have a net worth of $2.3 million and my only debt is a 15-year mortgage.”",
-   "zh": "我今年 63 歲，花了 95,000 美元為我價值 50 萬美元的房子買了一個屋頂平台。這是一項好的投資嗎？“我的淨資產為 230 萬美元，我唯一的債務是 15 年期抵押貸款。”",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "net worth",
-     "淨資產"
-    ],
-    [
-     "mortgage",
-     "房貸"
-    ],
-    [
-     "debt",
-     "債務"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
-  },
-  {
-   "id": "N20261115-ef0dc1",
-   "unit": "每日美國新聞",
-   "date": "2026-11-15",
-   "title": "Retailers are turning to entertainment to win shoppers’ attention",
-   "level": "CNBC",
-   "source": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
-   "en": "Retailers are turning to entertainment to win shoppers’ attention. Retailers are increasingly investing in and building out entertainment studios as the race for audience attention speeds up.",
-   "zh": "零售商正在轉向娛樂來吸引購物者的注意。隨著觀眾注意力爭奪的加劇，零售商越來越多地投資和建造娛樂工作室。",
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "turn to",
-     "轉向（求助）"
-    ],
-    [
-     "retailers",
-     "零售商"
-    ],
-    [
-     "shopper",
-     "購物者"
-    ]
-   ],
-   "zh_v": 2,
-   "ph_v": 4
   }
  ]
 }

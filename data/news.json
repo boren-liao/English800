@@ -1,6 +1,218 @@
 {
- "updated": "2026-11-22T22:49:21+00:00",
+ "updated": "2026-11-23T22:58:56+00:00",
  "items": [
+  {
+   "id": "N20261124-727c3d",
+   "unit": "每日美國新聞",
+   "date": "2026-11-24",
+   "title": "Jensen Huang Returns to Nvidia, Showing What Trump Will Do for AI",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/23/business/trump-jensen-huang-nvidia.html",
+   "en": "Jensen Huang Returns to Nvidia, Showing What Trump Will Do for AI. President Trump intervened on behalf of the returning Nvidia chief in a bid to boost a key company driving the stock market. The company’s share price soared.",
+   "zh": "黃仁勳重返輝達，展示川普將為人工智慧做些什麼。川普總統代表回歸的輝達執行長進行幹預，以提振推動股市發展的關鍵公司。公司股價飆升。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "share price",
+     "股價"
+    ],
+    [
+     "soar",
+     "飆漲"
+    ],
+    [
+     "intervened",
+     "介入"
+    ],
+    [
+     "returning",
+     "返回"
+    ]
+   ]
+  },
+  {
+   "id": "N20261124-250d7e",
+   "unit": "每日美國新聞",
+   "date": "2026-11-24",
+   "title": "Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/23/business/trump-administration-megaspeed-trade-blacklist-nvidia.html",
+   "en": "Trump Administration Imposes Sanctions on Megaspeed, Singaporean Firm at Center of Nvidia Scandal. The administration added Megaspeed to the entity list, a trade blacklist, after weeks of sparring among top officials on the decision.",
+   "zh": "川普政府對輝達醜聞中心的新加坡公司 Megaspeed 實施制裁。在高層官員就這一決定進行了數週的爭論後，政府將 Megaspeed 添加到實體名單（貿易黑名單）中。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "administration",
+     "政府（行政團隊）"
+    ],
+    [
+     "sanctions",
+     "制裁"
+    ],
+    [
+     "scandal",
+     "醜聞"
+    ]
+   ]
+  },
+  {
+   "id": "N20261124-dc7d0e",
+   "unit": "每日美國新聞",
+   "date": "2026-11-24",
+   "title": "They attended Trump's controversial meme coin dinner. It didn't go well",
+   "level": "NPR Business",
+   "source": "NPR Business",
+   "link": "https://www.npr.org/2026/11/23/nx-s1-6045883/they-attended-trumps-controversial-meme-coin-dinner-it-didnt-go-well",
+   "en": "They attended Trump's controversial meme coin dinner. It didn't go well. Trump held another meme coin dinner for top holders of his cryptocurrency — an event that has raised intense controversy. Here's an inside from two guests who attended and shared their experience.",
+   "zh": "他們參加了川普頗具爭議的迷因硬幣晚宴。進展並不順利。川普為其加密貨幣的頂級持有者舉辦了另一場迷因幣晚宴，這項活動引起了激烈的爭議。以下是兩位出席並分享經驗的嘉賓的內部經驗。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "cryptocurrency",
+     "加密貨幣"
+    ],
+    [
+     "controversial",
+     "有爭議的"
+    ],
+    [
+     "controversy",
+     "爭議"
+    ]
+   ]
+  },
+  {
+   "id": "N20261124-0cf5c1",
+   "unit": "每日美國新聞",
+   "date": "2026-11-24",
+   "title": "Nvidia’s stock is surging again. What to know before chasing the AI rally.",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/nvidias-stock-is-surging-again-what-to-know-before-chasing-the-ai-rally-226688d7?mod=mw_rss_topstories",
+   "en": "Nvidia’s stock is surging again. What to know before chasing the AI rally. Jensen Huang’s return to Nvidia was the good news that the AI trade needed, but investors should prepare for more volatility",
+   "zh": "輝達的股價再次飆升。在追趕人工智慧漲勢之前需要了解什麼。黃仁勳重返輝達是人工智慧產業所需的好消息，但投資者應該為更大的波動做好準備",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "volatility",
+     "波動"
+    ],
+    [
+     "investors",
+     "投資人"
+    ],
+    [
+     "rally",
+     "大漲；反彈"
+    ],
+    [
+     "surge",
+     "飆升"
+    ]
+   ]
+  },
+  {
+   "id": "N20261124-d50694",
+   "unit": "每日美國新聞",
+   "date": "2026-11-24",
+   "title": "Some women in tech have concerns about Huang's return",
+   "level": "NPR Business",
+   "source": "NPR Business",
+   "link": "https://www.npr.org/2026/11/23/nx-s1-6045799/how-some-women-in-tech-are-responding-to-jensen-huangs-return-to-nvidia",
+   "en": "Some women in tech have concerns about Huang's return. Women who have advocated for DEI in tech say Jensen Huang's return to NVIDIA as CEO sends a message that in Silicon Valley, all that matters is money. s",
+   "zh": "一些科技界女性對黃的回歸表示擔憂。在科技領域倡導 DEI 的女性表示，黃仁勳重返 NVIDIA 擔任執行長傳達了一個訊息：在矽谷，金錢才是最重要的。 s",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "advocated",
+     "提倡的"
+    ]
+   ]
+  },
+  {
+   "id": "N20261124-a07d9c",
+   "unit": "每日美國新聞",
+   "date": "2026-11-24",
+   "title": "ESPN, NFL to show Super Bowl 61 in Imax theaters",
+   "level": "CNBC",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/23/espn-nfl-super-bowl-imax.html",
+   "en": "ESPN, NFL to show Super Bowl 61 in Imax theaters. In addition to ESPN channels, Super Bowl 61 will also be available on streaming platform Disney+ as well as the company's broadcast network ABC.",
+   "zh": "ESPN 和 NFL 將在 Imax 影院放映第 61 屆超級盃比賽。除了 ESPN 頻道外，第 61 屆超級盃比賽還將在串流平台 Disney+ 以及該公司的廣播網路 ABC 上播出。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "streaming",
+     "串流"
+    ],
+    [
+     "broadcast",
+     "pod送"
+    ]
+   ]
+  },
+  {
+   "id": "N20261124-5f23ec",
+   "unit": "每日美國新聞",
+   "date": "2026-11-24",
+   "title": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
+   "en": "Consumer stocks, seen as safe bet amid cracks in AI trade, were among the S&P 500’s biggest losers Monday. Shares of Kroger and Tyson Foods fall, as Nvidia storms higher",
+   "zh": "在人工智慧交易出現裂痕的情況下，被視為安全押注的消費股是周一標普 500 指數跌幅最大的股票之一。輝達暴漲，克羅格和泰森食品股價下跌",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "amid",
+     "在……之際"
+    ]
+   ]
+  },
+  {
+   "id": "N20261124-a4a3a0",
+   "unit": "每日美國新聞",
+   "date": "2026-11-24",
+   "title": "CrowdStrike to buy Zscaler in $44 billion deal as AI supercharges cyberattacks",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-aquisition-ai-cyberattacks.html",
+   "en": "CrowdStrike to buy Zscaler in $44 billion deal as AI supercharges cyberattacks. CrowdStrike and competitors have shelled out billions to ramp up defenses in the wake of AI cyberattacks.",
+   "zh": "隨著人工智慧增強網路攻擊，CrowdStrike 以 440 億美元的價格收購 Zscaler。在人工智慧網路攻擊之後，CrowdStrike 和競爭對手已經斥資數十億美元來加強防禦。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "in the wake of",
+     "在……之後"
+    ],
+    [
+     "ramp up",
+     "加速；擴大"
+    ],
+    [
+     "competitor",
+     "競爭對手"
+    ]
+   ]
+  },
   {
    "id": "N20261123-50b21a",
    "unit": "每日美國新聞",
@@ -1499,186 +1711,6 @@
    "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
    "phrases": []
-  },
-  {
-   "id": "N20261116-668a38",
-   "unit": "每日美國新聞",
-   "date": "2026-11-16",
-   "title": "My older brother, who has no children, cut our only sister out of his will. I’ll get everything. Do I tell her?",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/she-has-a-history-of-financial-mismanagement-my-brother-cut-my-sister-out-of-his-will-im-getting-everything-do-i-tell-her-3e537851?mod=mw_rss_topstories",
-   "en": "My older brother, who has no children, cut our only sister out of his will. I’ll get everything. Do I tell her?. “I’m torn between respecting my brother’s wishes and being fair to my sister.”",
-   "zh": "我哥哥沒有孩子，他把我們唯一的妹妹從遺囑中除名了。我會繼承所有遺產。我要告訴她嗎？「我正處於尊重我哥哥的意願與對我妹妹公平之間的兩難。」",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "respecting",
-     "尊重"
-    ]
-   ]
-  },
-  {
-   "id": "N20261116-f28383",
-   "unit": "每日美國新聞",
-   "date": "2026-11-16",
-   "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
-   "en": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years. Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”",
-   "zh": "Nvidia 正為華爾街多年來最受期待的財報電話會議之一作準備。黃仁勳的突然離職讓週二的財報電話會議成為「公司歷史上最重要的一次」。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "earnings",
-     "獲利；財報"
-    ],
-    [
-     "anticipated",
-     "預期"
-    ],
-    [
-     "departure",
-     "離開"
-    ]
-   ]
-  },
-  {
-   "id": "N20261116-b1da67",
-   "unit": "每日美國新聞",
-   "date": "2026-11-16",
-   "title": "F.D.A. Rejects Closely Watched Lung Cancer Drug From China",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/15/business/fda-lung-cancer-drug-china.html",
-   "en": "F.D.A. Rejects Closely Watched Lung Cancer Drug From China. The treatment, called ivonescimab, has become a symbol of China’s rise in drug development.",
-   "zh": "美國食品藥物管理局 (FDA) 拒絕一款備受關注的中國肺癌藥物。這種名為 ivonescimab 的療法已成為中國在藥物開發領域崛起的一個象徵。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "development",
-     "發展"
-    ],
-    [
-     "treatment",
-     "治療"
-    ]
-   ]
-  },
-  {
-   "id": "N20261116-e1f379",
-   "unit": "每日美國新聞",
-   "date": "2026-11-16",
-   "title": "Behind the All-American Ralph Lauren Brand Is a French C.E.O.",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/15/business/ralph-lauren-patrice-louvet.html",
-   "en": "Behind the All-American Ralph Lauren Brand Is a French C.E.O. Patrice Louvet on working with Ralph Lauren, the man, winning over Generation Z and striking a balance between magic and logic.",
-   "zh": "全美品牌 Ralph Lauren 的背後，有一位法國籍的執行長。Patrice Louvet 談到與 Ralph Lauren 本人合作、贏得 Z 世代的青睞，以及在魔法與邏輯之間取得平衡。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "strike",
-     "罷工"
-    ]
-   ]
-  },
-  {
-   "id": "N20261116-87541f",
-   "unit": "每日美國新聞",
-   "date": "2026-11-16",
-   "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-   "en": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker. Jensen Huang’s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
-   "zh": "盧特尼克面臨有關輝達間諜醜聞的質疑。他兒子的公司與這家晶片製造商有關係。Jensen Huang 辭去 Nvidia 執行長一職，讓外界再次關注商務部長 Howard Lutnick 及其家人與該晶片製造商的財務關係。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "face questions",
-     "面臨質疑"
-    ],
-    [
-     "spy scandal",
-     "間諜醜聞"
-    ],
-    [
-     "resignation",
-     "辭職"
-    ],
-    [
-     "chipmaker",
-     "晶片製造商"
-    ]
-   ]
-  },
-  {
-   "id": "N20261116-cd59bc",
-   "unit": "每日美國新聞",
-   "date": "2026-11-16",
-   "title": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
-   "en": "Bessent calls for ‘dramatic shakeup’ at Nvidia, urges outside CEO. Bessent has criticized Howard Lutnick’s department over suspected chip diversion to China while defending President Donald Trump’s handling of the matter.",
-   "zh": "貝森特呼籲輝達進行「重大改革」，並敦促聘請外部人士擔任執行長。貝森特 (Bessent) 批評霍華德·盧特尼克 (Howard Lutnick) 的部門涉嫌將晶片轉移至中國，同時為川普總統 (Donald Trump) 對此事的處理方式辯護。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "criticized",
-     "受到批評"
-    ],
-    [
-     "suspected",
-     "疑似"
-    ],
-    [
-     "diversion",
-     "轉移注意力"
-    ],
-    [
-     "defending",
-     "防守"
-    ]
-   ]
-  },
-  {
-   "id": "N20261116-18a05c",
-   "unit": "每日美國新聞",
-   "date": "2026-11-16",
-   "title": "Rivian, Lucid, Scout CEOs aren’t counting on Democrats to restore EV federal support after midterm wins",
-   "level": "CNBC",
-   "source": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html",
-   "en": "Rivian, Lucid, Scout CEOs aren’t counting on Democrats to restore EV federal support after midterm wins. EV makers have had to contend with flip-flopping regulatory support from Washington over the years.",
-   "zh": "Rivian、Lucid 和 Scout 的執行長並不指望民主黨在中期選舉獲勝後恢復對電動車的聯邦補助。多年來，電動車製造商不得不應對華盛頓當局反覆無常的監管政策。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "flip-flopping",
-     "反覆無常"
-    ],
-    [
-     "regulatory",
-     "法規"
-    ]
-   ]
   }
  ]
 }

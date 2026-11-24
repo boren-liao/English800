@@ -1,6 +1,230 @@
 {
- "updated": "2026-11-23T22:58:56+00:00",
+ "updated": "2026-11-24T23:01:58+00:00",
  "items": [
+  {
+   "id": "N20261125-3f30ad",
+   "unit": "每日美國新聞",
+   "date": "2026-11-25",
+   "title": "DealBook Summit 2026: After the Upheaval From the Midterm Elections, Who Has the Edge in 2028?",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/24/business/dealbook/midterm-elections-task-force.html",
+   "en": "DealBook Summit 2026: After the Upheaval From the Midterm Elections, Who Has the Edge in 2028?. Are the Democrats’ gains in the midterm elections lasting? Or just another swing of the political pendulum?",
+   "zh": "2026 年 DealBook 峰會：在中期選舉的動盪之後，誰在 2028 年佔有優勢？民主黨在中期選舉中取得的勝利是否能持續下去？還是只是政治擺盪的又一次擺動？",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "midterm election",
+     "期中選舉"
+    ],
+    [
+     "elections",
+     "選舉"
+    ]
+   ]
+  },
+  {
+   "id": "N20261125-04a1d5",
+   "unit": "每日美國新聞",
+   "date": "2026-11-25",
+   "title": "DealBook Summit 2026: Rein in A.I., but Don’t Pause It",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/24/business/dealbook/ai-task-force.html",
+   "en": "DealBook Summit 2026: Rein in A.I., but Don’t Pause It. A panel of experts said protections on artificial intelligence could be adopted without stifling the technology’s development.",
+   "zh": "2026 年 DealBook 峰會：控制人工智慧，但不要暫停它。一個專家小組表示，可以在不扼殺該技術發展的情況下，採用對人工智慧的保護措施。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "artificial intelligence",
+     "人工智慧"
+    ],
+    [
+     "protections",
+     "保障"
+    ],
+    [
+     "development",
+     "發展"
+    ],
+    [
+     "technology",
+     "科技"
+    ]
+   ]
+  },
+  {
+   "id": "N20261125-a72374",
+   "unit": "每日美國新聞",
+   "date": "2026-11-25",
+   "title": "Many families are cutting corners at the grocery store to pay their other bills",
+   "level": "NPR Economy",
+   "source": "NPR Economy",
+   "link": "https://www.npr.org/2026/11/24/nx-s1-6047499/many-families-are-cutting-corners-at-the-grocery-store-to-pay-their-other-bills",
+   "en": "Many families are cutting corners at the grocery store to pay their other bills. Cash-strapped consumers are changing they way they spend money. As essentials like rent and utility bills gobble up more of their budget, some families are dialing back on groceries or eating out.",
+   "zh": "許多家庭為了支付其他帳單，在購買生鮮雜貨時會斤斤計較。手頭拮据的消費者正在改變他們的消費方式。隨著房租和水電費等必需品佔據了更多預算，一些家庭開始減少購買生鮮雜貨或外出用餐。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Economy RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "budget",
+     "預算"
+    ],
+    [
+     "essentials",
+     "工具包"
+    ],
+    [
+     "consumers",
+     "進行銷售"
+    ],
+    [
+     "groceries",
+     "生鮮雜貨"
+    ]
+   ]
+  },
+  {
+   "id": "N20261125-d4b0a6",
+   "unit": "每日美國新聞",
+   "date": "2026-11-25",
+   "title": "Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/micron-boosted-ceo-sanjay-mehrotras-security-budget-by-2-000-new-filing-shows-d6202acc?mod=mw_rss_topstories",
+   "en": "Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows. Steeply higher security expenses of $764,748 for Mehrotra were part of a $39.7 million total compensation package in the latest fiscal year.",
+   "zh": "最新申報文件顯示，美光將執行長 Sanjay Mehrotra 的安保預算提高了 2,000%。Mehrotra 的安保費用大幅增加至 764,748 美元，這是他在最新會計年度 3,970 萬美元總薪酬的一部分。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "budget",
+     "預算"
+    ],
+    [
+     "compensation",
+     "補償"
+    ]
+   ]
+  },
+  {
+   "id": "N20261125-379caa",
+   "unit": "每日美國新聞",
+   "date": "2026-11-25",
+   "title": "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
+   "en": "Dell earnings beat on AI strength, company authorizes $25 billion buyback. The company's overall sales more than doubled on an annual basis during the third quarter, driven by AI server demand.",
+   "zh": "Dell 的獲利受惠於 AI 的強勁表現，公司授權 250 億美元的庫藏股。受惠於 AI 伺服器需求，該公司第三季的整體銷售額較去年同期成長超過一倍。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "earnings",
+     "獲利；財報"
+    ],
+    [
+     "buyback",
+     "庫藏股"
+    ],
+    [
+     "authorizes",
+     "特此授權"
+    ]
+   ]
+  },
+  {
+   "id": "N20261125-44db95",
+   "unit": "每日美國新聞",
+   "date": "2026-11-25",
+   "title": "Saudi national charged in OpenAI bugging to be released on $1 million bond",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/24/openai-bugging-aflozan-release-saudi.html",
+   "en": "Saudi national charged in OpenAI bugging to be released on $1 million bond. Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI's headquarters.",
+   "zh": "涉嫌竊聽 OpenAI 的沙烏地阿拉伯國民將以 100 萬美元的保釋金獲釋。阿卜杜勒拉赫曼·阿爾福贊 (Abdulrahman Alfozan) 被指控在 OpenAI 總部的行政會議室安裝錄音設備。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "bond",
+     "債券"
+    ],
+    [
+     "headquarters",
+     "總公司"
+    ],
+    [
+     "conference",
+     "會議"
+    ],
+    [
+     "recording",
+     "記錄"
+    ]
+   ]
+  },
+  {
+   "id": "N20261125-49dd8a",
+   "unit": "每日美國新聞",
+   "date": "2026-11-25",
+   "title": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/12-days-of-sardines-and-croc-charms-are-advent-calendars-getting-out-of-control-81f24548?mod=mw_rss_topstories",
+   "en": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?. Luxury Advent calendars in particular — which can run hundreds of dollars — have seen a spike in sales. Here’s why.",
+   "zh": "12 天的沙丁魚和鱷魚符：降臨節日曆是否失控？尤其是售價可能高達數百美元的豪華版倒數月曆，其銷售額大幅飆升。以下是原因分析。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "particular",
+     "限制結果集"
+    ],
+    [
+     "calendars",
+     "行事曆"
+    ]
+   ]
+  },
+  {
+   "id": "N20261125-7d7468",
+   "unit": "每日美國新聞",
+   "date": "2026-11-25",
+   "title": "Retail turnarounds are taking hold just in time for the holiday season",
+   "level": "CNBC",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/24/retail-turnarounds-holiday-season.html",
+   "en": "Retail turnarounds are taking hold just in time for the holiday season. Retail earnings reports on Tuesday pointed to a mix of factors behind the strong results, including a resilient consumer and stronger execution.",
+   "zh": "零售業的復甦正趕上節慶假期。週二的零售收益報告指出了強勁業績背後的多種因素，包括堅韌的消費者和更強的執行力。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "earnings report",
+     "財報"
+    ],
+    [
+     "holiday season",
+     "假期購物季"
+    ],
+    [
+     "retail",
+     "零售"
+    ]
+   ]
+  },
   {
    "id": "N20261124-727c3d",
    "unit": "每日美國新聞",
@@ -1488,229 +1712,6 @@
      "正式"
     ]
    ]
-  },
-  {
-   "id": "N20261117-b40aac",
-   "unit": "每日美國新聞",
-   "date": "2026-11-17",
-   "title": "United Airlines reports system outage affecting departing flights",
-   "level": "CNBC",
-   "source": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html",
-   "en": "United Airlines reports system outage affecting departing flights. United Airlines said Monday that a widespread system outage was affecting departing flights.",
-   "zh": "聯合航空 (United Airlines) 報告系統故障，影響出發航班。聯合航空 (United Airlines) 週一表示，大規模系統故障正影響出境航班。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "outage",
-     "服務中斷"
-    ],
-    [
-     "widespread",
-     "廣泛"
-    ],
-    [
-     "affecting",
-     "影響"
-    ],
-    [
-     "departing",
-     "出發"
-    ]
-   ]
-  },
-  {
-   "id": "N20261117-a80759",
-   "unit": "每日美國新聞",
-   "date": "2026-11-17",
-   "title": "A Bull Market for Pokémon Cards, Fueled by Pikachu and Nostalgia",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/16/us/pokemon-cards-value-investors.html",
-   "en": "A Bull Market for Pokémon Cards, Fueled by Pikachu and Nostalgia. On the 30th anniversary of the franchise, Pokémon cards are skyrocketing in value — to the point that collecting them can be a viable livelihood.",
-   "zh": "皮卡丘與懷舊情懷帶動寶可夢卡牌牛市。在寶可夢系列問世 30 週年之際，寶可夢卡片的價值正飆升，甚至到了收藏卡片可以成為一種可行生計的地步。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "skyrocketing",
-     "飆升"
-    ],
-    [
-     "anniversary",
-     "週年日"
-    ],
-    [
-     "collecting",
-     "收藏"
-    ],
-    [
-     "livelihood",
-     "生計"
-    ]
-   ]
-  },
-  {
-   "id": "N20261117-72041b",
-   "unit": "每日美國新聞",
-   "date": "2026-11-17",
-   "title": "Bessent Takes Hawkish Turn in White House Debate on China",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/16/us/politics/bessent-lutnick-china.html",
-   "en": "Bessent Takes Hawkish Turn in White House Debate on China. The Treasury secretary who sought to de-escalate tariff wars is taking a tougher approach to exports of sensitive U.S. technology.",
-   "zh": "在白宮的中國議題辯論中，貝森特轉向鷹派立場。這位曾試圖緩和關稅戰的財政部長，現在對美國敏感技術的出口採取了更強硬的態度。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "exports",
-     "出口"
-    ],
-    [
-     "tariff",
-     "關稅"
-    ],
-    [
-     "de-escalate",
-     "降級"
-    ],
-    [
-     "technology",
-     "科技"
-    ]
-   ]
-  },
-  {
-   "id": "N20261117-7bb003",
-   "unit": "每日美國新聞",
-   "date": "2026-11-17",
-   "title": "U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/u-s-dollars-ai-driven-breakout-could-become-a-stock-market-wrecking-ball-18199b95?mod=mw_rss_topstories",
-   "en": "U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball. The dollar recently climbed to its strongest level in a year and a half.",
-   "zh": "美元受人工智慧驅動的突破性走勢可能會成為股市的破壞者。美元近期升至一年半以來的最高點。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "stock-market",
-     "股票市場"
-    ],
-    [
-     "strongest",
-     "最強的"
-    ]
-   ]
-  },
-  {
-   "id": "N20261117-c6d117",
-   "unit": "每日美國新聞",
-   "date": "2026-11-17",
-   "title": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories",
-   "en": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks. Berkshire Hathaway stepped up its investments in the U.S. housing market last quarter, nearly doubling its stake in home builder Lennar.",
-   "zh": "巴郡加碼押注陷入困境的美國房地產市場，同時對這些銀行股的態度轉趨負面。巴郡 (Berkshire Hathaway) 在上一季加大了對美國房地產市場的投資，將其在房屋營建商 Lennar 的持股增加近一倍。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "housing market",
-     "房市"
-    ],
-    [
-     "housing",
-     "住房"
-    ],
-    [
-     "stake",
-     "持股"
-    ]
-   ]
-  },
-  {
-   "id": "N20261117-c36420",
-   "unit": "每日美國新聞",
-   "date": "2026-11-17",
-   "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
-   "level": "CNBC",
-   "source": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
-   "en": "JPMorgan Chase says temporary software bug is affecting consumer banking. CNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.",
-   "zh": "摩根大通表示，暫時性的軟體錯誤正在影響消費者銀行業務。CNBC 的 Eamon Javers 報導稱，沒有跡象表明有惡意行為者參與其中，也沒有跡象表明有漏洞同時影響多家銀行。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "indication",
-     "指示"
-    ],
-    [
-     "temporary",
-     "無法創建臨時文件"
-    ],
-    [
-     "affecting",
-     "影響"
-    ],
-    [
-     "impacting",
-     "影響"
-    ]
-   ]
-  },
-  {
-   "id": "N20261117-d6ad86",
-   "unit": "每日美國新聞",
-   "date": "2026-11-17",
-   "title": "New rule aims to close loophole on chip exports",
-   "level": "NPR Business",
-   "source": "NPR Business",
-   "link": "https://www.npr.org/2026/11/16/nx-s1-6042918/new-rule-aims-to-close-loophole-on-chip-exports",
-   "en": "New rule aims to close loophole on chip exports. The Commerce Department released a new rule designed to make it harder for China to gain access to America's most powerful computer chips using third-country data centers.",
-   "zh": "新規定旨在堵住晶片出口的漏洞。美國商務部發布了一項新規定，旨在讓中國更難透過第三國的資料中心取得美國最強大的電腦晶片。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "data centers",
-     "資料中心"
-    ],
-    [
-     "exports",
-     "出口"
-    ],
-    [
-     "chips",
-     "晶片"
-    ]
-   ]
-  },
-  {
-   "id": "N20261117-bdb93f",
-   "unit": "每日美國新聞",
-   "date": "2026-11-17",
-   "title": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/16/altimeters-brad-gerstner-investing-5-billion-in-anthropic-ipo.html",
-   "en": "Altimeter's Brad Gerstner aims to invest $5 billion in Anthropic IPO. Gerstner told CNBC that he's looking to put five time as much money into Anthropic as he's ever put into an IPO.",
-   "zh": "Altimeter 的 Brad Gerstner 計劃在 Anthropic 的首次公開發行 (IPO) 中投資 50 億美元。格斯特納 (Gerstner) 告訴 CNBC，他希望將比以往投入 IPO 的資金多五倍的資金投入 Anthropic。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": []
   }
  ]
 }

@@ -1,6 +1,214 @@
 {
- "updated": "2026-11-24T23:01:58+00:00",
+ "updated": "2026-11-25T23:00:07+00:00",
  "items": [
+  {
+   "id": "N20261126-54ab13",
+   "unit": "每日美國新聞",
+   "date": "2026-11-26",
+   "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+   "en": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?. Doing nothing and maintaining an even temperament is often the work of gods.",
+   "zh": "我討厭 Jensen Huang 回到 Nvidia，但我喜歡它為我的 401(k) 所做的一切。我是偽君子嗎？無所事事，保持性情平和，往往是神的工作。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "maintaining",
+     "維持"
+    ],
+    [
+     "temperament",
+     "氣質"
+    ],
+    [
+     "hypocrite",
+     "偽君子"
+    ]
+   ]
+  },
+  {
+   "id": "N20261126-63d8fb",
+   "unit": "每日美國新聞",
+   "date": "2026-11-26",
+   "title": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/we-are-living-in-perilous-times-if-nvidias-jensen-huang-dictates-your-401-k-balance-e0942d1e?mod=mw_rss_topstories",
+   "en": "We are living in perilous times if Nvidia’s Jensen Huang dictates your 401(k) balance. Why did a futurist with Huang’s prescient vision build a company where all roads lead to him?",
+   "zh": "如果 Nvidia 的黃仁勳決定你的 401(k) 餘額，我們就生活在一個危險的時代。為什麼像黃這樣具有先見之明的未來學家會創辦一家條條大路通往他的公司？",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "lead to",
+     "導致"
+    ],
+    [
+     "prescient",
+     "有先見之明"
+    ]
+   ]
+  },
+  {
+   "id": "N20261126-d8ac60",
+   "unit": "每日美國新聞",
+   "date": "2026-11-26",
+   "title": "Macy's postpones Thanksgiving Day Parade due to severe weather",
+   "level": "CNBC",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/25/macys-thanksgiving-day-parade-postponed.html",
+   "en": "Macy's postpones Thanksgiving Day Parade due to severe weather. Macy's announced Wednesday that its annual Thanksgiving Day Parade is being postponed to Saturday due to severe weather.",
+   "zh": "由於惡劣天氣，梅西百貨推遲了感恩節遊行。梅西百貨週三宣布，由於惡劣天氣，一年一度的感恩節遊行將推遲至週六。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "postpones",
+     "延遲"
+    ],
+    [
+     "postponed",
+     "延遲"
+    ]
+   ]
+  },
+  {
+   "id": "N20261126-29b3d5",
+   "unit": "每日美國新聞",
+   "date": "2026-11-26",
+   "title": "Lukoil to Sell Foreign Assets, but Not to Kushner and Witkoff Associates",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/25/us/politics/lukoil-deal.html",
+   "en": "Lukoil to Sell Foreign Assets, but Not to Kushner and Witkoff Associates. Valuable properties belonging to the Russian energy giant will be sold to an American-led consortium. But Middle Eastern business contacts of the two Trump envoys pulled out because of political winds.",
+   "zh": "盧克石油公司將出售海外資產，但不出售給庫許納和威特科夫合夥人。這家俄羅斯能源巨頭的寶貴財產將出售給以美國為首的財團。但兩位川普特使的中東商業往來卻因政治風向中斷。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "properties",
+     "特性"
+    ],
+    [
+     "consortium",
+     "財團"
+    ],
+    [
+     "belonging",
+     "歸屬感"
+    ]
+   ]
+  },
+  {
+   "id": "N20261126-787607",
+   "unit": "每日美國新聞",
+   "date": "2026-11-26",
+   "title": "Inflation is still hot, fueled in part by the AI boom",
+   "level": "NPR Economy",
+   "source": "NPR Economy",
+   "link": "https://www.npr.org/2026/11/25/nx-s1-6053958/inflation-is-still-hot-fueled-in-part-by-the-ai-boom",
+   "en": "Inflation is still hot, fueled in part by the AI boom. The U.S. economy grew at a rapid clip during the summer and early fall, due in part to the artificial intelligence boom. That boom is also fueling higher inflation and rattling the stock market.",
+   "zh": "通貨膨脹依然嚴重，部分原因是人工智慧的繁榮。美國經濟在夏季和初秋期間快速成長，部分原因是人工智慧的繁榮。這種繁榮也加劇了通貨膨脹並擾亂了股市。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Economy RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "artificial intelligence",
+     "人工智慧"
+    ],
+    [
+     "inflation",
+     "通貨膨脹"
+    ],
+    [
+     "rattle",
+     "使不安"
+    ]
+   ]
+  },
+  {
+   "id": "N20261126-b58df6",
+   "unit": "每日美國新聞",
+   "date": "2026-11-26",
+   "title": "A Man in Denver Has Been Throwing Eggs at Waymo Vehicles",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/25/us/waymo-denver-egg-throwing.html",
+   "en": "A Man in Denver Has Been Throwing Eggs at Waymo Vehicles. The man, who drove a Toyota Corolla from a fleet leased to Lyft drivers, used orange cones to trap the self-driving vehicles before pelting them with eggs, the police said. No charges have been filed.",
+   "zh": "丹佛有一名男子向 Waymo 的車輛砸雞蛋。警方稱，這名男子駕駛的是 Lyft 司機租用的豐田卡羅拉車隊，他用橙色錐體困住自動駕駛汽車，然後向它們投擲雞蛋。尚未提出任何指控。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "self-driving",
+     "自動駕駛"
+    ]
+   ]
+  },
+  {
+   "id": "N20261126-1f18a5",
+   "unit": "每日美國新聞",
+   "date": "2026-11-26",
+   "title": "Credit card perks are fueling airline profitability",
+   "level": "NPR Business",
+   "source": "NPR Business",
+   "link": "https://www.npr.org/2026/11/25/nx-s1-5860846/credit-card-perks-are-fueling-airline-profitability",
+   "en": "Credit card perks are fueling airline profitability. Flying during the holidays can be pricey. So, airlines are pitching more and more specialty brand credit cards on your flight.",
+   "zh": "信用卡福利正在推動航空公司的獲利能力。假期期間搭乘飛機可能會很貴。因此，航空公司在您的航班上投放越來越多的專業品牌信用卡。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "credit card",
+     "信用卡"
+    ],
+    [
+     "airlines",
+     "航空公司"
+    ],
+    [
+     "pitch",
+     "推銷；提案"
+    ]
+   ]
+  },
+  {
+   "id": "N20261126-cd95c4",
+   "unit": "每日美國新聞",
+   "date": "2026-11-26",
+   "title": "Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+   "en": "Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price. Nvidia and other AI-linked stocks fell as investors weighed AI spending, inflation and higher-rate risks.",
+   "zh": "科技股下挫，但收盤時遠高於低點，Anthropic 苦苦掙扎，試圖反彈至 IPO 價格之上。由於投資者權衡人工智慧支出、通膨和利率上升風險，輝達和其他人工智慧相關股票下跌。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "inflation",
+     "通貨膨脹"
+    ],
+    [
+     "investors",
+     "投資人"
+    ],
+    [
+     "rebound",
+     "反彈"
+    ]
+   ]
+  },
   {
    "id": "N20261125-3f30ad",
    "unit": "每日美國新聞",
@@ -1510,208 +1718,6 @@
    "ph_v": 4,
    "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
    "phrases": []
-  },
-  {
-   "id": "N20261118-0daf2c",
-   "unit": "每日美國新聞",
-   "date": "2026-11-18",
-   "title": "Trump had urged Jensen Huang to fight for his job.",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price/trump-had-urged-jensen-huang-to-fight-for-his-job",
-   "en": "Trump had urged Jensen Huang to fight for his job.",
-   "zh": "川普曾敦促黃仁勳為自己的職位而戰。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": []
-  },
-  {
-   "id": "N20261118-e3d820",
-   "unit": "每日美國新聞",
-   "date": "2026-11-18",
-   "title": "Costco is benefiting from ‘apocalyptic concerns’ as customers stock up on goods, analysts say",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/costco-is-benefiting-from-apocalyptic-concerns-as-customers-stock-up-on-goods-analysts-say-24f611ab?mod=mw_rss_topstories",
-   "en": "Costco is benefiting from ‘apocalyptic concerns’ as customers stock up on goods, analysts say. Mizuho analysts have seen an “acceleration on emergency prep sales” at the warehouse chain following the Microsoft outage and nationwide flight stoppage.",
-   "zh": "分析師表示，由於顧客囤積商品，好市多 (Costco) 正從「末日焦慮」中獲益。瑞穗銀行 (Mizuho) 的分析師發現，在微軟系統中斷和全國航班停飛之後，這家連鎖倉儲的「緊急準備用品銷售額加速成長」。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "outage",
-     "服務中斷"
-    ],
-    [
-     "apocalyptic",
-     "末日"
-    ],
-    [
-     "benefiting",
-     "受益"
-    ]
-   ]
-  },
-  {
-   "id": "N20261118-758a54",
-   "unit": "每日美國新聞",
-   "date": "2026-11-18",
-   "title": "‘It’s downright dirty’: My brother took over our ailing mother’s life and finances. What can I do?",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
-   "en": "‘It’s downright dirty’: My brother took over our ailing mother’s life and finances. What can I do?. “It is devastating when the people you should be able to trust become the very people you have to protect yourself from.”",
-   "zh": "「這簡直太卑鄙了」：我哥哥接管了我們臥病在床的母親的生活和財務。我能做些什麼？「當你本應能夠信任的人成為你必須防範的人時，那種感覺真是令人崩潰。」",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "devastating",
-     "毀滅性"
-    ],
-    [
-     "downright",
-     "徹頭徹尾的"
-    ]
-   ]
-  },
-  {
-   "id": "N20261118-6f6673",
-   "unit": "每日美國新聞",
-   "date": "2026-11-18",
-   "title": "Jensen Huang’s daughter, a close ally, remains in a senior role at Nvidia.",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price/jensen-huangs-daughter-a-close-ally-remains-in-a-senior-role-at-nvidia",
-   "en": "Jensen Huang’s daughter, a close ally, remains in a senior role at Nvidia.",
-   "zh": "黃仁勳的女兒是他的得力助手，目前仍在輝達擔任高階職位。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": []
-  },
-  {
-   "id": "N20261118-c5448f",
-   "unit": "每日美國新聞",
-   "date": "2026-11-18",
-   "title": "Nvidia tries to get back to business",
-   "level": "NPR Business",
-   "source": "NPR Business",
-   "link": "https://www.npr.org/2026/11/17/nx-s1-6044197/nvidia-tries-to-get-back-to-business",
-   "en": "Nvidia tries to get back to business. Nvidia quarterly earnings are in. But the biggest question isn't about past business performance it's about the company's future leadership.",
-   "zh": "Nvidia 試圖重振業務。Nvidia 的季度財報已出爐。然而，最大的問題並非過去的業務表現，而是公司的未來領導層。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "quarterly earnings",
-     "季度財報"
-    ],
-    [
-     "performance",
-     "效能"
-    ],
-    [
-     "leadership",
-     "領導統御"
-    ]
-   ]
-  },
-  {
-   "id": "N20261118-160779",
-   "unit": "每日美國新聞",
-   "date": "2026-11-18",
-   "title": "Nike lays out financial goals ahead of first investor day in 9 years",
-   "level": "CNBC",
-   "source": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/17/nike-investor-day-elliott-hill.html",
-   "en": "Nike lays out financial goals ahead of first investor day in 9 years. Nike is hosting an investor day at its Oregon headquarters as the company tries to prove to investors that its turnaround is working.",
-   "zh": "耐吉在 9 年來首次投資者日之前公佈財務目標。耐吉 (Nike) 將在俄勒岡州的總部舉辦投資人日活動，藉此向投資人證明公司的轉型策略正在發揮成效。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "investors",
-     "投資人"
-    ],
-    [
-     "headquarters",
-     "總公司"
-    ],
-    [
-     "turnaround",
-     "轉機"
-    ]
-   ]
-  },
-  {
-   "id": "N20261118-fce572",
-   "unit": "每日美國新聞",
-   "date": "2026-11-18",
-   "title": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html",
-   "en": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything. Major outages showcase the risks of interconnected tech in the age of AI.",
-   "zh": "大規模的服務中斷影響了銀行、航空業、美國國家安全局 (NSA) 和蘋果，似乎所有事物都受到干擾。重大服務中斷事件凸顯了在人工智慧時代，相互連結的科技所帶來的風險。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "outage",
-     "服務中斷"
-    ],
-    [
-     "interconnected",
-     "相互連結"
-    ],
-    [
-     "disrupting",
-     "破壞"
-    ],
-    [
-     "seemingly",
-     "看似"
-    ]
-   ]
-  },
-  {
-   "id": "N20261118-d652b7",
-   "unit": "每日美國新聞",
-   "date": "2026-11-18",
-   "title": "U.S. officially loses measles elimination status amid ongoing outbreaks",
-   "level": "CNBC",
-   "source": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html",
-   "en": "U.S. officially loses measles elimination status amid ongoing outbreaks. The director of PAHO made the final call that measles is endemic — or always present — in the U.S. following 12 months of continuous transmission.",
-   "zh": "由於疫情持續爆發，美國正式失去麻疹消除的地位。在麻疹持續傳播 12 個月後，泛美衛生組織 (PAHO) 的主任最終宣布麻疹在美國為地方性疾病，也就是說，麻疹在美國一直存在。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "amid",
-     "在……之際"
-    ],
-    [
-     "transmission",
-     "傳輸"
-    ],
-    [
-     "elimination",
-     "消去"
-    ],
-    [
-     "officially",
-     "正式"
-    ]
-   ]
   }
  ]
 }

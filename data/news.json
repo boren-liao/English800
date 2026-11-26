@@ -1,6 +1,206 @@
 {
- "updated": "2026-11-25T23:00:07+00:00",
+ "updated": "2026-11-26T23:02:43+00:00",
  "items": [
+  {
+   "id": "N20261127-c55fea",
+   "unit": "每日美國新聞",
+   "date": "2026-11-27",
+   "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
+   "en": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?. “We have a house worth $450,000. Our combined annual income is $125,000.”",
+   "zh": "我害怕市場崩潰。我應該將 100 萬美元退休儲蓄中的 40 萬美元存入年金嗎？“我們有一棟價值 45 萬美元的房子。我們的年收入總計為 125,000 美元。”",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "retirement",
+     "退休"
+    ],
+    [
+     "terrified",
+     "害怕"
+    ]
+   ]
+  },
+  {
+   "id": "N20261127-189c4e",
+   "unit": "每日美國新聞",
+   "date": "2026-11-27",
+   "title": "Jensen Huang Is Back, and So Is His Plaque at Denny’s",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/26/business/dennys-jensen-huang-nvidia-plaque.html",
+   "en": "Jensen Huang Is Back, and So Is His Plaque at Denny’s. The chain said it had restored a plaque honoring Mr. Huang above a booth in San Jose, Calif., after he was reinstated at Nvidia, the company he is said to have co-founded while eating there.",
+   "zh": "黃仁勳回來了，他在丹尼餐廳的牌匾也回來了。該連鎖店表示，黃先生在輝達公司復職後，在加州聖荷西的一個攤位上方恢復了一塊紀念黃先生的牌匾。據說，黃先生是在輝達用餐時與他人共同創立的。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "reinstated",
+     "恢復了"
+    ],
+    [
+     "co-founded",
+     "共同創立"
+    ]
+   ]
+  },
+  {
+   "id": "N20261127-54d3c9",
+   "unit": "每日美國新聞",
+   "date": "2026-11-27",
+   "title": "Dan Carney Has Died. He Co-Founded Pizza Hut and Then Made It Ubiquitous.",
+   "level": "NYT Business",
+   "source": "NYT Business",
+   "link": "https://www.nytimes.com/2026/11/26/business/dan-carney-dead.html",
+   "en": "Dan Carney Has Died. He Co-Founded Pizza Hut and Then Made It Ubiquitous. The franchise with the iconic red roof began small, in a tiny brick hut in Kansas. Little more than a decade later, it was the world’s biggest pizza chain. He was 95.",
+   "zh": "丹·卡尼去世了。他與人共同創立了必勝客，然後使其無處不在。擁有標誌性紅色屋頂的特許經營店最初規模很小，位於堪薩斯州的一間小磚房裡。十多年後，它成為世界上最大的披薩連鎖店。他95歲了。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "franchise",
+     "特許經營權"
+    ]
+   ]
+  },
+  {
+   "id": "N20261127-5df2b6",
+   "unit": "每日美國新聞",
+   "date": "2026-11-27",
+   "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+   "level": "MarketWatch",
+   "source": "MarketWatch",
+   "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+   "en": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?. “Retirement is a financial status, not an age.”",
+   "zh": "一名 66 歲的護士僅存了 500 美元，即將退休。誰該受責備？“退休是一種經濟狀況，而不是年齡。”",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "retirement",
+     "退休"
+    ],
+    [
+     "financial",
+     "金融的"
+    ]
+   ]
+  },
+  {
+   "id": "N20261127-44d053",
+   "unit": "每日美國新聞",
+   "date": "2026-11-27",
+   "title": "Microdrama apps chase profits as Hollywood moves into short-form, vertical video",
+   "level": "CNBC",
+   "source": "CNBC",
+   "link": "https://www.cnbc.com/2026/11/26/micro-drama-apps-hollywood-vertical-video.html",
+   "en": "Microdrama apps chase profits as Hollywood moves into short-form, vertical video. The microdrama category has exploded at a time when traditional forms of media face waning interest and YouTube claims more viewing hours.",
+   "zh": "隨著好萊塢轉向短影片、垂直影片，微劇應用程式追逐利潤。在傳統媒體的興趣逐漸減弱、YouTube 聲稱觀看時間更長的情況下，微劇類別出現了爆炸性增長。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "profits",
+     "利潤"
+    ],
+    [
+     "traditional",
+     "傳統的"
+    ],
+    [
+     "short-form",
+     "簡短形式"
+    ],
+    [
+     "microdrama",
+     "微劇"
+    ]
+   ]
+  },
+  {
+   "id": "N20261127-3dae40",
+   "unit": "每日美國新聞",
+   "date": "2026-11-27",
+   "title": "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
+   "en": "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say. A new BIS rule was intended to close \"loopholes,\" U.S. Trade Representative Jamieson Greer told CNBC's \"Squawk Box\" on Wednesday.",
+   "zh": "消息人士稱，輝達晶片買家被告知要排除中國租戶購買 GPU。美國貿易代表傑米森·格里爾 (Jamieson Greer) 週三在 CNBC 的“Squawk Box”節目中表示，國際清算銀行的新規則旨在堵住“漏洞”。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "rule out",
+     "排除"
+    ],
+    [
+     "loopholes",
+     "漏洞"
+    ]
+   ]
+  },
+  {
+   "id": "N20261127-18d4b1",
+   "unit": "每日美國新聞",
+   "date": "2026-11-27",
+   "title": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'",
+   "level": "CNBC Tech",
+   "source": "CNBC Tech",
+   "link": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+   "en": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters to 'fish for bargains'. Investors appeared to have shrugged off a fresh set of tariffs unveiled by the White House on Wednesday, targeting more than a dozen major trading partners.",
+   "zh": "隨著投資者擺脫美國關稅和人工智慧的不安，“逢低買入”，全球股市上漲。投資者似乎對白宮週三公佈的針對十多個主要貿易夥伴的新關稅不以為然。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "investors",
+     "投資人"
+    ],
+    [
+     "tariffs",
+     "關稅"
+    ],
+    [
+     "rally",
+     "大漲；反彈"
+    ]
+   ]
+  },
+  {
+   "id": "N20261127-a8abec",
+   "unit": "每日美國新聞",
+   "date": "2026-11-27",
+   "title": "U.S. Judge rules FCC violated ABC's free speech rights to please Trump",
+   "level": "NPR Business",
+   "source": "NPR Business",
+   "link": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr",
+   "en": "U.S. Judge rules FCC violated ABC's free speech rights to please Trump. A federal judge has blocked the Trump administration from moving to review all local broadcast licenses held by ABC. The stations air in six of the largest U.S. markets.",
+   "zh": "美國法官裁定 FCC 侵犯了 ABC 的言論自由權以取悅川普。一名聯邦法官阻止川普政府審查美國廣播公司持有的所有當地廣播許可證。這些電台在美國六個最大的市場播出。",
+   "zh_v": 2,
+   "ph_v": 4,
+   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
+   "phrases": [
+    [
+     "administration",
+     "政府（行政團隊）"
+    ],
+    [
+     "broadcast",
+     "pod送"
+    ]
+   ]
+  },
   {
    "id": "N20261126-54ab13",
    "unit": "每日美國新聞",
@@ -1516,208 +1716,6 @@
      "紅坦克"
     ]
    ]
-  },
-  {
-   "id": "N20261119-5bca2f",
-   "unit": "每日美國新聞",
-   "date": "2026-11-19",
-   "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
-   "en": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind. Tech stocks are looking cheap, while defensive sectors like consumer staples are screening as expensive.",
-   "zh": "隨著科技股表現落後，股市正經歷一代人以來最大的震盪。科技股看起來便宜，而必需消費品等防禦性類股則顯得昂貴。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "fall behind",
-     "落後"
-    ],
-    [
-     "generation",
-     "生成集"
-    ],
-    [
-     "defensive",
-     "防禦性姿態"
-    ],
-    [
-     "screening",
-     "初步評估"
-    ]
-   ]
-  },
-  {
-   "id": "N20261119-340ed4",
-   "unit": "每日美國新聞",
-   "date": "2026-11-19",
-   "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
-   "level": "MarketWatch",
-   "source": "MarketWatch",
-   "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
-   "en": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings. The company boosts its outlook in the face of the “current threat environment and demand we see ahead of us.”",
-   "zh": "Palo Alto Networks 的股價因財報而獲得 AI 推動的新助力。面對「當前的威脅環境和我們預見的未來需求」，公司提升了其前景展望。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 MarketWatch RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "earnings",
-     "獲利；財報"
-    ],
-    [
-     "outlook",
-     "展望"
-    ],
-    [
-     "environment",
-     "環境"
-    ]
-   ]
-  },
-  {
-   "id": "N20261119-5dd8ac",
-   "unit": "每日美國新聞",
-   "date": "2026-11-19",
-   "title": "Here’s the latest on the 2026 DealBook Summit.",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/live/2026/11/18/business/dealbook-summit-news/heres-the-latest-on-the-2026-dealbook-summit",
-   "en": "Here’s the latest on the 2026 DealBook Summit.",
-   "zh": "以下是 2026 年 DealBook 峰會的最新消息。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": []
-  },
-  {
-   "id": "N20261119-308dae",
-   "unit": "每日美國新聞",
-   "date": "2026-11-19",
-   "title": "Polymarket CEO Says Donald Trump Jr.’s Involvement Is ‘Overblown’",
-   "level": "NYT Business",
-   "source": "NYT Business",
-   "link": "https://www.nytimes.com/2026/11/18/business/dealbook/polymarket-donald-trump-jr-shayne-coplan.html",
-   "en": "Polymarket CEO Says Donald Trump Jr.’s Involvement Is ‘Overblown’. At the DealBook Summit, Shayne Coplan, the founder of Polymarket, defended the investment by a firm associated with President Trump’s oldest son.",
-   "zh": "Polymarket 執行長表示，小唐納·川普的參與「被誇大了」。在 DealBook 峰會上，Polymarket 的創辦人 Shayne Coplan 為與川普總統長子有關聯的公司所進行的投資辯護。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NYT Business RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "ceo",
-     "執行長"
-    ],
-    [
-     "investment",
-     "投资"
-    ],
-    [
-     "associated",
-     "<g>相關的</g>"
-    ]
-   ]
-  },
-  {
-   "id": "N20261119-f037f4",
-   "unit": "每日美國新聞",
-   "date": "2026-11-19",
-   "title": "Retail investor enthusiasm for Anthropic IPO to rival SpaceX debut",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html",
-   "en": "Retail investor enthusiasm for Anthropic IPO to rival SpaceX debut. Anthropic is gearing up for a blockbuster initial public offering this week, and excitement among retail investors looks to be off the charts.",
-   "zh": "散戶投資人對 Anthropic 上市的熱情可與 SpaceX 上市相媲美。Anthropic 本週正準備進行一場轟動的首次公開發行 (IPO)，散戶投資人的興奮情緒似乎已達前所未有的高點。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "initial public offering",
-     "首次公開發行"
-    ],
-    [
-     "investors",
-     "投資人"
-    ],
-    [
-     "retail",
-     "零售"
-    ]
-   ]
-  },
-  {
-   "id": "N20261119-94dd27",
-   "unit": "每日美國新聞",
-   "date": "2026-11-19",
-   "title": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings",
-   "level": "CNBC Tech",
-   "source": "CNBC Tech",
-   "link": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html",
-   "en": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings. Palo Alto Networks has been steadily acquiring companies to capitalize on demand for cyber tools to fight AI.",
-   "zh": "Palo Alto 以 45 億美元的價格收購 AI 新創公司 Applied Compute，股價因財報表現上漲 7%。Palo Alto Networks 一直在穩步收購公司，以利用對網路工具的需求來對抗人工智慧。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC Tech RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "earnings",
-     "獲利；財報"
-    ],
-    [
-     "acquire",
-     "收購"
-    ],
-    [
-     "startup",
-     "新創公司"
-    ]
-   ]
-  },
-  {
-   "id": "N20261119-1754d0",
-   "unit": "每日美國新聞",
-   "date": "2026-11-19",
-   "title": "Lowe's posts strong online sales, raises outlook despite slow housing market",
-   "level": "CNBC",
-   "source": "CNBC",
-   "link": "https://www.cnbc.com/2026/11/18/lowes-low-q3-2026-earnings.html",
-   "en": "Lowe's posts strong online sales, raises outlook despite slow housing market. Lowe's said it saw strength in online sales during its quarter that contributed to a guidance raise for the full year.",
-   "zh": "儘管房地產市場低迷，Lowe's 的線上銷售表現強勁，並上調了展望。Lowe's 表示，該季線上銷售表現強勁，有助於提高全年財測。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 CNBC RSS，完整報導請點原文連結。",
-   "phrases": [
-    [
-     "housing market",
-     "房市"
-    ],
-    [
-     "guidance",
-     "財測"
-    ],
-    [
-     "outlook",
-     "展望"
-    ]
-   ]
-  },
-  {
-   "id": "N20261119-c34c8f",
-   "unit": "每日美國新聞",
-   "date": "2026-11-19",
-   "title": "Karl Kani dressed hip-hop royalty for decades. Now he's telling his own story",
-   "level": "NPR Business",
-   "source": "NPR Business",
-   "link": "https://www.npr.org/2026/11/18/g-s1-154227/karl-kani-a-life-by-design",
-   "en": "Karl Kani dressed hip-hop royalty for decades. Now he's telling his own story. On NPR's Morning Edition , fashion designer Karl Kani talks about his new memoir, dressing some of hip-hop's biggest stars and why skinny jeans aren't for everyone.",
-   "zh": "數十年來，Karl Kani 為嘻哈巨星打造造型。現在，他要講述自己的故事。在 NPR 的《晨間新聞》(Morning Edition) 節目中，時尚設計師 Karl Kani 談到他的新回憶錄、為嘻哈界一些最知名明星設計服裝的經歷，以及為什麼不是每個人都適合穿窄管牛仔褲。",
-   "zh_v": 2,
-   "ph_v": 4,
-   "notes": "新聞英文：先聽一次抓大意（誰、做了什麼、數字），再慢速聽細節，最後看關鍵片語。內容摘自 NPR Business RSS，完整報導請點原文連結。",
-   "phrases": []
   }
  ]
 }
